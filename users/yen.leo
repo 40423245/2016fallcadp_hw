@@ -25,95 +25,117 @@
 <v t="amd.20161004083800.5" a="E"><vh>body</vh>
 <v t="amd.20161004083800.6" a="E"><vh>reveal div</vh>
 <v t="amd.20161004083800.7" a="E"><vh>slides div</vh>
-<v t="amd.20161004095719.1" a="E"><vh>封面投影片</vh>
+<v t="amd.20161004095719.1"><vh>封面投影片</vh>
 <v t="amd.20161004095719.2"><vh>封面投影片內容</vh></v>
 </v>
 <v t="yen.20161016024324.1"><vh>快捷鍵</vh>
 <v t="yen.20161016024324.2"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20161013151511.1"><vh>三大主題教學</vh>
-<v t="leo.20161013151511.2" a="E"><vh>主題教學</vh>
-<v t="leo.20161013151511.3"><vh>電腦輔助設計在教什麼?</vh></v>
+<v t="leo.20161114204359.1"><vh>第一週上課筆記</vh>
+<v t="leo.20161114204359.2" a="E"><vh>上課進度</vh>
+<v t="leo.20161114204359.3"><vh>完成事項</vh></v>
 </v>
-<v t="leo.20161013151511.4" a="E"><vh>主題教學內容</vh>
-<v t="leo.20161013151511.5"><vh>電腦輔助設計在教什麼?</vh></v>
+<v t="leo.20161114205456.1" a="E"><vh>心得影片</vh>
+<v t="leo.20161114205456.2"><vh>影片連結</vh></v>
 </v>
-<v t="leo.20161013151511.6" a="E"><vh>相關課程</vh>
-<v t="leo.20161013151511.7"><vh>電腦輔助設計系列課程</vh></v>
-</v>
-<v t="leo.20161013151511.8" a="E"><vh>創造力</vh>
-<v t="leo.20161013151511.9"><vh>何謂創造力?</vh></v>
-</v>
-<v t="leo.20161013151511.10" a="E"><vh>創造力</vh>
-<v t="leo.20161013151511.11"><vh>何謂創造力?</vh></v>
-</v>
-<v t="leo.20161013151511.12" a="E"><vh>所謂自學</vh>
-<v t="leo.20161013151511.13"><vh>自學的訓練</vh></v>
-</v>
-<v t="leo.20161013151511.14" a="E"><vh>執行力</vh>
-<v t="leo.20161013151511.15"><vh>高效執行力</vh></v>
+<v t="leo.20161114212301.1" a="E"><vh>心得</vh>
+<v t="leo.20161114212301.2"><vh>心得</vh></v>
 </v>
 </v>
-<v t="yen.20161016024451.1"><vh>CADP 課程倉儲</vh>
-<v t="yen.20161016024451.2" a="E"><vh>課程時段與規劃</vh>
-<v t="yen.20161016024451.3"><vh>規劃、Wiki 與網誌</vh></v>
+<v t="yen.20161016024451.1"><vh>第二週上課筆記</vh>
+<v t="yen.20161016024451.2" a="E"><vh>上課進度</vh>
+<v t="yen.20161016024451.3"><vh>錄製影片</vh></v>
 </v>
-<v t="yen.20161016024451.4" a="E"><vh>下載 miniconda 可攜環境</vh>
-<v t="yen.20161016024451.5"><vh>下載可攜程式環境</vh></v>
+<v t="yen.20161016024451.4" a="E"><vh>實作內容</vh>
+<v t="yen.20161016024451.5"><vh>使用軟體</vh></v>
 </v>
-<v t="yen.20161016024451.6" a="E"><vh>學員自評項目</vh>
-<v t="yen.20161016024451.7"><vh>下載可攜程式環境</vh></v>
+<v t="yen.20161016024451.6" a="E"><vh>心得影片</vh>
+<v t="yen.20161016024451.7"><vh>影片連結</vh></v>
 </v>
-</v>
-<v t="leo.20161013184628.1" a="E"><vh>電腦輔助設計課程內涵</vh>
-<v t="amd.20161004112026.1" a="E"><vh>電腦輔助設計課程內涵</vh>
-<v t="amd.20161004112026.2"><vh>CAD 教學主題</vh></v>
-</v>
-<v t="leo.20161013152737.1"><vh>Github pages 網頁</vh>
-<v t="leo.20161013152737.2"><vh>各學員任務</vh></v>
-</v>
-<v t="leo.20161013185220.1"><vh>所有操作都必須拍影片</vh>
-<v t="leo.20161013185220.2"><vh>操作影片</vh></v>
-</v>
-<v t="leo.20161013185610.1"><vh>Solvespace 操作練習</vh>
-<v t="leo.20161013185610.2"><vh>Solvespace 實習</vh></v>
-</v>
-<v t="leo.20161027151655.1" a="E"><vh>Solvespace 四連桿模擬</vh>
-<v t="leo.20161027151655.2"><vh>Solvespace 模擬</vh></v>
-</v>
-<v t="leo.20161013185845.1"><vh>OnShape 操作練習</vh>
-<v t="leo.20161013185845.2"><vh>OnShape 實習</vh></v>
-</v>
-<v t="yen.20161016203728.1"><vh>Nutcracker 操作練習</vh>
-<v t="yen.20161016203728.2"><vh>OnShape 實習</vh></v>
-</v>
-<v t="yen.20161016204452.1" a="E"><vh>Delta Printer 組裝</vh>
-<v t="yen.20161016204452.2"><vh>機電資產品的設計考量</vh></v>
-</v>
-<v t="leo.20161013190024.1"><vh>網際自評系統</vh>
-<v t="leo.20161013190024.2"><vh>Flask 網際程式</vh></v>
+<v t="leo.20161114212745.1" a="E"><vh>心得</vh>
+<v t="leo.20161114212745.2"><vh>心得</vh></v>
 </v>
 </v>
-<v t="yen.20161016024407.1"><vh>協同力訓練</vh>
-<v t="yen.20161016024407.2" a="E"><vh>Github 帳號</vh>
-<v t="yen.20161016024407.3"><vh>Github 倉儲網頁</vh></v>
+<v t="leo.20161114213351.1"><vh>第三週上課筆記</vh>
+<v t="leo.20161114213351.2" a="E"><vh>上課進度</vh>
+<v t="leo.20161114213351.3"><vh>錄製影片</vh></v>
 </v>
-<v t="yen.20161016024407.4"><vh>倉儲子模組串連</vh>
-<v t="yen.20161016024407.5"><vh>學員作業網頁定版</vh></v>
+<v t="leo.20161114213351.4" a="E"><vh>實作內容</vh>
+<v t="leo.20161114213351.5"><vh>使用軟體</vh></v>
 </v>
-<v t="yen.20161016024407.6"><vh>倉儲版本拉回請求</vh>
-<v t="yen.20161016024407.7"><vh>Github 倉儲拉回請求</vh></v>
+<v t="leo.20161114213930.1" a="E"><vh>實作內容</vh>
+<v t="leo.20161114213930.2"><vh>使用軟體</vh></v>
+</v>
+<v t="leo.20161114213351.6" a="E"><vh>心得影片</vh>
+<v t="leo.20161114213351.7"><vh>影片連結</vh></v>
+</v>
+<v t="leo.20161114213351.8" a="E"><vh>心得</vh>
+<v t="leo.20161114213351.9"><vh>心得</vh></v>
 </v>
 </v>
-<v t="leo.20161013184753.1" a="E"><vh>各式內容引用範例</vh>
-<v t="leo.20161013184813.1" a="E"><vh>導入數學符號與方程式</vh>
-<v t="leo.20161013184813.2"><vh>LaTeX 格式方程式</vh></v>
+<v t="leo.20161114214342.1"><vh>第四週上課筆記</vh>
+<v t="leo.20161114214342.2" a="E"><vh>上課進度</vh>
+<v t="leo.20161114214342.3"><vh>錄製影片</vh></v>
 </v>
-<v t="leo.20161013184830.1" a="E"><vh>導入縮排程式碼</vh>
-<v t="leo.20161013184830.2"><vh>引用程式碼</vh></v>
+<v t="leo.20161114214342.4" a="E"><vh>實作內容</vh>
+<v t="leo.20161114214342.5"><vh>使用軟體</vh></v>
 </v>
-<v t="leo.20161013190351.1" a="E"><vh>導入影片</vh>
-<v t="leo.20161013190351.2"><vh>iframe 導入影片</vh></v>
+<v t="leo.20161114214342.8" a="E"><vh>心得影片</vh>
+<v t="leo.20161114214342.9"><vh>影片連結</vh></v>
+</v>
+<v t="leo.20161114214342.10" a="E"><vh>心得</vh>
+<v t="leo.20161114214342.11"><vh>心得</vh></v>
+</v>
+</v>
+<v t="leo.20161114215702.1"><vh>第五週上課筆記</vh>
+<v t="leo.20161114215702.2" a="E"><vh>上課進度</vh>
+<v t="leo.20161114215702.3"><vh>錄製影片</vh></v>
+</v>
+<v t="leo.20161114215702.4" a="E"><vh>實作內容</vh>
+<v t="leo.20161114215702.5"><vh>使用軟體</vh></v>
+</v>
+<v t="leo.20161114220755.1" a="E"><vh>實作內容-2</vh>
+<v t="leo.20161114220755.2"><vh>使用軟體</vh></v>
+</v>
+<v t="leo.20161114220809.1" a="E"><vh>實作內容-3</vh>
+<v t="leo.20161114220809.2"><vh>使用軟體</vh></v>
+</v>
+<v t="leo.20161114220817.1" a="E"><vh>實作內容-4</vh>
+<v t="leo.20161114220817.2"><vh>使用軟體</vh></v>
+</v>
+<v t="leo.20161114215702.6" a="E"><vh>心得影片</vh>
+<v t="leo.20161114215702.7"><vh>影片連結</vh></v>
+</v>
+<v t="leo.20161114215702.8" a="E"><vh>心得</vh>
+<v t="leo.20161114215702.9"><vh>心得</vh></v>
+</v>
+</v>
+<v t="leo.20161114215703.1"><vh>第六週上課筆記</vh>
+<v t="leo.20161114215703.2" a="E"><vh>上課進度</vh>
+<v t="leo.20161114215703.3"><vh>錄製影片</vh></v>
+</v>
+<v t="leo.20161114215703.4" a="E"><vh>實作內容</vh>
+<v t="leo.20161114215703.5"><vh>使用軟體</vh></v>
+</v>
+<v t="leo.20161114215703.6" a="E"><vh>心得影片</vh>
+<v t="leo.20161114215703.7"><vh>影片連結</vh></v>
+</v>
+<v t="leo.20161114221421.1" a="E"><vh>心得影片-2</vh>
+<v t="leo.20161114221421.2"><vh>影片連結</vh></v>
+</v>
+<v t="leo.20161114215703.8" a="E"><vh>心得</vh>
+<v t="leo.20161114215703.9"><vh>心得</vh></v>
+</v>
+</v>
+<v t="leo.20161114215711.1"><vh>第九週上課筆記</vh>
+<v t="leo.20161114215711.2" a="E"><vh>上課進度</vh>
+<v t="leo.20161114215711.3"><vh>錄製影片</vh></v>
+</v>
+<v t="leo.20161114215711.4" a="E"><vh>實作內容</vh>
+<v t="leo.20161114215711.5"><vh>使用軟體</vh></v>
+</v>
+<v t="leo.20161114215711.8" a="E"><vh>心得</vh>
+<v t="leo.20161114215711.9"><vh>心得</vh></v>
 </v>
 </v>
 </v>
@@ -287,28 +309,6 @@ Created by [40423245](https://40423245.github.io/2016fallcadp_hw/blog/)
 
 [Vimeo 上課心得影片](https://vimeo.com/user47996237)
 </t>
-<t tx="amd.20161004112026.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="amd.20161004112026.2">## 電腦輔助設計實習課程
-
-教學主題
-
-  * 課程網頁、學員網頁、分組網頁串連
-  * Solvespace 零組件繪圖與機構模擬
-  * OnShape 零組件繪圖與機構模擬
-  * Delta 3D printer 零組件繪圖與模擬
-  * Delta 3D printer 零組件列印組立
-  * 建立網際自評系統
-
-
-</t>
 <t tx="leo.20151212173315.1"></t>
 <t tx="leo.20151212173315.2">QTreeWidget {
     /* These apply to the selected item, but not to editing items.*/
@@ -415,11 +415,11 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 <t tx="leo.20151213230957.1"># 設定網誌以 md 檔案建立的 file system date 為準, 無需自行設定
 
 DEFAULT_DATE = 'fs'</t>
-<t tx="leo.20161013151511.1">&lt;section&gt;
+<t tx="leo.20161114204359.1">&lt;section&gt;
 @others
 &lt;/section&gt;
 </t>
-<t tx="leo.20161013151511.10">&lt;section data-markdown&gt;
+<t tx="leo.20161114204359.2">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
@@ -428,15 +428,18 @@ DEFAULT_DATE = 'fs'</t>
 
 						
 </t>
-<t tx="leo.20161013151511.11"># 何謂創造力?
+<t tx="leo.20161114204359.3">## 第一週上課進度
 
-## 能夠&lt;small&gt;&lt;span style="color:#FF0080"&gt;持續&lt;/span&gt;&lt;/small&gt;自學-&gt;&lt;span style="color:#FFFF00"&gt;不一定都要別人教&lt;/span&gt;
-## 會安排&lt;small&gt;&lt;span style="color:#FF0080"&gt;高效&lt;/span&gt;&lt;/small&gt;可執行流程-&gt;展現&lt;span style="color:#FFFF00"&gt;執行力&lt;/span&gt;
-&lt;span style="color:#00FF80"&gt;還有&lt;/span&gt;
-## 俱備&lt;small&gt;&lt;span style="color:#FF0080"&gt;豐富&lt;/span&gt;&lt;/small&gt;想像力-&gt;不受限, &lt;span style="color:#FFFF00"&gt;積極進行改造&lt;/span&gt;
+#### 1.登入 github, fork(https://github.com/mdecourse/2016fallcadp)
+
+#### 2.在自己的帳號下建立 2016fallcadp_hw 倉儲, 將 default branch 設為 gh-pages
+
+#### 3.在自己的帳號下建立 帳號.github.io 倉儲, 並在其下建立 index.html 即可用 https://帳號.github.io 連結 index.html
+
+#### 4.自選組員, 先確定各組組長學號, 將會設為[課程倉儲] (https://github.com/mdecourse/2016fallcadp) 倉儲的協同者, 專門負責協助管理此倉儲, 並處理組員對此倉儲的 pull requests
 
 </t>
-<t tx="leo.20161013151511.12">&lt;section data-markdown&gt;
+<t tx="leo.20161114205456.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
@@ -445,15 +448,12 @@ DEFAULT_DATE = 'fs'</t>
 
 						
 </t>
-<t tx="leo.20161013151511.13"># 自學的訓練
-
-## 學員必須自己有學習動機
-## 能消化中英文資料
-## 從中體會學習的意義
-
+<t tx="leo.20161114205456.2">##第一週影片
+&lt;iframe src="https://player.vimeo.com/video/187448381" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/187448381"&gt;2016 Fallcadpb W1&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
 
 </t>
-<t tx="leo.20161013151511.14">&lt;section data-markdown&gt;
+<t tx="leo.20161114212301.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
@@ -462,16 +462,10 @@ DEFAULT_DATE = 'fs'</t>
 
 						
 </t>
-<t tx="leo.20161013151511.15"># 高效執行力
-
-## 用對的方法
-## 在對的時機
-## 找對的人
-## 作對的事
-
+<t tx="leo.20161114212301.2">## 心得:第一週上課老師大概講解了一下這學期要做的事，這學期我們會有比較多分組上的作業，因此組員間的配合相當重要，第一週也因為中秋連假而調課。
 
 </t>
-<t tx="leo.20161013151511.2">&lt;section data-markdown&gt;
+<t tx="leo.20161114212745.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
@@ -480,15 +474,12 @@ DEFAULT_DATE = 'fs'</t>
 
 						
 </t>
-<t tx="leo.20161013151511.3">## 電腦輔助設計在教什麼?
-
-### 創造力
-### 表達力
-以及
-### 協同力
-
+<t tx="leo.20161114212745.2">## 心得：ShareX是個不錯的軟體，它可以選擇要錄影的部分，重要的是它有開放原始碼，能夠讓我們知道他是如何寫的。</t>
+<t tx="leo.20161114213351.1">&lt;section&gt;
+@others
+&lt;/section&gt;
 </t>
-<t tx="leo.20161013151511.4">&lt;section data-markdown&gt;
+<t tx="leo.20161114213351.2">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
@@ -497,15 +488,13 @@ DEFAULT_DATE = 'fs'</t>
 
 						
 </t>
-<t tx="leo.20161013151511.5"># CAD 在教什麼?
+<t tx="leo.20161114213351.3">
+#第三週上課進度
 
-## &lt;span style="color:#FFFF00"&gt;創造力&lt;/span&gt;&lt;small&gt;=自學力+程式力+想像力&lt;/small&gt;
-## &lt;span style="color:#FFFF00"&gt;表達力&lt;/span&gt;&lt;small&gt;=口語+文字+2D+3D+理論+實體&lt;/small&gt;
-&lt;span style="color:#00FF80"&gt;以及&lt;/span&gt;
-## &lt;span style="color:#FFFF00"&gt;協同力&lt;/span&gt;&lt;small&gt;=電腦+網路+工具+專案&lt;/small&gt;
+##如何使自己的課程倉儲及個人網頁能展示出基礎架構
 
 </t>
-<t tx="leo.20161013151511.6">&lt;section data-markdown&gt;
+<t tx="leo.20161114213351.4">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
@@ -514,16 +503,16 @@ DEFAULT_DATE = 'fs'</t>
 
 						
 </t>
-<t tx="leo.20161013151511.7"># CAD 系列課程
+<t tx="leo.20161114213351.5">##讓自己的個人倉儲有基礎架構
 
-## 計算機程式
-## 網際內容管理
-&lt;span style="color:#00FF80"&gt;還有&lt;/span&gt;
-## 協同產品設計實習
-也在研習&lt;span style="color:#FFFF00"&gt;創造力&lt;/span&gt;、&lt;span style="color:#FFFF00"&gt;表達力&lt;/span&gt;與&lt;span style="color:#FFFF00"&gt;協同力&lt;/span&gt;
+###1.先git clone自己的倉儲
 
-</t>
-<t tx="leo.20161013151511.8">&lt;section data-markdown&gt;
+###2.至班級倉儲git clone班級倉儲
+
+###3.將課程倉儲的基礎架構複製到個人倉儲
+
+###4.將個人倉儲推送至遠端</t>
+<t tx="leo.20161114213351.6">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
@@ -532,15 +521,11 @@ DEFAULT_DATE = 'fs'</t>
 
 						
 </t>
-<t tx="leo.20161013151511.9"># 何謂創造力?
+<t tx="leo.20161114213351.7">## 第三週影片
 
-## 能夠&lt;small&gt;&lt;span style="color:#FF0080"&gt;持續&lt;/span&gt;&lt;/small&gt;&lt;span style="color:#FFFF00"&gt;自學&lt;/span&gt;
-## 會安排&lt;small&gt;&lt;span style="color:#FF0080"&gt;高效&lt;/span&gt;&lt;/small&gt;&lt;span style="color:#FFFF00"&gt;可執行&lt;/span&gt;流程
-&lt;span style="color:#00FF80"&gt;還有&lt;/span&gt;
-## 俱備&lt;small&gt;&lt;span style="color:#FF0080"&gt;豐富&lt;/span&gt;&lt;/small&gt;&lt;span style="color:#FFFF00"&gt;想像力&lt;/span&gt;
-
-</t>
-<t tx="leo.20161013152737.1">&lt;section data-markdown&gt;
+&lt;iframe src="https://player.vimeo.com/video/187448383" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/187448383"&gt;2016 Fallcadpb W3&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
+<t tx="leo.20161114213351.8">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
@@ -549,81 +534,8 @@ DEFAULT_DATE = 'fs'</t>
 
 						
 </t>
-<t tx="leo.20161013152737.2">## Github Pages 網頁
-
-各學員必須完成
-
-  * 個人網頁
-  * Solvespace 零組件繪圖與機構模擬
-  * OnShape 零組件繪圖與機構模擬
-  * Delta 3D printer 零組件繪圖與模擬
-  * 利用 Delta 3D printer 列印零組件並組立
-  * 建立網際自評系統
-</t>
-<t tx="leo.20161013184628.1">&lt;section&gt;
-@others
-&lt;/section&gt;</t>
-<t tx="leo.20161013184753.1">&lt;section&gt;
-@others
-&lt;/section&gt;</t>
-<t tx="leo.20161013184813.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20161013184813.2"># 數學符號與方程式
-
-Inline math equations go in like so: $\omega = d\phi / dt$. Display
-math should get its own line and be put in in double-dollarsigns:
-
-$$I = \int \rho R^{2} dV$$
-</t>
-<t tx="leo.20161013184830.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-&lt;!-- 請注意, @others 不可以內縮 --&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-
-						
-</t>
-<t tx="leo.20161013184830.2">## 利用 Markdown 寫投影片
-以下利用 Markdown 格式展示 Python 程式碼:
-```
-@language python
-# use threading and subprocess to threading the make process
-import os
-import subprocess
-import threading
-
-def domake():
-    
-    path = "../exposed/api/exposed"
-    ubuntu = "../Ubuntu"
-    
-    # create obj path
-    
-    if not os.path.exists(path+"/../obj"):
-        os.makedirs(path+"/../obj")
-    
-    subprocess.call(["make", "clean"], cwd=path)
-    subprocess.call("make", cwd=path)
-    subprocess.call(["cp", "{libslvs.so, _slvs.so, slvs.py}", ubuntu], cwd=path)
-    subprocess.call(["python3", "circle_ex.py"], cwd=path+"/"+ubuntu)
-    
-make = threading.Thread(target=domake)
-make.start()
-```
-</t>
-<t tx="leo.20161013185220.1">&lt;section data-markdown&gt;
+<t tx="leo.20161114213351.9">## 心得：這禮拜的作業跟上學期所教的內容差不多，因此在進度上還沒有落後太多。</t>
+<t tx="leo.20161114213930.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
@@ -632,15 +544,17 @@ make.start()
 
 						
 </t>
-<t tx="leo.20161013185220.2">## 操作影片錄製
+<t tx="leo.20161114213930.2">##讓自己的個人網頁有基礎架構
 
-  * Windows 環境下使用 ShareX
-  * Ubuntu 環境下使用 Kazam
-  * 影片檔岸上傳到 Vimeo
-  * 影片檔案上傳到 Youtube
-  * 在投影片與網誌中嵌入影片檔
+###1.至scrum-3的倉儲裡的index複製程式碼
+
+###2.將程式碼複製到個人網頁的index
 </t>
-<t tx="leo.20161013185610.1">&lt;section data-markdown&gt;
+<t tx="leo.20161114214342.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+</t>
+<t tx="leo.20161114214342.10">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
@@ -649,16 +563,8 @@ make.start()
 
 						
 </t>
-<t tx="leo.20161013185610.2">## Solvespace 實習
-
-  * Solvespace 零件繪製
-  * Solvespace 零件組立
-  * Delta 3D Printer 機構模擬
-  * 平面四連桿機構模擬與驗證
-  * 平面多連桿機構模擬與驗證
-  * Solvespace 程式編譯
-</t>
-<t tx="leo.20161013185845.1">&lt;section data-markdown&gt;
+<t tx="leo.20161114214342.11">## 心得：這禮拜學習的是新的指令，老師說從第六個禮拜開始將會有分組作業，組員間的工作分配很重要。</t>
+<t tx="leo.20161114214342.2">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
@@ -667,16 +573,13 @@ make.start()
 
 						
 </t>
-<t tx="leo.20161013185845.2">## OnShape 實習
+<t tx="leo.20161114214342.3">
+#第四週上課進度
 
-  * OnShape 零件繪製
-  * OnShape 零件組立
-  * Delta 3D Printer 機構模擬
-  * 平面四連桿機構模擬與驗證
-  * 平面多連桿機構模擬與驗證
-  * Featurescript 範例操作
+##創建分組倉儲並將組員加進子模組
+
 </t>
-<t tx="leo.20161013190024.1">&lt;section data-markdown&gt;
+<t tx="leo.20161114214342.4">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
@@ -685,13 +588,13 @@ make.start()
 
 						
 </t>
-<t tx="leo.20161013190024.2">## Flask 網際程式
+<t tx="leo.20161114214342.5">###1.由組長創建分組倉儲，倉儲名稱為2016fallcp_ag10
 
-  * 以 CMSimfly 為例
-  * 以 PyGrouf 為例
-  * 以 Jupyterhub 為例
-</t>
-<t tx="leo.20161013190351.1">&lt;section data-markdown&gt;
+###2.複製倉儲的基本架構至倉儲中
+
+###3.接著由組長將組員納為子模組
+子模組指令git submodule add -b gh-pages https://github.com/scrum-1/2016fallcp_ag100 g100 </t>
+<t tx="leo.20161114214342.8">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
@@ -700,13 +603,15 @@ make.start()
 
 						
 </t>
-<t tx="leo.20161013190351.2">## 使用 iframe 導入影片
+<t tx="leo.20161114214342.9">## 第四週影片
 
-### 導入影片 template
-
-&lt;iframe src="https://player.vimeo.com/video/183950627" width="640" height="492" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;iframe src="https://player.vimeo.com/video/187448384" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/187448384"&gt;2016 Fallcadpb W4&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
+<t tx="leo.20161114215702.1">&lt;section&gt;
+@others
+&lt;/section&gt;
 </t>
-<t tx="leo.20161027151655.1">&lt;section data-markdown&gt;
+<t tx="leo.20161114215702.2">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
     &lt;/script&gt;
@@ -715,10 +620,181 @@ make.start()
 
 						
 </t>
-<t tx="leo.20161027151655.2">## Solvespace 四連桿模擬
+<t tx="leo.20161114215702.3">
+#第五週上課進度
 
-&lt;img src="w7/cadp_w7_fourbar.png" width= "800" /&gt;
+##學習如何編輯子模組
+
 </t>
+<t tx="leo.20161114215702.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161114215702.5">1.假如任何人希望 git clone 帶有子模組的倉儲, 則必須在 git clone 後執行 git submodule init, 啟始子模組, 然後利用 git submodule update 取下子模組的對應版本資料 (對應版本紀錄在 .git/modules/g100/refs/heads/master 檔案中.</t>
+<t tx="leo.20161114215702.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161114215702.7">## 第五週影片
+
+&lt;iframe src="https://player.vimeo.com/video/187525420" width="640" height="443" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/187525420"&gt;2016 Fallcadpb W5&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
+<t tx="leo.20161114215702.8">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161114215702.9">## 心得：這禮拜要學習如何下載別人的子模組，以及管理自己的分組倉儲，以利之後要與別人協同。</t>
+<t tx="leo.20161114215703.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+</t>
+<t tx="leo.20161114215703.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161114215703.3">
+#第六週上課進度
+
+##學會利用onshape跟Solvespace繪圖
+
+</t>
+<t tx="leo.20161114215703.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161114215703.5">###1.可利用學校帳戶創建一個免費的Onshape帳戶
+
+###2.可至課程倉儲的上課筆記下載Solvespace</t>
+<t tx="leo.20161114215703.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161114215703.7">## 第六週影片 Solvespace的使用
+
+&lt;iframe src="https://player.vimeo.com/video/188404630" width="640" height="455" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/188404630"&gt;2016 Fallcadpb W6-1&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
+<t tx="leo.20161114215703.8">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161114215703.9">## 心得：Onshape是可以直接在雲端使用的軟體，不需要下載任何的程式，這點讓我覺得棒；Solvespace雖然用起來很陽春，但是能夠進行機構上的模擬。</t>
+<t tx="leo.20161114215711.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+</t>
+<t tx="leo.20161114215711.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161114215711.3">
+#第九週上課進度
+
+##學員自評
+
+</t>
+<t tx="leo.20161114215711.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161114215711.5">#學員在上課時自評，最後評分期限為下禮拜二</t>
+<t tx="leo.20161114215711.8">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161114215711.9">## 心得：到了期中感覺課堂上的理解比上學期多了很多，雖然回家有錄製了一些影片，但並沒有編輯個人網誌及網頁，因此給了自己60 分。</t>
+<t tx="leo.20161114220755.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161114220755.2">2.假如帶有子模組的倉儲管理者, 希望更新某一子模組的對應版本, 則必須先確定倉儲分支, 然後 cd 到子模組目錄中, 利用 git pull 後, 然後回到上層倉儲進行版本的提交推送. 假如希望拉回所有子模組的對應版本內容, 則使用 git pull origin gh-pages --recurse-submodules, 當然若想拉回 master 分支, 則使用 git pull origin master --recurse-submodules</t>
+<t tx="leo.20161114220809.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161114220809.2">3.假如希望將所有子模組的對應版本更新到目前最新提交, 使用 git submodule foreach "(git checkout gh-pages; git pull)&amp;"</t>
+<t tx="leo.20161114220817.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161114220817.2">4.當利用上述指令完成更新子模組的對應版本之後, 必須進行提交推送, 將改版資料送到遠端, 之後則透過 git submodule update --init --recursive 將此對應版本的子模組取到近端, 其中因為子模組中還有子模組, 而此更新對這些新加入的子子模組並沒有 --init, 因此下子模組更新時, 要納入 --init</t>
+<t tx="leo.20161114221421.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161114221421.2">## 第六週影片 onshape的應用
+
+&lt;iframe src="https://player.vimeo.com/video/188404631" width="640" height="455" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/188404631"&gt;2016 Fallcadpb W6-2&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
 <t tx="yen.20161016024324.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -738,55 +814,6 @@ make.start()
 * 按 Esc 可以退出全螢幕或全域檢視 (Escape)
 
 </t>
-<t tx="yen.20161016024407.1">&lt;section&gt;
-@others
-&lt;/section&gt;</t>
-<t tx="yen.20161016024407.2">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="yen.20161016024407.3"># Github 倉儲網頁
-
-####建立個人 Github 網頁 (帳號.github.io)
-####建立個人課程作業網頁 (納入投影片與網誌架構)
-####組長建立分組的評量網頁 (納入投影片與網誌架構)
-</t>
-<t tx="yen.20161016024407.4">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="yen.20161016024407.5"># 學員作業網頁定版
-
-###個人作業網頁內容可以隨時改版
-###分組評量網頁必須在指定時間前定版
-###Github 倉儲 gh-pages分支與子模組應用
-</t>
-<t tx="yen.20161016024407.6">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="yen.20161016024407.7"># Github 倉儲拉回請求
-
-####分組倉儲 Collaborators 設定
-####分組倉儲版本 Pull Requests 練習
-####各組員實際操作影片錄製
-####操作影片加字幕以及影片檔相加
-</t>
 <t tx="yen.20161016024451.1">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -800,11 +827,10 @@ make.start()
 
 						
 </t>
-<t tx="yen.20161016024451.3"># 電腦輔助設計實習課程規劃
+<t tx="yen.20161016024451.3">
+#第二週上課進度
 
-## [課程規劃](https://github.com/mdecourse/2016fallcadp/blob/master/syllabus.py)
-## [課程 Wiki](https://github.com/mdecourse/2016fallcadp/wiki)
-## [課程網誌](http://chiamingyen.github.io/kmolab/blog/tag/2016fallcadp.html)
+##須學會如何利用ShareX錄製影片
 
 </t>
 <t tx="yen.20161016024451.4">&lt;section data-markdown&gt;
@@ -816,15 +842,15 @@ make.start()
 
 						
 </t>
-<t tx="yen.20161016024451.5">## 下載 miniconda 可攜環境
+<t tx="yen.20161016024451.5">### 1.先至ShareX[官網](https://getsharex.com/) 下載軟體
 
-  * 在電腦教室下載 [mini2016fall.7z](http://140.130.17.17/public/2016fall/mini2016fall_with_leo.7z)
-  * 從外部下載 [mini2016fall.7z](https://140.130.17.101/download/?filepath=/home/yen/cmsimply/wsgi/local_data/downloads/mini2016fall_with_leo.7z)
-  * start.bat 啟動, stop.bat 關閉
-  * 建議存在隨身硬碟中使用
+### 2.至軟體的Task settings中的Screen recorder裡的Screen recording設定錄影對象及錄音方式
 
+### 3.製軟體的Application settings中的path設定存檔內容
 
-</t>
+### 4.按下Shift+Prt Scrn即可選擇錄影框框
+
+### 5.再按下Shift+Prt Scrn即可停止錄影</t>
 <t tx="yen.20161016024451.6">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -834,47 +860,10 @@ make.start()
 
 						
 </t>
-<t tx="yen.20161016024451.7">## 學員自評項目
+<t tx="yen.20161016024451.7">## 第二週影片
 
-* 上課筆記與心得寫在個人的 2016fallcadp_hw 倉儲 Wiki 中
-* 利用 [ShareX](https://getsharex.com/) 錄製上課操作練習影片
-* 將影片加上說明字幕後, 上傳至個人 [Vimeo](https://vimeo.com/) 與 [Youtube](https://www.youtube.com)
-* 每週更新個人與分組的 Github Pages 投影片與網誌</t>
-<t tx="yen.20161016203728.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="yen.20161016203728.2">## OnShape 實習
-
-  * 請根據[Nutcracker手冊](http://chiamingyen.github.io/kmolab_data/files/ProEMechanism.pdf)說明完成零件繪製
-  * 請完成 Nutcracker 零件組立
-  * 請完成與手冊格式類似的 pdf 導引教材 (How？)
-  * 請完成零件繪製教學影片(語音或字幕說明)並上傳到 Vimeo 與 Youtube
-  * 若採用 Solvespace, 可否完成上述相同零組件繪製與組立?
-  * 如何精確得知機構運動過程的約束位置?
-</t>
-<t tx="yen.20161016204452.1">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="yen.20161016204452.2">## 機電資產品的設計考量
-
-  * 請收集與 Delta 3D printer 有關的資料
-  * 請設法利用 CAD 套件完成零組件繪製與模擬
-  * 上述模擬過程對於產品的開發有何用意?
-  * 請討論如何完成一台可以正常列印的 Delta Printer？
-
-</t>
+&lt;iframe src="https://player.vimeo.com/video/187448382" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/187448382"&gt;2016 Fallcadpb  W2&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
 <t tx="yen.20161022120729.1">@language python
 import os
 import subprocess
