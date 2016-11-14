@@ -277,17 +277,15 @@ print("hello")
 
 ### 虎科大機械設計工程系
 
+### 學員 40423245 課程簡報
+
 &lt;small&gt;
-Created by [KMOLab](http://chiamingyen.github.io/kmolab/blog/)
+Created by [40423245](https://40423245.github.io/2016fallcadp_hw/blog/)
 &lt;/small&gt;
 
-[甲班電腦輔助設計實習課程網誌](blog/index.html)
+[電腦輔助設計實習課程個人網誌](https://40423245.github.io/2016fallcadp_hw/blog/)
 
-[乙班電腦輔助設計實習課程網誌](https://mdecourse.github.io/2016fallcadpb/blog)
-
-[Vimeo 上課影片](https://vimeo.com/user24079973/videos)
-
-[電腦輔助設計室電腦硬體](http://project.mde.tw/blog/yen-dian-nao-fu-zhu-she-ji-shi-dian-nao-pei-zhi.html)
+[Vimeo 上課心得影片](https://vimeo.com/user47996237)
 </t>
 <t tx="amd.20161004112026.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
