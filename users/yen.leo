@@ -31,7 +31,7 @@
 <v t="yen.20161016024324.1"><vh>快捷鍵</vh>
 <v t="yen.20161016024324.2"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20161114204359.1"><vh>第一週上課筆記</vh>
+<v t="leo.20161114204359.1"><vh>3245 W1</vh>
 <v t="leo.20161114204359.2" a="E"><vh>上課進度</vh>
 <v t="leo.20161114204359.3"><vh>完成事項</vh></v>
 </v>
@@ -42,7 +42,7 @@
 <v t="leo.20161114212301.2"><vh>心得</vh></v>
 </v>
 </v>
-<v t="yen.20161016024451.1"><vh>第二週上課筆記</vh>
+<v t="yen.20161016024451.1"><vh>3245 W2</vh>
 <v t="yen.20161016024451.2" a="E"><vh>上課進度</vh>
 <v t="yen.20161016024451.3"><vh>錄製影片</vh></v>
 </v>
@@ -56,7 +56,7 @@
 <v t="leo.20161114212745.2"><vh>心得</vh></v>
 </v>
 </v>
-<v t="leo.20161114213351.1"><vh>第三週上課筆記</vh>
+<v t="leo.20161114213351.1"><vh>3245 W3</vh>
 <v t="leo.20161114213351.2" a="E"><vh>上課進度</vh>
 <v t="leo.20161114213351.3"><vh>錄製影片</vh></v>
 </v>
@@ -73,7 +73,7 @@
 <v t="leo.20161114213351.9"><vh>心得</vh></v>
 </v>
 </v>
-<v t="leo.20161114214342.1"><vh>第四週上課筆記</vh>
+<v t="leo.20161114214342.1"><vh>3245 W4</vh>
 <v t="leo.20161114214342.2" a="E"><vh>上課進度</vh>
 <v t="leo.20161114214342.3"><vh>錄製影片</vh></v>
 </v>
@@ -87,7 +87,7 @@
 <v t="leo.20161114214342.11"><vh>心得</vh></v>
 </v>
 </v>
-<v t="leo.20161114215702.1"><vh>第五週上課筆記</vh>
+<v t="leo.20161114215702.1"><vh>3245 W5</vh>
 <v t="leo.20161114215702.2" a="E"><vh>上課進度</vh>
 <v t="leo.20161114215702.3"><vh>錄製影片</vh></v>
 </v>
@@ -110,7 +110,7 @@
 <v t="leo.20161114215702.9"><vh>心得</vh></v>
 </v>
 </v>
-<v t="leo.20161114215703.1"><vh>第六週上課筆記</vh>
+<v t="leo.20161114215703.1"><vh>3245 W6</vh>
 <v t="leo.20161114215703.2" a="E"><vh>上課進度</vh>
 <v t="leo.20161114215703.3"><vh>錄製影片</vh></v>
 </v>
@@ -127,7 +127,41 @@
 <v t="leo.20161114215703.9"><vh>心得</vh></v>
 </v>
 </v>
-<v t="leo.20161114215711.1"><vh>第九週上課筆記</vh>
+<v t="leo.20161118203252.1"><vh>3245 W7</vh>
+<v t="leo.20161118203252.2" a="E"><vh>上課進度</vh>
+<v t="leo.20161118203252.3"><vh>錄製影片</vh></v>
+</v>
+<v t="leo.20161118203252.4" a="E"><vh>實作內容</vh>
+<v t="leo.20161118203252.5"><vh>使用軟體</vh></v>
+</v>
+<v t="leo.20161118203252.6" a="E"><vh>心得影片</vh>
+<v t="leo.20161118203252.7"><vh>影片連結</vh></v>
+</v>
+<v t="leo.20161118203252.8" a="E"><vh>心得影片-2</vh>
+<v t="leo.20161118203252.9"><vh>影片連結</vh></v>
+</v>
+<v t="leo.20161118203252.10" a="E"><vh>心得</vh>
+<v t="leo.20161118203252.11"><vh>心得</vh></v>
+</v>
+</v>
+<v t="leo.20161118203253.1" a="E"><vh>3245 W8</vh>
+<v t="leo.20161118203253.2" a="E"><vh>上課進度</vh>
+<v t="leo.20161118203253.3"><vh>錄製影片</vh></v>
+</v>
+<v t="leo.20161118203253.4" a="E"><vh>實作內容</vh>
+<v t="leo.20161118203253.5"><vh>使用軟體</vh></v>
+</v>
+<v t="leo.20161118203253.6" a="E"><vh>心得影片</vh>
+<v t="leo.20161118203253.7"><vh>影片連結</vh></v>
+</v>
+<v t="leo.20161118203253.8" a="E"><vh>心得影片-2</vh>
+<v t="leo.20161118203253.9"><vh>影片連結</vh></v>
+</v>
+<v t="leo.20161118203253.10" a="E"><vh>心得</vh>
+<v t="leo.20161118203253.11"><vh>心得</vh></v>
+</v>
+</v>
+<v t="leo.20161114215711.1"><vh>3245 W9</vh>
 <v t="leo.20161114215711.2" a="E"><vh>上課進度</vh>
 <v t="leo.20161114215711.3"><vh>錄製影片</vh></v>
 </v>
@@ -792,6 +826,140 @@ DEFAULT_DATE = 'fs'</t>
 						
 </t>
 <t tx="leo.20161114221421.2">## 第六週影片 onshape的應用
+
+&lt;iframe src="https://player.vimeo.com/video/188404631" width="640" height="455" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/188404631"&gt;2016 Fallcadpb W6-2&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
+<t tx="leo.20161118203252.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+</t>
+<t tx="leo.20161118203252.10">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161118203252.11">## 心得：Onshape是可以直接在雲端使用的軟體，不需要下載任何的程式，這點讓我覺得棒；Solvespace雖然用起來很陽春，但是能夠進行機構上的模擬。</t>
+<t tx="leo.20161118203252.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161118203252.3">
+#第七週上課進度
+
+##學會利用onshape跟Solvespace繪圖
+
+</t>
+<t tx="leo.20161118203252.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161118203252.5">###1.可利用學校帳戶創建一個免費的Onshape帳戶
+
+###2.可至課程倉儲的上課筆記下載Solvespace</t>
+<t tx="leo.20161118203252.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161118203252.7">## 第六週影片 Solvespace的使用
+
+&lt;iframe src="https://player.vimeo.com/video/188404630" width="640" height="455" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/188404630"&gt;2016 Fallcadpb W6-1&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
+<t tx="leo.20161118203252.8">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161118203252.9">## 第六週影片 onshape的應用
+
+&lt;iframe src="https://player.vimeo.com/video/188404631" width="640" height="455" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/188404631"&gt;2016 Fallcadpb W6-2&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
+<t tx="leo.20161118203253.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+</t>
+<t tx="leo.20161118203253.10">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161118203253.11">## 心得：Onshape是可以直接在雲端使用的軟體，不需要下載任何的程式，這點讓我覺得棒；Solvespace雖然用起來很陽春，但是能夠進行機構上的模擬。</t>
+<t tx="leo.20161118203253.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161118203253.3">
+#第八週上課進度
+
+##學會利用onshape跟Solvespace繪圖
+
+</t>
+<t tx="leo.20161118203253.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161118203253.5">###1.可利用學校帳戶創建一個免費的Onshape帳戶
+
+###2.可至課程倉儲的上課筆記下載Solvespace</t>
+<t tx="leo.20161118203253.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161118203253.7">## 第六週影片 Solvespace的使用
+
+&lt;iframe src="https://player.vimeo.com/video/188404630" width="640" height="455" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/188404630"&gt;2016 Fallcadpb W6-1&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
+<t tx="leo.20161118203253.8">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161118203253.9">## 第六週影片 onshape的應用
 
 &lt;iframe src="https://player.vimeo.com/video/188404631" width="640" height="455" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;a href="https://vimeo.com/188404631"&gt;2016 Fallcadpb W6-2&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
