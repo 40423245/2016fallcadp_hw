@@ -14,37 +14,37 @@
 <v t="leo.20151212173315.3"><vh>@string initial_split_orientation = horizontal</vh></v>
 </v>
 <v t="amd.20160921213353.1"><vh>2016fall 簡報與網誌樣板系統</vh></v>
-<v t="amd.20160106095324.1"><vh>@path ./../</vh>
+<v t="amd.20160106095324.1" a="E"><vh>@path ./../</vh>
 <v t="leo.20151213173830.1"><vh>假如要在近端檢視, 使用下列按鈕</vh>
 <v t="leo.20151213085727.1"><vh>@button pelican-blog</vh></v>
 </v>
-<v t="leo.20161122211201.1"><vh>設定與開發</vh>
-<v t="leo.20161122211201.2"><vh>@clean index.html</vh>
-<v t="leo.20161122211201.3"><vh>html</vh>
+<v t="leo.20161122211201.1" a="E"><vh>設定與開發</vh>
+<v t="leo.20161122211201.2" a="E"><vh>@clean index.html</vh>
+<v t="leo.20161122211201.3" a="E"><vh>html</vh>
 <v t="leo.20161122211201.4"><vh>head</vh></v>
-<v t="leo.20161122211201.5"><vh>body</vh>
-<v t="leo.20161122211201.6"><vh>reveal div</vh>
-<v t="leo.20161122211201.7"><vh>slides div</vh>
+<v t="leo.20161122211201.5" a="E"><vh>body</vh>
+<v t="leo.20161122211201.6" a="E"><vh>reveal div</vh>
+<v t="leo.20161122211201.7" a="E"><vh>slides div</vh>
 <v t="leo.20161122211201.8"><vh>封面投影片</vh>
 <v t="leo.20161122211201.9"><vh>封面投影片內容</vh></v>
 </v>
 <v t="leo.20161122211201.10"><vh>快捷鍵</vh>
 <v t="leo.20161122211201.11"><vh>投影片快捷鍵</vh></v>
 </v>
-<v t="leo.20161122211201.12"><vh>3245 W1</vh>
-<v t="leo.20161122211201.13" a="E"><vh>上課進度</vh>
+<v t="leo.20161122211201.12"><vh>3245 0916W1</vh>
+<v t="leo.20161122211201.13"><vh>上課進度</vh>
 <v t="leo.20161122211201.14"><vh>完成事項</vh></v>
 </v>
-<v t="leo.20161122211201.15" a="E"><vh>心得影片</vh>
+<v t="leo.20161122211201.15"><vh>心得影片</vh>
 <v t="leo.20161122211201.16"><vh>影片連結</vh></v>
 </v>
 <v t="leo.20161122211201.17" a="E"><vh>心得</vh>
 <v t="leo.20161122211201.18"><vh>心得</vh></v>
 </v>
 </v>
-<v t="leo.20161122211201.19"><vh>3245 W2</vh>
+<v t="leo.20161122211201.19"><vh>3245 0923W2</vh>
 <v t="leo.20161122211201.20" a="E"><vh>上課進度</vh>
-<v t="leo.20161122211201.21"><vh>錄製影片</vh></v>
+<v t="leo.20161201203847.1"><vh>錄製影片</vh></v>
 </v>
 <v t="leo.20161122211201.22" a="E"><vh>實作內容</vh>
 <v t="leo.20161122211201.23"><vh>使用軟體</vh></v>
@@ -56,7 +56,7 @@
 <v t="leo.20161122211201.27"><vh>心得</vh></v>
 </v>
 </v>
-<v t="leo.20161122211201.28"><vh>3245 W3</vh>
+<v t="leo.20161122211201.28"><vh>3245 0930W3</vh>
 <v t="leo.20161122211201.29" a="E"><vh>上課進度</vh>
 <v t="leo.20161122211201.30"><vh>錄製影片</vh></v>
 </v>
@@ -73,7 +73,7 @@
 <v t="leo.20161122211201.38"><vh>心得</vh></v>
 </v>
 </v>
-<v t="leo.20161122211201.39"><vh>3245 W4</vh>
+<v t="leo.20161122211201.39"><vh>3245 1007W4</vh>
 <v t="leo.20161122211201.40" a="E"><vh>上課進度</vh>
 <v t="leo.20161122211201.41"><vh>錄製影片</vh></v>
 </v>
@@ -87,7 +87,7 @@
 <v t="leo.20161122211201.47"><vh>心得</vh></v>
 </v>
 </v>
-<v t="leo.20161122211201.48"><vh>3245 W5</vh>
+<v t="leo.20161122211201.48"><vh>3245 1014W5</vh>
 <v t="leo.20161122211201.49" a="E"><vh>上課進度</vh>
 <v t="leo.20161122211201.50"><vh>錄製影片</vh></v>
 </v>
@@ -110,7 +110,7 @@
 <v t="leo.20161122211201.62"><vh>心得</vh></v>
 </v>
 </v>
-<v t="leo.20161122211201.63"><vh>3245 W6</vh>
+<v t="leo.20161122211201.63"><vh>3245 1021W6</vh>
 <v t="leo.20161122211201.64" a="E"><vh>上課進度</vh>
 <v t="leo.20161122211201.65"><vh>錄製影片</vh></v>
 </v>
@@ -127,7 +127,7 @@
 <v t="leo.20161122211201.73"><vh>心得</vh></v>
 </v>
 </v>
-<v t="leo.20161122211201.74"><vh>3245 W7</vh>
+<v t="leo.20161122211201.74"><vh>3245 1028W7</vh>
 <v t="leo.20161122211201.75" a="E"><vh>上課進度</vh>
 <v t="leo.20161122211201.76"><vh>錄製影片</vh></v>
 </v>
@@ -144,8 +144,8 @@
 <v t="leo.20161122211201.84"><vh>心得</vh></v>
 </v>
 </v>
-<v t="leo.20161122211201.85"><vh>3245 W8</vh>
-<v t="leo.20161122211201.86"><vh>上課進度</vh>
+<v t="leo.20161122211201.85"><vh>3245 1104W8</vh>
+<v t="leo.20161122211201.86" a="E"><vh>上課進度</vh>
 <v t="leo.20161122211201.87"><vh>錄製影片</vh></v>
 </v>
 <v t="leo.20161122211201.88"><vh>實作內容</vh>
@@ -161,7 +161,7 @@
 <v t="leo.20161122211201.95"><vh>心得</vh></v>
 </v>
 </v>
-<v t="leo.20161122211201.96"><vh>3245 W9</vh>
+<v t="leo.20161122211201.96"><vh>3245 1111W9</vh>
 <v t="leo.20161122211201.97" a="E"><vh>上課進度</vh>
 <v t="leo.20161122211201.98"><vh>錄製影片</vh></v>
 </v>
@@ -172,12 +172,46 @@
 <v t="leo.20161122211201.102"><vh>心得</vh></v>
 </v>
 </v>
+<v t="leo.20161201191913.1"><vh>3245 1118W10</vh>
+<v t="leo.20161201191913.2"><vh>上課進度</vh>
+<v t="leo.20161201191913.3"><vh>上課標題</vh></v>
+</v>
+<v t="leo.20161201191913.4"><vh>實作內容1</vh>
+<v t="leo.20161201191913.5"><vh>使用步驟1</vh></v>
+</v>
+<v t="leo.20161201202023.1"><vh>圖片1</vh>
+<v t="leo.20161201202023.2"><vh>圖片一</vh></v>
+</v>
+<v t="leo.20161201204025.1"><vh>實作內容2</vh>
+<v t="leo.20161201204025.2"><vh>使用步驟2</vh></v>
+</v>
+<v t="leo.20161201204034.1"><vh>圖片2</vh>
+<v t="leo.20161201204034.2"><vh>圖片二</vh></v>
+</v>
+<v t="leo.20161201204303.1"><vh>實作內容3</vh>
+<v t="leo.20161201204303.2"><vh>使用步驟3</vh></v>
+</v>
+<v t="leo.20161201204311.1"><vh>圖片3</vh>
+<v t="leo.20161201204311.2"><vh>圖片三</vh></v>
+</v>
+<v t="leo.20161201191913.6"><vh>心得影片</vh>
+<v t="leo.20161201191913.7"><vh>影片連結</vh></v>
+</v>
+<v t="leo.20161201191913.10"><vh>心得</vh>
+<v t="leo.20161201191913.11"><vh>心得</vh></v>
+</v>
+</v>
+<v t="leo.20161201205733.1"><vh>3245 1125W11</vh>
+<v t="leo.20161201205733.2"><vh>上課進度</vh>
+<v t="leo.20161201205733.3"><vh>標題</vh></v>
 </v>
 </v>
 </v>
 </v>
 </v>
-<v t="leo.20161122211201.103"><vh>Pelican 設定</vh>
+</v>
+</v>
+<v t="leo.20161122211201.103" a="E"><vh>Pelican 設定</vh>
 <v t="leo.20161122211201.104"><vh>文章 Date 設定</vh></v>
 <v t="leo.20161122211201.105"><vh>使用 summary plugin</vh></v>
 </v>
@@ -195,7 +229,7 @@
 </v>
 </v>
 <v t="amd.20160106094754.1"><vh>@path ./../content/pages</vh>
-<v t="amd.20160106094829.1" a="E"><vh>yen 所寫的 pages 文章</vh>
+<v t="amd.20160106094829.1"><vh>yen 所寫的 pages 文章</vh>
 <v t="amd.20160106094844.1"><vh>@edit pages_1.md</vh></v>
 </v>
 </v>
@@ -439,7 +473,9 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 
 						
 </t>
-<t tx="leo.20161122211201.14">## 第一週上課進度
+<t tx="leo.20161122211201.14">
+
+## 第一週上課進度
 
 #### 1.登入 github, fork(https://github.com/mdecourse/2016fallcadp)
 
@@ -493,12 +529,6 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 
 
 						
-</t>
-<t tx="leo.20161122211201.21">
-#第二週上課進度
-
-##須學會如何利用ShareX錄製影片
-
 </t>
 <t tx="leo.20161122211201.22">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -560,6 +590,7 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 &lt;/html&gt;
 </t>
 <t tx="leo.20161122211201.30">
+
 #第三週上課進度
 
 ##如何使自己的課程倉儲及個人網頁能展示出基礎架構
@@ -669,6 +700,7 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 						
 </t>
 <t tx="leo.20161122211201.41">
+
 #第四週上課進度
 
 ##創建分組倉儲並將組員加進子模組
@@ -754,6 +786,7 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 &lt;/body&gt;
 </t>
 <t tx="leo.20161122211201.50">
+
 #第五週上課進度
 
 ##學習如何編輯子模組
@@ -841,6 +874,7 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 						
 </t>
 <t tx="leo.20161122211201.65">
+
 #第六週上課進度
 
 ##學會利用onshape跟Solvespace繪圖
@@ -914,6 +948,7 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 						
 </t>
 <t tx="leo.20161122211201.76">
+
 #第七週上課進度
 
 ##學會利用onshape跟Solvespace繪圖
@@ -990,6 +1025,7 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 						
 </t>
 <t tx="leo.20161122211201.87">
+
 #第八週上課進度
 
 ##學會利用onshape跟Solvespace繪圖
@@ -1071,6 +1107,7 @@ Created by [40423245](https://40423245.github.io/2016fallcadp_hw/blog/)
 						
 </t>
 <t tx="leo.20161122211201.98">
+
 #第九週上課進度
 
 ##學員自評
@@ -1084,6 +1121,143 @@ Created by [40423245](https://40423245.github.io/2016fallcadp_hw/blog/)
 
 
 						
+</t>
+<t tx="leo.20161201191913.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+</t>
+<t tx="leo.20161201191913.10">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161201191913.11">## 心得：這次的教學考驗了我們的表達能力，在繪出路徑之後要利用Excel以及Brython在網誌上表現出來，雖然曾經有在網誌上繪圖的經驗，但還是很陌生需要好好的練習。</t>
+<t tx="leo.20161201191913.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161201191913.3">
+
+#第十週上課進度
+
+##Solvespace 平面四連桿機構模擬
+
+</t>
+<t tx="leo.20161201191913.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161201191913.5">### 直接利用 Solvespace Analyze-Trace Point-Stop Trace 得到下列繞行路徑</t>
+<t tx="leo.20161201191913.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161201191913.7">### 第十週影片 Solvespace 平面四連桿機構模擬
+
+
+&lt;iframe src="https://player.vimeo.com/video/192769520" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/192769520"&gt;2016 Fallcadp W10&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
+<t tx="leo.20161201202023.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161201202023.2">### Solvespace 四連桿模擬
+
+&lt;img src="data/W10/cadpa_w10_4bar.png" width= "800" /&gt;</t>
+<t tx="leo.20161201203847.1">
+
+#第二週上課進度
+
+##須學會如何利用ShareX錄製影片
+
+</t>
+<t tx="leo.20161201204025.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161201204025.2">### 將所得到的點座標 .csv 以 Excel 畫圖</t>
+<t tx="leo.20161201204034.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161201204034.2">### Solvespace 四連桿模擬
+
+&lt;img src="data/W10/cadpa_w10_4bar_excel.png" width= "800" /&gt;</t>
+<t tx="leo.20161201204303.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161201204303.2">### 利用 Brython, 讀取 data 目錄中的 cadpa_w10_4bar.csv 座標檔案, 然後以 splitlines() 及 split() 取出各點的 x 座標與 y 座標後, 將點連成路徑曲線</t>
+<t tx="leo.20161201204311.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161201204311.2">### Solvespace 四連桿模擬
+
+&lt;img src="data/W10/cadpa_w10_4bar_Brython.png" width= "700" /&gt;</t>
+<t tx="leo.20161201205733.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+</t>
+<t tx="leo.20161201205733.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161201205733.3">
+
+#第十一週上課進度
+
+#本週為校慶週，停課一次。
+
 </t>
 <t tx="yen.20161022120729.1">@language python
 import os
