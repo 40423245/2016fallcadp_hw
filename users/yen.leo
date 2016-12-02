@@ -19,7 +19,7 @@
 <v t="leo.20151213085727.1"><vh>@button pelican-blog</vh></v>
 </v>
 <v t="leo.20161122211201.1" a="E"><vh>設定與開發</vh>
-<v t="leo.20161122211201.2" a="E"><vh>@clean index.html</vh>
+<v t="leo.20161122211201.2"><vh>@clean index.html</vh>
 <v t="leo.20161122211201.3" a="E"><vh>html</vh>
 <v t="leo.20161122211201.4"><vh>head</vh></v>
 <v t="leo.20161122211201.5" a="E"><vh>body</vh>
@@ -223,9 +223,10 @@
 </v>
 <v t="amd.20151215170350.1"><vh>以下為 content 目錄中的 md 檔案</vh></v>
 <v t="amd.20151216001126.1"><vh>md 檔案範例</vh></v>
-<v t="amd.20151215170031.1"><vh>@path ./../content</vh>
+<v t="amd.20151215170031.1" a="E"><vh>@path ./../content</vh>
 <v t="amd.20160106093454.1" a="E"><vh>yen 所寫的網誌文章</vh>
 <v t="amd.20160727114506.1"><vh>201609</vh></v>
+<v t="leo.20161202091412.1"><vh>@edit 20161022.md</vh></v>
 </v>
 </v>
 <v t="amd.20160106094754.1"><vh>@path ./../content/pages</vh>
