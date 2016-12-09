@@ -1,10 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>40423245</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2016-10-22T12:00:00+08:00</updated><entry><title>2016/09/23 W02</title><link href="./20160923-w02.html" rel="alternate"></link><published>2016-10-22T12:00:00+08:00</published><updated>2016-10-22T12:00:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-10-22:./20160923-w02.html</id><summary type="html">&lt;p&gt;coming soon&lt;/p&gt;</summary><category term="使用導引"></category></entry><entry><title>2016/09/16 W01</title><link href="./20160916-w01.html" rel="alternate"></link><published>2016-09-16T20:00:00+08:00</published><updated>2016-09-16T20:00:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-09-16:./20160916-w01.html</id><summary type="html">&lt;p&gt;第一週上課進度&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>40423245</title><link href="./" rel="alternate"></link><link href="./feeds/all.atom.xml" rel="self"></link><id>./</id><updated>2016-09-23T20:00:00+08:00</updated><entry><title>2016/09/23 W02</title><link href="./20160923-w02.html" rel="alternate"></link><published>2016-09-23T20:00:00+08:00</published><updated>2016-09-23T20:00:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-09-23:./20160923-w02.html</id><summary type="html">&lt;p&gt;第二週上課進度&lt;/p&gt;
+&lt;p&gt;須學會如何利用ShareX錄製影片&lt;/p&gt;
+&lt;p&gt;1.先至ShareX&lt;a href="https://getsharex.com/"&gt;官網&lt;/a&gt; 下載軟體&lt;/p&gt;
+&lt;p&gt;2.至軟體的Task settings中的Screen recorder裡的Screen recording設定錄影對象及錄音方式&lt;/p&gt;
+&lt;p&gt;3.製軟體的Application settings中的path設定存檔內容&lt;/p&gt;
+&lt;p&gt;4.按下Shift+Prt Scrn即可選擇錄影框框&lt;/p&gt;
+&lt;p&gt;5.再按下Shift+Prt Scrn即可停止錄影&lt;/p&gt;
+&lt;p&gt;心得：ShareX是個不錯的軟體，它可以選擇要錄影的部分，重要的是它有開放原始碼，能夠讓我們知道他是如何寫的。&lt;/p&gt;
+&lt;p&gt;第二週影片&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/187448382" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/187448382"&gt;2016 Fallcadpb  W2&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="使用導引"></category></entry><entry><title>2016/09/16 W01</title><link href="./20160916-w01.html" rel="alternate"></link><published>2016-09-16T20:00:00+08:00</published><updated>2016-09-16T20:00:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-09-16:./20160916-w01.html</id><summary type="html">&lt;p&gt;第一週上課進度&lt;/p&gt;
 &lt;p&gt;1.登入 github, fork(https://github.com/mdecourse/2016fallcadp)&lt;/p&gt;
 &lt;p&gt;2.在自己的帳號下建立 2016fallcadp_hw 倉儲, 將 default branch 設為 gh-pages&lt;/p&gt;
 &lt;p&gt;3.在自己的帳號下建立 帳號.github.io 倉儲, 並在其下建立 index.html 即可用 https://帳號.github.io 連結 index.html&lt;/p&gt;
 &lt;p&gt;4.自選組員, 先確定各組組長學號, 將會設為[課程倉儲] (https://github.com/mdecourse/2016fallcadp) 倉儲的協同者, 專門負責協助管理此倉儲, 並處理組員對此倉儲的 pull requests&lt;/p&gt;
-&lt;p&gt;心得：心得:第一週上課老師大概講解了一下這學期要做的事，這學期我們會有比較多分組上的作業，因此組員間的配合相當重要，第一週也因為中秋連假而調課。&lt;/p&gt;
+&lt;p&gt;心得：第一週上課老師大概講解了一下這學期要做的事，這學期我們會有比較多分組上的作業，因此組員間的配合相當重要，第一週也因為中秋連假而調課。&lt;/p&gt;
 &lt;p&gt;第一週影片
 &lt;iframe src="https://player.vimeo.com/video/187448381" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;a href="https://vimeo.com/187448381"&gt;2016 Fallcadpb W1&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="使用導引"></category></entry></feed>
