@@ -170,13 +170,13 @@ init_mathjax();
 
         <meta name="author" content="40423245" />
         <meta name="keywords" content="使用導引" />
-        <meta name="description" content="coming soon" />
+        <meta name="description" content="第五週上課進度 學習如何編輯子模組 1.假如任何人希望 git clone 帶有子模組的倉儲, 則必須在 git clone 後執行 git submodule init, 啟始子模組, 然後利用 git submodule update 取下子模組的對應版本資料 (對應版本紀錄在 .git/modules/g100/refs/heads/master 檔案中 2.假如帶有子模組的倉儲管理者, 希望更新某一子模組的對應版本, 則必須先確定倉儲分支, 然後 cd 到子模組目錄中, 利用 git pull 後, 然後回到上層倉儲進行版本的提交推送. 假如希望拉回所有子模組的對應版本內容, 則使用 git pull origin gh-pages --recurse-submodules, 當然若想拉回 master 分支 ..." />
 
         <meta property="og:site_name" content="40423245" />
         <meta property="og:type" content="article"/>
         <meta property="og:title" content="2016/10/14 W05"/>
         <meta property="og:url" content="./20161014-w05.html"/>
-        <meta property="og:description" content="coming soon"/>
+        <meta property="og:description" content="第五週上課進度 學習如何編輯子模組 1.假如任何人希望 git clone 帶有子模組的倉儲, 則必須在 git clone 後執行 git submodule init, 啟始子模組, 然後利用 git submodule update 取下子模組的對應版本資料 (對應版本紀錄在 .git/modules/g100/refs/heads/master 檔案中 2.假如帶有子模組的倉儲管理者, 希望更新某一子模組的對應版本, 則必須先確定倉儲分支, 然後 cd 到子模組目錄中, 利用 git pull 後, 然後回到上層倉儲進行版本的提交推送. 假如希望拉回所有子模組的對應版本內容, 則使用 git pull origin gh-pages --recurse-submodules, 當然若想拉回 master 分支 ..."/>
         <meta property="article:published_time" content="2016-10-14" />
             <meta property="article:section" content="Misc" />
             <meta property="article:tag" content="使用導引" />
@@ -312,7 +312,17 @@ init_mathjax();
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <p>coming soon</p>
+                <p>第五週上課進度</p>
+<p>學習如何編輯子模組</p>
+<p>1.假如任何人希望 git clone 帶有子模組的倉儲, 則必須在 git clone 後執行 git submodule init, 啟始子模組, 然後利用 git submodule update 取下子模組的對應版本資料 (對應版本紀錄在 .git/modules/g100/refs/heads/master 檔案中</p>
+<p>2.假如帶有子模組的倉儲管理者, 希望更新某一子模組的對應版本, 則必須先確定倉儲分支, 然後 cd 到子模組目錄中, 利用 git pull 後, 然後回到上層倉儲進行版本的提交推送. 假如希望拉回所有子模組的對應版本內容, 則使用 git pull origin gh-pages --recurse-submodules, 當然若想拉回 master 分支, 則使用 git pull origin master --recurse-submodules</p>
+<p>3.假如希望將所有子模組的對應版本更新到目前最新提交, 使用 git submodule foreach "(git checkout gh-pages; git pull)&amp;"</p>
+<p>4.當利用上述指令完成更新子模組的對應版本之後, 必須進行提交推送, 將改版資料送到遠端, 之後則透過 git submodule update --init --recursive 將此對應版本的子模組取到近端, 其中因為子模組中還有子模組, 而此更新對這些新加入的子子模組並沒有 --init, 因此下子模組更新時, 要納入 --init</p>
+<p>心得：這禮拜要學習如何下載別人的子模組，以及管理自己的分組倉儲，以利之後要與別人協同。</p>
+<p>第五週影片</p>
+<iframe src="https://player.vimeo.com/video/187525420" width="640" height="443" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+
+<p><a href="https://vimeo.com/187525420">2016 Fallcadpb W5</a> from <a href="https://vimeo.com/user47996237">40423245</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
             </div>
             <!-- /.entry-content -->
         </article>

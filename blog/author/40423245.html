@@ -279,7 +279,10 @@ init_mathjax();
 
             <article>
                 <h2><a href="../20161014-w05.html">2016/10/14 W05</a></h2>
-                <div class="summary"><p>coming soon</p>
+                <div class="summary"><p>第五週上課進度</p>
+<p>學習如何編輯子模組</p>
+<p>1.假如任何人希望 git clone 帶有子模組的倉儲, 則必須在 git clone 後執行 git submodule init, 啟始子模組, 然後利用 git submodule update 取下子模組的對應版本資料 (對應版本紀錄在 .git/modules/g100/refs/heads/master 檔案中</p>
+<p>2.假如帶有子模組的倉儲管理者, 希望更新某一子模組的對應版本, 則必須先確定倉儲分支, 然後 cd 到子模組目錄中, 利用 git pull 後, 然後回到上層倉儲進行版本的提交推送. 假如希望拉回所有子模組的對應版本內容, 則使用 git pull origin gh-pages --recurse-submodules, 當然若想拉回 master 分支 ...</p>
                     <a class="btn btn-default btn-xs" href="../20161014-w05.html">more ...</a>
                 </div>
             </article>
