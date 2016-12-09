@@ -1,5 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>40423245</title><link href="./" rel="alternate"></link><link href="./feeds/misc.atom.xml" rel="self"></link><id>./</id><updated>2016-10-21T20:00:00+08:00</updated><entry><title>2016/10/21 W06</title><link href="./20161021-w06.html" rel="alternate"></link><published>2016-10-21T20:00:00+08:00</published><updated>2016-10-21T20:00:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-10-21:./20161021-w06.html</id><summary type="html">&lt;p&gt;coming soon&lt;/p&gt;</summary><category term="使用導引"></category></entry><entry><title>2016/10/14 W05</title><link href="./20161014-w05.html" rel="alternate"></link><published>2016-10-14T20:00:00+08:00</published><updated>2016-10-14T20:00:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-10-14:./20161014-w05.html</id><summary type="html">&lt;p&gt;第五週上課進度&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>40423245</title><link href="./" rel="alternate"></link><link href="./feeds/misc.atom.xml" rel="self"></link><id>./</id><updated>2016-10-21T20:00:00+08:00</updated><entry><title>2016/10/21 W06</title><link href="./20161021-w06.html" rel="alternate"></link><published>2016-10-21T20:00:00+08:00</published><updated>2016-10-21T20:00:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-10-21:./20161021-w06.html</id><summary type="html">&lt;p&gt;第六週上課進度&lt;/p&gt;
+&lt;p&gt;學會利用onshape跟Solvespace繪圖&lt;/p&gt;
+&lt;p&gt;1.可利用學校帳戶創建一個免費的Onshape帳戶&lt;/p&gt;
+&lt;p&gt;2.可至課程倉儲的上課筆記下載Solvespace&lt;/p&gt;
+&lt;p&gt;心得：Onshape是可以直接在雲端使用的軟體，不需要下載任何的程式，這點讓我覺得棒；Solvespace雖然用起來很陽春，但是能夠進行機構上的模擬。&lt;/p&gt;
+&lt;p&gt;第六週影片 Solvespace的使用&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/188404630" width="640" height="455" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/188404630"&gt;2016 Fallcadpb W6-1&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;h2&gt;第六週影片 onshape的應用&lt;/h2&gt;
+&lt;iframe src="https://player.vimeo.com/video/188404631" width="640" height="455" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/188404631"&gt;2016 Fallcadpb W6-2&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="使用導引"></category></entry><entry><title>2016/10/14 W05</title><link href="./20161014-w05.html" rel="alternate"></link><published>2016-10-14T20:00:00+08:00</published><updated>2016-10-14T20:00:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-10-14:./20161014-w05.html</id><summary type="html">&lt;p&gt;第五週上課進度&lt;/p&gt;
 &lt;p&gt;學習如何編輯子模組&lt;/p&gt;
 &lt;p&gt;1.假如任何人希望 git clone 帶有子模組的倉儲, 則必須在 git clone 後執行 git submodule init, 啟始子模組, 然後利用 git submodule update 取下子模組的對應版本資料 (對應版本紀錄在 .git/modules/g100/refs/heads/master 檔案中&lt;/p&gt;
 &lt;p&gt;2.假如帶有子模組的倉儲管理者, 希望更新某一子模組的對應版本, 則必須先確定倉儲分支, 然後 cd 到子模組目錄中, 利用 git pull 後, 然後回到上層倉儲進行版本的提交推送. 假如希望拉回所有子模組的對應版本內容, 則使用 git pull origin gh-pages --recurse-submodules, 當然若想拉回 master 分支, 則使用 git pull origin master --recurse-submodules&lt;/p&gt;
