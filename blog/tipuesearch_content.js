@@ -1,1 +1,1 @@
-var tipuesearch = {"pages":[{"title":"About","text":"2016Fall 修課成員網誌","url":"./pages/about/","tags":"misc"}]};
+var tipuesearch = {"pages":[{"text":"2016Fall 修課成員網誌","title":"About","tags":"misc","url":"./pages/about/"},{"text":"coming soon","title":"2016/09/16 W01","tags":"Misc","url":"./20160916-w01.html"}]};
