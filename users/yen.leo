@@ -128,34 +128,25 @@
 </v>
 </v>
 <v t="leo.20161122211201.74"><vh>3245 1028W7</vh>
-<v t="leo.20161122211201.75" a="E"><vh>上課進度</vh>
-<v t="leo.20161122211201.76"><vh>錄製影片</vh></v>
+<v t="leo.20161122211201.75"><vh>上課進度</vh>
+<v t="leo.20161122211201.76"><vh>完成事項</vh></v>
 </v>
-<v t="leo.20161122211201.77" a="E"><vh>實作內容</vh>
+<v t="leo.20161122211201.77"><vh>實作內容</vh>
 <v t="leo.20161122211201.78"><vh>使用軟體</vh></v>
 </v>
-<v t="leo.20161122211201.79" a="E"><vh>心得影片</vh>
-<v t="leo.20161122211201.80"><vh>影片連結</vh></v>
+<v t="leo.20161122211201.79"><vh>圖片</vh>
+<v t="leo.20161122211201.80"><vh>圖片</vh></v>
 </v>
-<v t="leo.20161122211201.81" a="E"><vh>心得影片-2</vh>
+<v t="leo.20161122211201.81"><vh>心得影片</vh>
 <v t="leo.20161122211201.82"><vh>影片連結</vh></v>
-</v>
-<v t="leo.20161122211201.83" a="E"><vh>心得</vh>
-<v t="leo.20161122211201.84"><vh>心得</vh></v>
 </v>
 </v>
 <v t="leo.20161122211201.85"><vh>3245 1104W8</vh>
-<v t="leo.20161122211201.86" a="E"><vh>上課進度</vh>
-<v t="leo.20161122211201.87"><vh>錄製影片</vh></v>
+<v t="leo.20161122211201.86"><vh>上課進度</vh>
+<v t="leo.20161122211201.87"><vh>完成事項</vh></v>
 </v>
 <v t="leo.20161122211201.88"><vh>實作內容</vh>
 <v t="leo.20161122211201.89"><vh>使用軟體</vh></v>
-</v>
-<v t="leo.20161122211201.90"><vh>心得影片</vh>
-<v t="leo.20161122211201.91"><vh>影片連結</vh></v>
-</v>
-<v t="leo.20161122211201.92"><vh>心得影片-2</vh>
-<v t="leo.20161122211201.93"><vh>影片連結</vh></v>
 </v>
 <v t="leo.20161122211201.94"><vh>心得</vh>
 <v t="leo.20161122211201.95"><vh>心得</vh></v>
@@ -236,6 +227,7 @@
 <v t="leo.20161210004912.1"><vh>@edit 3245 20161104W08.md</vh></v>
 <v t="leo.20161210005148.1"><vh>@edit 3245 20161111W09.md</vh></v>
 <v t="leo.20161210005730.1"><vh>@edit 3245 20161118W10.md</vh></v>
+<v t="leo.20161210011546.1"><vh>@edit 3245 20161125W11.md</vh></v>
 </v>
 </v>
 </v>
@@ -962,7 +954,7 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 
 #第七週上課進度
 
-##學會利用onshape跟Solvespace繪圖
+##有關 Solvespace 機構模擬功能介紹, 與 機構驗證模擬結果
 
 </t>
 <t tx="leo.20161122211201.77">&lt;section data-markdown&gt;
@@ -974,9 +966,9 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 
 						
 </t>
-<t tx="leo.20161122211201.78">###1.可利用學校帳戶創建一個免費的Onshape帳戶
+<t tx="leo.20161122211201.78">###利用三角函數推導四連桿機構的運動模擬, 即已知長度 18 公分的連桿以逆時針方向旋轉, 希望求三角形頂點的運動座標.
 
-###2.可至課程倉儲的上課筆記下載Solvespace</t>
+###直接利用 Solvespace Analyze-Trace Point-Stop Trace 得到下列繞行路徑:</t>
 <t tx="leo.20161122211201.79">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -995,10 +987,7 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 
 						
 </t>
-<t tx="leo.20161122211201.80">## 第六週影片 Solvespace的使用
-
-&lt;iframe src="https://player.vimeo.com/video/188404630" width="640" height="455" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/188404630"&gt;2016 Fallcadpb W6-1&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
+<t tx="leo.20161122211201.80">&lt;img src="data/W10/cadpa_w10_4bar.png" width= "800" /&gt;</t>
 <t tx="leo.20161122211201.81">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -1008,20 +997,11 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 
 						
 </t>
-<t tx="leo.20161122211201.82">## 第六週影片 onshape的應用
+<t tx="leo.20161122211201.82">## 第七周影片 Solvespace的四連桿機構模擬分析
 
-&lt;iframe src="https://player.vimeo.com/video/188404631" width="640" height="455" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/188404631"&gt;2016 Fallcadpb W6-2&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
-<t tx="leo.20161122211201.83">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
+&lt;iframe src="https://player.vimeo.com/video/195089514" width="640" height="428" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/195089514"&gt;2016 Fallcadpb w7&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
 </t>
-<t tx="leo.20161122211201.84">## 心得：Onshape是可以直接在雲端使用的軟體，不需要下載任何的程式，這點讓我覺得棒；Solvespace雖然用起來很陽春，但是能夠進行機構上的模擬。</t>
 <t tx="leo.20161122211201.85">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -1039,7 +1019,7 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 
 #第八週上課進度
 
-##學會利用onshape跟Solvespace繪圖
+##完成期中評量系統的填寫
 
 </t>
 <t tx="leo.20161122211201.88">&lt;section data-markdown&gt;
@@ -1051,9 +1031,7 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 
 						
 </t>
-<t tx="leo.20161122211201.89">###1.可利用學校帳戶創建一個免費的Onshape帳戶
-
-###2.可至課程倉儲的上課筆記下載Solvespace</t>
+<t tx="leo.20161122211201.89">&lt;h2&gt;&lt;a href="http://pygroup-ag100.rhcloud.com"&gt;期中課程評量系統&lt;/a&gt;&lt;/h2&gt;</t>
 <t tx="leo.20161122211201.9">## 2016Fall 電腦輔助設計實習課程
 
 ### 虎科大機械設計工程系
@@ -1068,32 +1046,6 @@ Created by [40423245](https://40423245.github.io/2016fallcadp_hw/blog/)
 
 [Vimeo 上課心得影片](https://vimeo.com/user47996237)
 </t>
-<t tx="leo.20161122211201.90">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20161122211201.91">## 第六週影片 Solvespace的使用
-
-&lt;iframe src="https://player.vimeo.com/video/188404630" width="640" height="455" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/188404630"&gt;2016 Fallcadpb W6-1&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
-<t tx="leo.20161122211201.92">&lt;section data-markdown&gt;
-    &lt;script type="text/template"&gt;
-@others
-    &lt;/script&gt;
-&lt;/section&gt;
-
-
-						
-</t>
-<t tx="leo.20161122211201.93">## 第六週影片 onshape的應用
-
-&lt;iframe src="https://player.vimeo.com/video/188404631" width="640" height="455" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/188404631"&gt;2016 Fallcadpb W6-2&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
 <t tx="leo.20161122211201.94">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -1103,7 +1055,7 @@ Created by [40423245](https://40423245.github.io/2016fallcadp_hw/blog/)
 
 						
 </t>
-<t tx="leo.20161122211201.95">## 心得：Onshape是可以直接在雲端使用的軟體，不需要下載任何的程式，這點讓我覺得棒；Solvespace雖然用起來很陽春，但是能夠進行機構上的模擬。</t>
+<t tx="leo.20161122211201.95">## 心得：下禮拜就是期中考週了，網誌都還沒更新，有些擔心。</t>
 <t tx="leo.20161122211201.96">&lt;section&gt;
 @others
 &lt;/section&gt;
