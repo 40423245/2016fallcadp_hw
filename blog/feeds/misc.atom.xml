@@ -1,5 +1,89 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>40423245</title><link href="./" rel="alternate"></link><link href="./feeds/misc.atom.xml" rel="self"></link><id>./</id><updated>2016-11-11T20:00:00+08:00</updated><entry><title>2016/11/11 W09</title><link href="./20161111-w09.html" rel="alternate"></link><published>2016-11-11T20:00:00+08:00</published><updated>2016-11-11T20:00:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-11-11:./20161111-w09.html</id><summary type="html">&lt;p&gt;第九週上課進度&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>40423245</title><link href="./" rel="alternate"></link><link href="./feeds/misc.atom.xml" rel="self"></link><id>./</id><updated>2016-11-18T13:00:00+08:00</updated><entry><title>2016/11/18 W10</title><link href="./20161118-w10.html" rel="alternate"></link><published>2016-11-18T13:00:00+08:00</published><updated>2016-11-18T13:00:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-11-18:./20161118-w10.html</id><summary type="html">&lt;p&gt;有關 Solvespace 機構模擬功能介紹, 與 Python3 及 Brython 程式驗證&lt;/p&gt;
+
+
+&lt;h2&gt;Solvespace 平面四連桿機構模擬&lt;/h2&gt;
+&lt;p&gt;直接利用 Solvespace Analyze-Trace Point-Stop Trace 得到下列繞行路徑:&lt;/p&gt;
+&lt;p&gt;&lt;img src="./../data/W10/cadpa_w10_4bar.png" width="800" /&gt;&lt;/p&gt;
+&lt;p&gt;將所得到的點座標 .csv 以 Excel 畫圖, 得到:&lt;/p&gt;
+&lt;p&gt;&lt;img src="./../data/W10/cadpa_w10_4bar_excel.png" width="800" /&gt;&lt;/p&gt;
+&lt;p&gt;Python3 平面四連桿機構模擬:&lt;/p&gt;
+&lt;p&gt;接下來利用三角函數推導四連桿機構的運動模擬, 即已知長度 18 公分的連桿以逆時針方向旋轉, 希望求三角形頂點的運動座標.&lt;/p&gt;
+&lt;p&gt;首先利用 Brython, 讀取 data 目錄中的 cadpa_w10_4bar.csv 座標檔案, 然後以 splitlines() 及 split() 取出各點的 x 座標與 y 座標後, 將點連成路徑曲線如下:&lt;/p&gt;
+&lt;p&gt;&lt;img src="./../data/W10/cadpa_w10_4bar_Brython.png" width= "700" /&gt;&lt;/p&gt;
+&lt;p&gt;心得：這次的教學考驗了我們的表達能力，在繪出路徑之後要利用Excel以及Brython在網誌上表現出來，雖然曾經有在網誌上繪圖的經驗，但還是很陌生需要好好的練習。&lt;/p&gt;
+&lt;p&gt;第十週影片 Solvespace 平面四連桿機構模擬&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/192769520" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/192769520"&gt;2016 Fallcadp W10&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+&lt;!-- 導入 Brython 標準程式庫 --&gt;
+
+&lt;script type="text/javascript" 
+    src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js"&gt;
+&lt;/script&gt;
+
+&lt;!-- 啟動 Brython --&gt;
+
+&lt;script&gt;
+window.onload=function(){
+brython(1);
+}
+&lt;/script&gt;
+
+&lt;!-- 以下實際利用  Brython 畫兩條直線 --&gt;
+
+&lt;canvas id="fourbar" width="600" height="400"&gt;&lt;/canvas&gt;
+
+&lt;div id="container1"&gt;&lt;/div&gt;
+
+&lt;script type="text/python3"&gt;
+from browser import document as doc
+from browser import html
+import math
+# 準備繪圖畫布
+canvas = doc["fourbar"]
+container1 = doc['container1']
+ctx = canvas.getContext("2d")
+
+fourbar_data = open("./../data/cadpa_w10_4bar.csv").read()
+fourbar_list = fourbar_data.splitlines()
+#container1 &lt;= fourbar_list[0]
+# 以下可以利用 ctx 物件進行畫圖
+# 先畫一條直線
+ctx.beginPath()
+# 設定線的寬度為 1 個單位
+ctx.lineWidth = 1
+# 利用 transform 將 y 座標反轉, 且 offset canvas.height
+# (X scale, X skew, Y skew, Y scale, X offset, Y offset)
+# 配合圖形位置進行座標轉換
+ctx.transform(1, 0, 0, -1, canvas.width/2+250, canvas.height/2+100)
+# 畫出 x 與 y 座標線
+# 各座標值放大 8 倍
+ratio = 8
+'''
+ctx.moveTo(0, 0)
+ctx.lineTo(0, 100)
+ctx.moveTo(0, 0)
+ctx.lineTo(100, 0)
+'''
+ctx.moveTo(0, 0)
+ctx.lineTo(-30*ratio, 0)
+start_point = fourbar_list[0].split(",")
+ctx.moveTo(float(start_point[0])*ratio, float(start_point[1])*ratio)
+count = 0
+for data in fourbar_list[1:]:
+    point = data.split(",")
+    #count = count + 1
+    #container1 &lt;= str(count) + ":" + point[0] + "," + point[1]
+    #container1 &lt;= html.BR()
+    ctx.lineTo(float(point[0])*ratio, float(point[1])*ratio)
+# 設定顏色為藍色, 也可以使用 "rgb(0, 0, 255)" 字串設定顏色值
+ctx.strokeStyle = "blue"
+# 實際執行畫線
+ctx.stroke()
+ctx.closePath()
+&lt;/script&gt;</summary><category term="使用導引"></category><category term="創造力"></category><category term="表達能力"></category><category term="協同設計"></category></entry><entry><title>2016/11/11 W09</title><link href="./20161111-w09.html" rel="alternate"></link><published>2016-11-11T20:00:00+08:00</published><updated>2016-11-11T20:00:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-11-11:./20161111-w09.html</id><summary type="html">&lt;p&gt;第九週上課進度&lt;/p&gt;
 &lt;p&gt;學員自評&lt;/p&gt;
 &lt;p&gt;學員在上課時自評，最後評分期限為下禮拜二&lt;/p&gt;
 &lt;p&gt;心得：到了期中感覺課堂上的理解比上學期多了很多，雖然回家有錄製了一些影片，但並沒有編輯個人網誌及網頁，因此給了自己60 分。&lt;/p&gt;</summary><category term="使用導引"></category></entry><entry><title>2016/11/04 W08</title><link href="./20161104-w08.html" rel="alternate"></link><published>2016-11-04T20:00:00+08:00</published><updated>2016-11-04T20:00:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-11-04:./20161104-w08.html</id><summary type="html">&lt;h2&gt;&lt;a href="http://pygroup-ag100.rhcloud.com"&gt;期中課程評量系統&lt;/a&gt;&lt;/h2&gt;</summary><category term="使用導引"></category></entry><entry><title>2016/10/28 W07</title><link href="./20161028-w07.html" rel="alternate"></link><published>2016-10-28T20:00:00+08:00</published><updated>2016-10-28T20:00:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-10-28:./20161028-w07.html</id><summary type="html">&lt;p&gt;有關 Solvespace 機構模擬功能介紹, 與 機構驗證模擬結果&lt;/p&gt;
