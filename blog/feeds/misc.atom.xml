@@ -10,13 +10,6 @@
 &lt;p&gt;Python3 平面四連桿機構模擬:&lt;/p&gt;
 &lt;p&gt;接下來利用三角函數推導四連桿機構的運動模擬, 即已知長度 18 公分的連桿以逆時針方向旋轉, 希望求三角形頂點的運動座標.&lt;/p&gt;
 &lt;p&gt;首先利用 Brython, 讀取 data 目錄中的 cadpa_w10_4bar.csv 座標檔案, 然後以 splitlines() 及 split() 取出各點的 x 座標與 y 座標後, 將點連成路徑曲線如下:&lt;/p&gt;
-&lt;p&gt;&lt;img src="./../data/W10/cadpa_w10_4bar_Brython.png" width= "700" /&gt;&lt;/p&gt;
-&lt;p&gt;心得：這次的教學考驗了我們的表達能力，在繪出路徑之後要利用Excel以及Brython在網誌上表現出來，雖然曾經有在網誌上繪圖的經驗，但還是很陌生需要好好的練習。&lt;/p&gt;
-&lt;p&gt;第十週影片 Solvespace 平面四連桿機構模擬&lt;/p&gt;
-&lt;iframe src="https://player.vimeo.com/video/192769520" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;a href="https://vimeo.com/192769520"&gt;2016 Fallcadp W10&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
-
 &lt;!-- 導入 Brython 標準程式庫 --&gt;
 
 &lt;script type="text/javascript" 
@@ -83,7 +76,13 @@ ctx.strokeStyle = "blue"
 # 實際執行畫線
 ctx.stroke()
 ctx.closePath()
-&lt;/script&gt;</summary><category term="使用導引"></category><category term="創造力"></category><category term="表達能力"></category><category term="協同設計"></category></entry><entry><title>2016/11/11 W09</title><link href="./20161111-w09.html" rel="alternate"></link><published>2016-11-11T20:00:00+08:00</published><updated>2016-11-11T20:00:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-11-11:./20161111-w09.html</id><summary type="html">&lt;p&gt;第九週上課進度&lt;/p&gt;
+&lt;/script&gt;
+
+&lt;p&gt;心得：這次的教學考驗了我們的表達能力，在繪出路徑之後要利用Excel以及Brython在網誌上表現出來，雖然曾經有在網誌上繪圖的經驗，但還是很陌生需要好好的練習。&lt;/p&gt;
+&lt;p&gt;第十週影片 Solvespace 平面四連桿機構模擬&lt;/p&gt;
+&lt;iframe src="https://player.vimeo.com/video/192769520" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+
+&lt;p&gt;&lt;a href="https://vimeo.com/192769520"&gt;2016 Fallcadp W10&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="使用導引"></category><category term="創造力"></category><category term="表達能力"></category><category term="協同設計"></category></entry><entry><title>2016/11/11 W09</title><link href="./20161111-w09.html" rel="alternate"></link><published>2016-11-11T20:00:00+08:00</published><updated>2016-11-11T20:00:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-11-11:./20161111-w09.html</id><summary type="html">&lt;p&gt;第九週上課進度&lt;/p&gt;
 &lt;p&gt;學員自評&lt;/p&gt;
 &lt;p&gt;學員在上課時自評，最後評分期限為下禮拜二&lt;/p&gt;
 &lt;p&gt;心得：到了期中感覺課堂上的理解比上學期多了很多，雖然回家有錄製了一些影片，但並沒有編輯個人網誌及網頁，因此給了自己60 分。&lt;/p&gt;</summary><category term="使用導引"></category></entry><entry><title>2016/11/04 W08</title><link href="./20161104-w08.html" rel="alternate"></link><published>2016-11-04T20:00:00+08:00</published><updated>2016-11-04T20:00:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-11-04:./20161104-w08.html</id><summary type="html">&lt;h2&gt;&lt;a href="http://pygroup-ag100.rhcloud.com"&gt;期中課程評量系統&lt;/a&gt;&lt;/h2&gt;</summary><category term="使用導引"></category></entry><entry><title>2016/10/28 W07</title><link href="./20161028-w07.html" rel="alternate"></link><published>2016-10-28T20:00:00+08:00</published><updated>2016-10-28T20:00:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-10-28:./20161028-w07.html</id><summary type="html">&lt;p&gt;有關 Solvespace 機構模擬功能介紹, 與 機構驗證模擬結果&lt;/p&gt;
