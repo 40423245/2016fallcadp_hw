@@ -204,10 +204,10 @@
 <v t="leo.20161210215447.4"><vh>實作內容</vh>
 <v t="leo.20161210215447.5"><vh>使用軟體</vh></v>
 </v>
-<v t="leo.20161210215939.1" a="E"><vh>實作內容-2</vh>
+<v t="leo.20161210215939.1"><vh>實作內容-2</vh>
 <v t="leo.20161210215939.2"><vh>使用軟體</vh></v>
 </v>
-<v t="leo.20161210220425.1"><vh>圖片</vh>
+<v t="leo.20161210220425.1" a="E"><vh>圖片</vh>
 <v t="leo.20161210220425.2"><vh>圖片</vh></v>
 </v>
 <v t="leo.20161210215447.6"><vh>心得</vh>
@@ -1300,7 +1300,7 @@ Created by [40423245](https://40423245.github.io/2016fallcadp_hw/blog/)
 
 						
 </t>
-<t tx="leo.20161210220425.2">&lt;img src="data/W13/40423245_W13.png." width= "800" /&gt;</t>
+<t tx="leo.20161210220425.2">&lt;img src="data/W13/40423245_W13.png" width= "800" /&gt;</t>
 <t tx="yen.20161022120729.1">@language python
 import os
 import subprocess
