@@ -197,6 +197,23 @@
 <v t="leo.20161201205733.3"><vh>標題</vh></v>
 </v>
 </v>
+<v t="leo.20161210215447.1" a="E"><vh>3245 1209W13</vh>
+<v t="leo.20161210215447.2"><vh>上課進度</vh>
+<v t="leo.20161210215447.3"><vh>完成事項</vh></v>
+</v>
+<v t="leo.20161210215447.4"><vh>實作內容</vh>
+<v t="leo.20161210215447.5"><vh>使用軟體</vh></v>
+</v>
+<v t="leo.20161210215939.1" a="E"><vh>實作內容-2</vh>
+<v t="leo.20161210215939.2"><vh>使用軟體</vh></v>
+</v>
+<v t="leo.20161210220425.1"><vh>圖片</vh>
+<v t="leo.20161210220425.2"><vh>圖片</vh></v>
+</v>
+<v t="leo.20161210215447.6"><vh>心得</vh>
+<v t="leo.20161210215447.7"><vh>心得</vh></v>
+</v>
+</v>
 </v>
 </v>
 </v>
@@ -1222,6 +1239,68 @@ Created by [40423245](https://40423245.github.io/2016fallcadp_hw/blog/)
 #本週為校慶週，停課一次。
 
 </t>
+<t tx="leo.20161210215447.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+</t>
+<t tx="leo.20161210215447.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161210215447.3">
+
+#第十三週上課進度
+
+##1.將SolveSpace的檔案存成html檔,並且把html檔案放進網誌裡面
+
+##2.遠端網誌無法更新
+
+</t>
+<t tx="leo.20161210215447.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161210215447.5">##利用SolveSpace的轉檔功能將檔案存成html檔,並且更改成http設定,以及路徑設定，利用嵌入網頁的指令,把html檔案放進網誌裡面</t>
+<t tx="leo.20161210215447.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161210215447.7">## 在上課期間不能將倉儲推上遠端真的讓我嚇了一跳，還好在後來有順利解決問題。</t>
+<t tx="leo.20161210215939.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161210215939.2">##在上課期間將上禮拜繪製的組合件在網誌上顯示出來，但當版本上傳後 github pages 無法正確更新, 試著使用 git rm -f -r plugin/liquid_tags/test_data 後提交推送。</t>
+<t tx="leo.20161210220425.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161210220425.2">&lt;img src="data/W13/40423245_W13.png." width= "800" /&gt;</t>
 <t tx="yen.20161022120729.1">@language python
 import os
 import subprocess
