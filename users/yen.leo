@@ -197,25 +197,28 @@
 <v t="leo.20161201205733.3"><vh>標題</vh></v>
 </v>
 </v>
-<v t="leo.20161212175128.1" a="E"><vh>3245 1102W12</vh>
-<v t="leo.20161212175128.2" a="E"><vh>上課進度</vh>
+<v t="leo.20161212175128.1"><vh>3245 1102W12</vh>
+<v t="leo.20161212175128.2"><vh>上課進度</vh>
 <v t="leo.20161212175128.3"><vh>完成事項</vh></v>
 </v>
 </v>
-<v t="leo.20161210215447.1"><vh>3245 1209W13</vh>
-<v t="leo.20161210215447.2" a="E"><vh>上課進度</vh>
+<v t="leo.20161210215447.1" a="E"><vh>3245 1209W13</vh>
+<v t="leo.20161210215447.2"><vh>上課進度</vh>
 <v t="leo.20161210215447.3"><vh>完成事項</vh></v>
 </v>
-<v t="leo.20161210215447.4" a="E"><vh>實作內容</vh>
+<v t="leo.20161210215447.4"><vh>實作內容</vh>
 <v t="leo.20161210215447.5"><vh>使用軟體</vh></v>
 </v>
-<v t="leo.20161210215939.1" a="E"><vh>實作內容-2</vh>
+<v t="leo.20161210215939.1"><vh>實作內容-2</vh>
 <v t="leo.20161210215939.2"><vh>使用軟體</vh></v>
 </v>
-<v t="leo.20161210220425.1" a="E"><vh>圖片</vh>
+<v t="leo.20161210220425.1"><vh>圖片</vh>
 <v t="leo.20161210220425.2"><vh>圖片</vh></v>
 </v>
-<v t="leo.20161210215447.6" a="E"><vh>心得</vh>
+<v t="leo.20161212175155.1"><vh>影片</vh>
+<v t="leo.20161212175155.2"><vh>影片</vh></v>
+</v>
+<v t="leo.20161210215447.6"><vh>心得</vh>
 <v t="leo.20161210215447.7"><vh>心得</vh></v>
 </v>
 </v>
@@ -251,6 +254,7 @@
 <v t="leo.20161210005730.1"><vh>@edit 3245 20161118W10.md</vh></v>
 <v t="leo.20161210011546.1"><vh>@edit 3245 20161125W11.md</vh></v>
 <v t="leo.20161212175014.1"><vh>@edit 3245 20161202W12.md</vh></v>
+<v t="leo.20161212174658.1"><vh>@edit 3245 20161209W13.md</vh></v>
 </v>
 </v>
 </v>
@@ -1306,7 +1310,8 @@ Created by [40423245](https://40423245.github.io/2016fallcadp_hw/blog/)
 
 						
 </t>
-<t tx="leo.20161210220425.2">&lt;img src="data/W13/40423245_W13.png" width= "800" /&gt;</t>
+<t tx="leo.20161210220425.2">##推送失敗圖片
+&lt;img src="data/W13/40423245_W13.png" width= "800" /&gt;</t>
 <t tx="leo.20161212175128.1">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -1327,6 +1332,19 @@ Created by [40423245](https://40423245.github.io/2016fallcadp_hw/blog/)
 
 
 </t>
+<t tx="leo.20161212175155.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161212175155.2">##第十三週影片
+
+&lt;iframe src="https://player.vimeo.com/video/195145829" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/195145829"&gt;2016 Fallcadp W13&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
 <t tx="yen.20161022120729.1">@language python
 import os
 import subprocess
