@@ -197,9 +197,24 @@
 <v t="leo.20161201205733.3"><vh>標題</vh></v>
 </v>
 </v>
-<v t="leo.20161212175128.1"><vh>3245 1102W12</vh>
+<v t="leo.20161212175128.1" a="E"><vh>3245 1102W12</vh>
 <v t="leo.20161212175128.2"><vh>上課進度</vh>
 <v t="leo.20161212175128.3"><vh>完成事項</vh></v>
+</v>
+<v t="leo.20161213173834.1" a="E"><vh>實作內容1</vh>
+<v t="leo.20161213173834.2"><vh>使用步驟</vh></v>
+</v>
+<v t="leo.20161213174234.1" a="E"><vh>實作內容2</vh>
+<v t="leo.20161213174234.2"><vh>使用步驟</vh></v>
+</v>
+<v t="leo.20161213174516.1" a="E"><vh>實作內容3</vh>
+<v t="leo.20161213174516.2"><vh>使用步驟</vh></v>
+</v>
+<v t="leo.20161213175133.1"><vh>實作內容4</vh>
+<v t="leo.20161213175133.2"><vh>使用步驟</vh></v>
+</v>
+<v t="leo.20161213175156.1"><vh>心得</vh>
+<v t="leo.20161213175156.2"><vh>心得</vh></v>
 </v>
 </v>
 <v t="leo.20161210215447.1"><vh>3245 1209W13</vh>
@@ -1329,7 +1344,7 @@ Created by [40423245](https://40423245.github.io/2016fallcadp_hw/blog/)
 
 #第十二週上課進度
 
-##利用Solvespace
+##利用Solvespace練習繪製College_Student_Primer_Creo_2.pdf裡的零件並學習如何組立。
 
 
 
@@ -1347,6 +1362,97 @@ Created by [40423245](https://40423245.github.io/2016fallcadp_hw/blog/)
 
 &lt;iframe src="https://player.vimeo.com/video/195145829" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 &lt;p&gt;&lt;a href="https://vimeo.com/195145829"&gt;2016 Fallcadp W13&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
+<t tx="leo.20161213173834.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161213173834.2">
+
+###使用Solvespace繪製零件一
+
+&lt;img src="data/W12/Black.png" width= "700" /&gt;
+
+
+
+
+</t>
+<t tx="leo.20161213174234.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161213174234.2">
+
+###使用Solvespace繪製零件二
+
+&lt;img src="data/W12/Bar.png" width= "700" /&gt;
+
+
+
+
+</t>
+<t tx="leo.20161213174516.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161213174516.2">
+
+####使用Solvespace將零件一與零件二組立起來
+
+&lt;img src="data/W12/ass.png" width= "600" /&gt;
+
+
+
+
+</t>
+<t tx="leo.20161213175133.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161213175133.2">
+
+###在將檔案放置遠端之前要將slvs檔裡的檔案路徑更改以及html檔裡的http後面要加上s。
+
+
+
+
+</t>
+<t tx="leo.20161213175156.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161213175156.2">
+
+###這禮拜練習Solvespace的繪製，了解到了Solvespace無法計算出過於複雜的相交的面，也了解到Solvespace在機構模擬上應用大於零件繪製上的應用。
+
+
+
+
+</t>
 <t tx="yen.20161022120729.1">@language python
 import os
 import subprocess
