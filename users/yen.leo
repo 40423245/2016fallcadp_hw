@@ -213,6 +213,9 @@
 <v t="leo.20161213175133.1"><vh>實作內容4</vh>
 <v t="leo.20161213175133.2"><vh>使用步驟</vh></v>
 </v>
+<v t="leo.20161214212356.1"><vh>影片</vh>
+<v t="leo.20161214212356.2"><vh>影片</vh></v>
+</v>
 <v t="leo.20161213175156.1"><vh>心得</vh>
 <v t="leo.20161213175156.2"><vh>心得</vh></v>
 </v>
@@ -1449,6 +1452,25 @@ Created by [40423245](https://40423245.github.io/2016fallcadp_hw/blog/)
 
 ###心得:這禮拜練習Solvespace的繪製，了解到了Solvespace無法計算出過於複雜的相交的面，也了解到Solvespace在機構模擬上應用大於零件繪製上的應用。
 
+
+
+
+</t>
+<t tx="leo.20161214212356.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20161214212356.2">
+
+第十二周影片
+
+&lt;iframe src="https://player.vimeo.com/video/195619462" width="640" height="427" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/195619462"&gt;2016 Fallcadp W12&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
 
 
 
