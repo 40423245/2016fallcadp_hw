@@ -1,5 +1,71 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>40423245</title><link href="./" rel="alternate"></link><link href="./feeds/misc.atom.xml" rel="self"></link><id>./</id><updated>2016-12-09T20:00:00+08:00</updated><entry><title>2016/12/09 W13</title><link href="./20161209-w13.html" rel="alternate"></link><published>2016-12-09T20:00:00+08:00</published><updated>2016-12-09T20:00:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-12-09:./20161209-w13.html</id><summary type="html">&lt;p&gt;第十三週上課進度&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>40423245</title><link href="./" rel="alternate"></link><link href="./feeds/misc.atom.xml" rel="self"></link><id>./</id><updated>2016-12-16T10:30:00+08:00</updated><entry><title>40423245 2016/12/16 W14</title><link href="./40423245-20161216-w14.html" rel="alternate"></link><published>2016-12-16T10:30:00+08:00</published><updated>2016-12-16T10:30:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-12-16:./40423245-20161216-w14.html</id><summary type="html">&lt;p&gt;第十四週上課進度&lt;/p&gt;
+&lt;p&gt;1.學會利用SolveSpace進行機構組立及模擬&lt;/p&gt;
+&lt;p&gt;(1)SolveSpace的四連桿模擬&lt;/p&gt;
+&lt;iframe src="./../data/W14/W14-fourbar.png" width="800" height="600"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;由圖片中可以看的出來SolveSpace只能進行線架構的模擬，即使點擊了桿件也無法讓桿件進行作動。&lt;/p&gt;
+&lt;p&gt;(2)多連桿的機構模擬&lt;/p&gt;
+&lt;iframe src="./../data/W14/W14-mechanisms.png" width="800" height="600"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;先繪製出多連桿的線架構，模擬成功後，再將桿子黏貼上去，最後檢視桿子間是不是會有干涉出現&lt;/p&gt;
+&lt;p&gt;(3)3D印表機機構模擬&lt;/p&gt;
+&lt;p&gt;可以從老師倉儲中抓取3D印表機範例，有分為V1跟V2兩個版本，版本間只有連結上的不同，模擬出來的結果應該相似，以下為V2版本的圖例。&lt;/p&gt;
+&lt;iframe src="./../data/W14/W14-delta_printer.html" width="800" height="600"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;可以透過點擊SolveSpace中的截點，一步一步的往上了解3D印表機如何組件而成，並點擊其中一點，來進行3D機構上的模擬。&lt;/p&gt;
+&lt;p&gt;2.認識利用程式碼將docx轉換成pdf格式&lt;/p&gt;
+&lt;p&gt;用來學習 Onshape 的教學檔案格式為 docx, 以下使用 Windows 環境下的 Python3 程式, 自動進入各教學檔案目錄, 將 docx 轉為 pdf&lt;/p&gt;
+
+
+&lt;p&gt;首先必須以 pip install comtypes 安裝 comtypes 模組, 然後以 SciTE, 在教學檔案目錄中, 利用以下程式碼建立 docx2pdf.py 後執行, 即可將所有 56 個 docx 轉出 pdf 檔案.&lt;/p&gt;
+&lt;pre class="brush: python"&gt;
+import sys
+import os
+import comtypes.client
+
+wdFormatPDF = 17
+
+#in_file = input("input docx")
+#out_file = input("output filename")
+
+def docx2pdf(in_file, out_file):
+    word = comtypes.client.CreateObject('Word.Application')
+    doc = word.Documents.Open(in_file)
+    doc.SaveAs(out_file, FileFormat=wdFormatPDF)
+    doc.Close()
+    word.Quit()
+
+count = 0
+# traverse root directory, and list directories as dirs and files as files
+for root, dirs, files in os.walk(os.getcwd()):
+    #print(root)
+    path = root.split('/')
+    #print(path)
+    #print((len(path) - 1) * '---', os.path.basename(root))
+    #print(files)
+    for file in files:
+        #print(len(path) * '---', file)
+        file_ext = file.split(".")[1]
+        file_name = file.split(".")[0]
+        #print(file_ext)
+        if file_ext == "docx":
+            count = count + 1
+            in_file = path[0] + "/" + file
+            #print(count,":", in_file)
+            out_file = path[0] + "/" + file_name + ".pdf"
+            #print(out_file)
+            docx2pdf(in_file, out_file)
+
+#print(count)
+#docx2pdf(in_file, out_file)
+print("done")
+&lt;/pre&gt;
+
+&lt;p&gt;註解:第三行中的comtypes是針對windows
+         第五行可以得知格式代碼為17
+         之後的程式碼分為兩個部分W，一個是如何存檔，另一個是如何讓程式找到檔案，此範例是找docx的檔案，也可換製成尋找零件，只要其換製成關鍵字即可&lt;/p&gt;
+&lt;p&gt;心得:能夠透過SolveSpace來進行機構上的模擬對於未來在機構的設計上非常有幫助，而且SolveSpace程式輕薄短小方便攜帶，能夠讓我們更方便的進行設計的流程。&lt;/p&gt;</summary><category term="使用導引"></category><category term="創造力"></category><category term="表達能力"></category><category term="協同設計"></category></entry><entry><title>40423245 2016/12/09 W13</title><link href="./40423245-20161209-w13.html" rel="alternate"></link><published>2016-12-09T20:00:00+08:00</published><updated>2016-12-09T20:00:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-12-09:./40423245-20161209-w13.html</id><summary type="html">&lt;p&gt;第十三週上課進度&lt;/p&gt;
 &lt;p&gt;1.將SolveSpace的檔案存成html檔,並且把html檔案放進網誌裡面&lt;/p&gt;
 &lt;p&gt;利用SolveSpace的轉檔功能將檔案存成html檔,並且更改成http設定,以及路徑設定，利用嵌入網頁的指令,把html檔案放進網誌裡面&lt;/p&gt;
 &lt;iframe src="./../data/W12/ass.html" width="800" height="600"&gt;&lt;/iframe&gt;
@@ -10,7 +76,7 @@
 &lt;p&gt;在上課期間不能將倉儲推上遠端真的讓我嚇了一跳，還好在後來有順利解決問題。&lt;/p&gt;
 &lt;p&gt;第十三週影片
 &lt;iframe src="https://player.vimeo.com/video/195145829" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/195145829"&gt;2016 Fallcadp W13&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="使用導引"></category><category term="創造力"></category><category term="表達能力"></category><category term="協同設計"></category></entry><entry><title>2016/12/02 W12</title><link href="./20161202-w12.html" rel="alternate"></link><published>2016-12-02T20:00:00+08:00</published><updated>2016-12-02T20:00:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-12-02:./20161202-w12.html</id><summary type="html">&lt;p&gt;第十二週上課進度&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/195145829"&gt;2016 Fallcadp W13&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="使用導引"></category><category term="創造力"></category><category term="表達能力"></category><category term="協同設計"></category></entry><entry><title>40423245 2016/12/02 W12</title><link href="./40423245-20161202-w12.html" rel="alternate"></link><published>2016-12-02T20:00:00+08:00</published><updated>2016-12-02T20:00:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-12-02:./40423245-20161202-w12.html</id><summary type="html">&lt;p&gt;第十二週上課進度&lt;/p&gt;
 &lt;p&gt;利用Solvespace練習繪製College_Student_Primer_Creo_2.pdf裡的零件並學習如何組立。&lt;/p&gt;
 &lt;p&gt;1.使用Solvespace繪製零件一&lt;/p&gt;
 &lt;iframe src="./../data/W12/black.html" width="800" height="600"&gt;&lt;/iframe&gt;
@@ -26,7 +92,7 @@
 &lt;p&gt;影片&lt;/p&gt;
 &lt;iframe src="https://player.vimeo.com/video/195619462" width="640" height="427" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href="https://vimeo.com/195619462"&gt;2016 Fallcadp W12&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="使用導引"></category><category term="創造力"></category><category term="表達能力"></category><category term="協同設計"></category></entry><entry><title>2016/11/25 W11</title><link href="./20161125-w11.html" rel="alternate"></link><published>2016-11-25T13:00:00+08:00</published><updated>2016-11-25T13:00:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-11-25:./20161125-w11.html</id><summary type="html">&lt;p&gt;本週為校慶週，停課一次。&lt;/p&gt;</summary><category term="使用導引"></category><category term="創造力"></category><category term="表達能力"></category><category term="協同設計"></category></entry><entry><title>2016/11/18 W10</title><link href="./20161118-w10.html" rel="alternate"></link><published>2016-11-18T13:00:00+08:00</published><updated>2016-11-18T13:00:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-11-18:./20161118-w10.html</id><summary type="html">&lt;p&gt;有關 Solvespace 機構模擬功能介紹, 與 Python3 及 Brython 程式驗證&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/195619462"&gt;2016 Fallcadp W12&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="使用導引"></category><category term="創造力"></category><category term="表達能力"></category><category term="協同設計"></category></entry><entry><title>40423245 2016/11/25 W11</title><link href="./40423245-20161125-w11.html" rel="alternate"></link><published>2016-11-25T13:00:00+08:00</published><updated>2016-11-25T13:00:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-11-25:./40423245-20161125-w11.html</id><summary type="html">&lt;p&gt;本週為校慶週，停課一次。&lt;/p&gt;</summary><category term="使用導引"></category><category term="創造力"></category><category term="表達能力"></category><category term="協同設計"></category></entry><entry><title>40423245 2016/11/18 W10</title><link href="./40423245-20161118-w10.html" rel="alternate"></link><published>2016-11-18T13:00:00+08:00</published><updated>2016-11-18T13:00:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-11-18:./40423245-20161118-w10.html</id><summary type="html">&lt;p&gt;有關 Solvespace 機構模擬功能介紹, 與 Python3 及 Brython 程式驗證&lt;/p&gt;
 
 
 &lt;h2&gt;Solvespace 平面四連桿機構模擬&lt;/h2&gt;
@@ -109,10 +175,10 @@ ctx.closePath()
 &lt;p&gt;第十週影片 Solvespace 平面四連桿機構模擬&lt;/p&gt;
 &lt;iframe src="https://player.vimeo.com/video/192769520" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href="https://vimeo.com/192769520"&gt;2016 Fallcadp W10&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="使用導引"></category><category term="創造力"></category><category term="表達能力"></category><category term="協同設計"></category></entry><entry><title>2016/11/11 W09</title><link href="./20161111-w09.html" rel="alternate"></link><published>2016-11-11T20:00:00+08:00</published><updated>2016-11-11T20:00:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-11-11:./20161111-w09.html</id><summary type="html">&lt;p&gt;第九週上課進度&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/192769520"&gt;2016 Fallcadp W10&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="使用導引"></category><category term="創造力"></category><category term="表達能力"></category><category term="協同設計"></category></entry><entry><title>40423245 2016/11/11 W09</title><link href="./40423245-20161111-w09.html" rel="alternate"></link><published>2016-11-11T20:00:00+08:00</published><updated>2016-11-11T20:00:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-11-11:./40423245-20161111-w09.html</id><summary type="html">&lt;p&gt;第九週上課進度&lt;/p&gt;
 &lt;p&gt;學員自評&lt;/p&gt;
 &lt;p&gt;學員在上課時自評，最後評分期限為下禮拜二&lt;/p&gt;
-&lt;p&gt;心得：到了期中感覺課堂上的理解比上學期多了很多，雖然回家有錄製了一些影片，但並沒有編輯個人網誌及網頁，因此給了自己60 分。&lt;/p&gt;</summary><category term="使用導引"></category></entry><entry><title>2016/11/04 W08</title><link href="./20161104-w08.html" rel="alternate"></link><published>2016-11-04T20:00:00+08:00</published><updated>2016-11-04T20:00:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-11-04:./20161104-w08.html</id><summary type="html">&lt;h2&gt;&lt;a href="http://pygroup-ag100.rhcloud.com"&gt;期中課程評量系統&lt;/a&gt;&lt;/h2&gt;</summary><category term="使用導引"></category></entry><entry><title>2016/10/28 W07</title><link href="./20161028-w07.html" rel="alternate"></link><published>2016-10-28T20:00:00+08:00</published><updated>2016-10-28T20:00:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-10-28:./20161028-w07.html</id><summary type="html">&lt;p&gt;有關 Solvespace 機構模擬功能介紹, 與 機構驗證模擬結果&lt;/p&gt;
+&lt;p&gt;心得：到了期中感覺課堂上的理解比上學期多了很多，雖然回家有錄製了一些影片，但並沒有編輯個人網誌及網頁，因此給了自己60 分。&lt;/p&gt;</summary><category term="使用導引"></category></entry><entry><title>40423245 2016/11/04 W08</title><link href="./40423245-20161104-w08.html" rel="alternate"></link><published>2016-11-04T20:00:00+08:00</published><updated>2016-11-04T20:00:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-11-04:./40423245-20161104-w08.html</id><summary type="html">&lt;h2&gt;&lt;a href="http://pygroup-ag100.rhcloud.com"&gt;期中課程評量系統&lt;/a&gt;&lt;/h2&gt;</summary><category term="使用導引"></category></entry><entry><title>40423245 2016/10/28 W07</title><link href="./40423245-20161028-w07.html" rel="alternate"></link><published>2016-10-28T20:00:00+08:00</published><updated>2016-10-28T20:00:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-10-28:./40423245-20161028-w07.html</id><summary type="html">&lt;p&gt;有關 Solvespace 機構模擬功能介紹, 與 機構驗證模擬結果&lt;/p&gt;
 &lt;p&gt;Solvespace 平面四連桿機構模擬&lt;/p&gt;
 &lt;p&gt;Python3 平面四連桿機構模擬:&lt;/p&gt;
 &lt;p&gt;利用三角函數推導四連桿機構的運動模擬, 即已知長度 18 公分的連桿以逆時針方向旋轉, 希望求三角形頂點的運動座標.&lt;/p&gt;
@@ -120,7 +186,7 @@ ctx.closePath()
 &lt;p&gt;&lt;img src="./../data/W10/cadpa_w10_4bar.png" width="800" /&gt;&lt;/p&gt;
 &lt;p&gt;第七周影片 Solvespace的四連桿機構模擬分析
 &lt;iframe src="https://player.vimeo.com/video/195089514" width="640" height="428" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/195089514"&gt;2016 Fallcadpb w7&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="使用導引"></category></entry><entry><title>2016/10/21 W06</title><link href="./20161021-w06.html" rel="alternate"></link><published>2016-10-21T20:00:00+08:00</published><updated>2016-10-21T20:00:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-10-21:./20161021-w06.html</id><summary type="html">&lt;p&gt;第六週上課進度&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/195089514"&gt;2016 Fallcadpb w7&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="使用導引"></category></entry><entry><title>40423245 2016/10/21 W06</title><link href="./40423245-20161021-w06.html" rel="alternate"></link><published>2016-10-21T20:00:00+08:00</published><updated>2016-10-21T20:00:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-10-21:./40423245-20161021-w06.html</id><summary type="html">&lt;p&gt;第六週上課進度&lt;/p&gt;
 &lt;p&gt;學會利用onshape跟Solvespace繪圖&lt;/p&gt;
 &lt;p&gt;1.可利用學校帳戶創建一個免費的Onshape帳戶&lt;/p&gt;
 &lt;p&gt;2.可至課程倉儲的上課筆記下載Solvespace&lt;/p&gt;
@@ -133,7 +199,7 @@ ctx.closePath()
 &lt;p&gt;第六週影片 onshape的應用&lt;/p&gt;
 &lt;iframe src="https://player.vimeo.com/video/188404631" width="640" height="455" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href="https://vimeo.com/188404631"&gt;2016 Fallcadpb W6-2&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="使用導引"></category></entry><entry><title>2016/10/14 W05</title><link href="./20161014-w05.html" rel="alternate"></link><published>2016-10-14T20:00:00+08:00</published><updated>2016-10-14T20:00:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-10-14:./20161014-w05.html</id><summary type="html">&lt;p&gt;第五週上課進度&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/188404631"&gt;2016 Fallcadpb W6-2&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="使用導引"></category></entry><entry><title>40423245 2016/10/14 W05</title><link href="./40423245-20161014-w05.html" rel="alternate"></link><published>2016-10-14T20:00:00+08:00</published><updated>2016-10-14T20:00:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-10-14:./40423245-20161014-w05.html</id><summary type="html">&lt;p&gt;第五週上課進度&lt;/p&gt;
 &lt;p&gt;學習如何編輯子模組&lt;/p&gt;
 &lt;p&gt;1.假如任何人希望 git clone 帶有子模組的倉儲, 則必須在 git clone 後執行 git submodule init, 啟始子模組, 然後利用 git submodule update 取下子模組的對應版本資料 (對應版本紀錄在 .git/modules/g100/refs/heads/master 檔案中&lt;/p&gt;
 &lt;p&gt;2.假如帶有子模組的倉儲管理者, 希望更新某一子模組的對應版本, 則必須先確定倉儲分支, 然後 cd 到子模組目錄中, 利用 git pull 後, 然後回到上層倉儲進行版本的提交推送. 假如希望拉回所有子模組的對應版本內容, 則使用 git pull origin gh-pages --recurse-submodules, 當然若想拉回 master 分支, 則使用 git pull origin master --recurse-submodules&lt;/p&gt;
@@ -142,7 +208,7 @@ ctx.closePath()
 &lt;p&gt;心得：這禮拜要學習如何下載別人的子模組，以及管理自己的分組倉儲，以利之後要與別人協同。&lt;/p&gt;
 &lt;p&gt;第五週影片
 &lt;iframe src="https://player.vimeo.com/video/187525420" width="640" height="443" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/187525420"&gt;2016 Fallcadpb W5&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="使用導引"></category></entry><entry><title>2016/10/07 W04</title><link href="./20161007-w04.html" rel="alternate"></link><published>2016-10-07T20:00:00+08:00</published><updated>2016-10-07T20:00:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-10-07:./20161007-w04.html</id><summary type="html">&lt;p&gt;第四週上課進度&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/187525420"&gt;2016 Fallcadpb W5&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="使用導引"></category></entry><entry><title>40423245 2016/10/07 W04</title><link href="./40423245-20161007-w04.html" rel="alternate"></link><published>2016-10-07T20:00:00+08:00</published><updated>2016-10-07T20:00:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-10-07:./40423245-20161007-w04.html</id><summary type="html">&lt;p&gt;第四週上課進度&lt;/p&gt;
 &lt;p&gt;創建分組倉儲並將組員加進子模組&lt;/p&gt;
 &lt;p&gt;1.由組長創建分組倉儲，倉儲名稱為2016fallcp_ag10&lt;/p&gt;
 &lt;p&gt;2.複製倉儲的基本架構至倉儲中&lt;/p&gt;
@@ -151,7 +217,7 @@ ctx.closePath()
 &lt;p&gt;心得：這禮拜學習的是新的指令，老師說從第六個禮拜開始將會有分組作業，組員間的工作分配很重要。&lt;/p&gt;
 &lt;p&gt;第四週影片
 &lt;iframe src="https://player.vimeo.com/video/187448384" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/187448384"&gt;2016 Fallcadpb W4&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="使用導引"></category></entry><entry><title>2016/09/30 W03</title><link href="./20160930-w03.html" rel="alternate"></link><published>2016-09-30T20:00:00+08:00</published><updated>2016-09-30T20:00:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-09-30:./20160930-w03.html</id><summary type="html">&lt;p&gt;第三週上課進度&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/187448384"&gt;2016 Fallcadpb W4&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;&lt;/p&gt;</summary><category term="使用導引"></category></entry><entry><title>40423245 2016/09/30 W03</title><link href="./40423245-20160930-w03.html" rel="alternate"></link><published>2016-09-30T20:00:00+08:00</published><updated>2016-09-30T20:00:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-09-30:./40423245-20160930-w03.html</id><summary type="html">&lt;p&gt;第三週上課進度&lt;/p&gt;
 &lt;p&gt;如何使自己的課程倉儲及個人網頁能展示出基礎架構&lt;/p&gt;
 &lt;p&gt;讓自己的個人倉儲有基礎架構&lt;/p&gt;
 &lt;p&gt;1.先git clone自己的倉儲&lt;/p&gt;
@@ -165,7 +231,7 @@ ctx.closePath()
 &lt;p&gt;第三週影片&lt;/p&gt;
 &lt;iframe src="https://player.vimeo.com/video/187448383" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href="https://vimeo.com/187448383"&gt;2016 Fallcadpb W3&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="使用導引"></category></entry><entry><title>2016/09/23 W02</title><link href="./20160923-w02.html" rel="alternate"></link><published>2016-09-23T20:00:00+08:00</published><updated>2016-09-23T20:00:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-09-23:./20160923-w02.html</id><summary type="html">&lt;p&gt;第二週上課進度&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/187448383"&gt;2016 Fallcadpb W3&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="使用導引"></category></entry><entry><title>40423245 2016/09/23 W02</title><link href="./40423245-20160923-w02.html" rel="alternate"></link><published>2016-09-23T20:00:00+08:00</published><updated>2016-09-23T20:00:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-09-23:./40423245-20160923-w02.html</id><summary type="html">&lt;p&gt;第二週上課進度&lt;/p&gt;
 &lt;p&gt;須學會如何利用ShareX錄製影片&lt;/p&gt;
 &lt;p&gt;1.先至ShareX&lt;a href="https://getsharex.com/"&gt;官網&lt;/a&gt; 下載軟體&lt;/p&gt;
 &lt;p&gt;2.至軟體的Task settings中的Screen recorder裡的Screen recording設定錄影對象及錄音方式&lt;/p&gt;
@@ -176,7 +242,7 @@ ctx.closePath()
 &lt;p&gt;第二週影片&lt;/p&gt;
 &lt;iframe src="https://player.vimeo.com/video/187448382" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
 
-&lt;p&gt;&lt;a href="https://vimeo.com/187448382"&gt;2016 Fallcadpb  W2&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="使用導引"></category></entry><entry><title>2016/09/16 W01</title><link href="./20160916-w01.html" rel="alternate"></link><published>2016-09-16T20:00:00+08:00</published><updated>2016-09-16T20:00:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-09-16:./20160916-w01.html</id><summary type="html">&lt;p&gt;第一週上課進度&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/187448382"&gt;2016 Fallcadpb  W2&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="使用導引"></category></entry><entry><title>40423245 2016/09/16 W01</title><link href="./40423245-20160916-w01.html" rel="alternate"></link><published>2016-09-16T20:00:00+08:00</published><updated>2016-09-16T20:00:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-09-16:./40423245-20160916-w01.html</id><summary type="html">&lt;p&gt;第一週上課進度&lt;/p&gt;
 &lt;p&gt;1.登入 github, fork(https://github.com/mdecourse/2016fallcadp)&lt;/p&gt;
 &lt;p&gt;2.在自己的帳號下建立 2016fallcadp_hw 倉儲, 將 default branch 設為 gh-pages&lt;/p&gt;
 &lt;p&gt;3.在自己的帳號下建立 帳號.github.io 倉儲, 並在其下建立 index.html 即可用 https://帳號.github.io 連結 index.html&lt;/p&gt;

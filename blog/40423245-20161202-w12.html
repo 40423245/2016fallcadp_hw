@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>2016/11/18 W10 - 40423245</title>
+    <title>40423245 2016/12/02 W12 - 40423245</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -166,18 +166,18 @@ init_mathjax = function() {
 init_mathjax();
 </script>
 
-<link rel="canonical" href="./20161118-w10.html">
+<link rel="canonical" href="./40423245-20161202-w12.html">
 
         <meta name="author" content="40423245" />
         <meta name="keywords" content="使用導引,創造力,表達能力,協同設計" />
-        <meta name="description" content="有關 Solvespace 機構模擬功能介紹, 與 Python3 及 Brython 程式驗證" />
+        <meta name="description" content="第十二週上課進度 利用Solvespace練習繪製College_Student_Primer_Creo_2.pdf裡的零件並學習如何組立。 1.使用Solvespace繪製零件一 2.使用Solvespace繪製零件二 3.使用Solvespace將零件一與零件二組立起來 4.在將檔案放置遠端之前要將slvs檔裡的檔案路徑更改以及html檔裡的http後面要加上s。 心得:這禮拜練習Solvespace的繪製，了解到了Solvespace無法計算出過於複雜的相交的面，也了解到Solvespace在機構模擬上應用大於零件繪製上的應用。 影片 2016 Fallcadp W12 from 40423245 on Vimeo." />
 
         <meta property="og:site_name" content="40423245" />
         <meta property="og:type" content="article"/>
-        <meta property="og:title" content="2016/11/18 W10"/>
-        <meta property="og:url" content="./20161118-w10.html"/>
-        <meta property="og:description" content="有關 Solvespace 機構模擬功能介紹, 與 Python3 及 Brython 程式驗證"/>
-        <meta property="article:published_time" content="2016-11-18" />
+        <meta property="og:title" content="40423245 2016/12/02 W12"/>
+        <meta property="og:url" content="./40423245-20161202-w12.html"/>
+        <meta property="og:description" content="第十二週上課進度 利用Solvespace練習繪製College_Student_Primer_Creo_2.pdf裡的零件並學習如何組立。 1.使用Solvespace繪製零件一 2.使用Solvespace繪製零件二 3.使用Solvespace將零件一與零件二組立起來 4.在將檔案放置遠端之前要將slvs檔裡的檔案路徑更改以及html檔裡的http後面要加上s。 心得:這禮拜練習Solvespace的繪製，了解到了Solvespace無法計算出過於複雜的相交的面，也了解到Solvespace在機構模擬上應用大於零件繪製上的應用。 影片 2016 Fallcadp W12 from 40423245 on Vimeo."/>
+        <meta property="article:published_time" content="2016-12-02" />
             <meta property="article:section" content="Misc" />
             <meta property="article:tag" content="使用導引" />
             <meta property="article:tag" content="創造力" />
@@ -290,10 +290,10 @@ init_mathjax();
         <article>
             <header class="page-header">
                 <h1>
-                    <a href="./20161118-w10.html"
+                    <a href="./40423245-20161202-w12.html"
                        rel="bookmark"
-                       title="Permalink to 2016/11/18 W10">
-                        2016/11/18 W10
+                       title="Permalink to 40423245 2016/12/02 W12">
+                        40423245 2016/12/02 W12
                     </a>
                 </h1>
             </header>
@@ -303,7 +303,7 @@ init_mathjax();
 <footer class="post-info">
     <span class="label label-default">Date</span>
     <span class="published">
-        <i class="fa fa-calendar"></i><time datetime="2016-11-18T13:00:00+08:00"> 週五 18 十一月 2016</time>
+        <i class="fa fa-calendar"></i><time datetime="2016-12-02T20:00:00+08:00"> 週五 02 十二月 2016</time>
     </span>
             <span class="label label-default">By</span>
             <a href="./author/40423245.html"><i class="fa fa-user"></i> 40423245</a>
@@ -321,90 +321,23 @@ init_mathjax();
     
 </footer><!-- /.post-info -->                    </div>
                 </div>
-                <p>有關 Solvespace 機構模擬功能介紹, 與 Python3 及 Brython 程式驗證</p>
+                <p>第十二週上課進度</p>
+<p>利用Solvespace練習繪製College_Student_Primer_Creo_2.pdf裡的零件並學習如何組立。</p>
+<p>1.使用Solvespace繪製零件一</p>
+<iframe src="./../data/W12/black.html" width="800" height="600"></iframe>
 
+<p>2.使用Solvespace繪製零件二</p>
+<iframe src="./../data/W12/bar.html" width="800" height="600"></iframe>
 
-<h2>Solvespace 平面四連桿機構模擬</h2>
-<p>直接利用 Solvespace Analyze-Trace Point-Stop Trace 得到下列繞行路徑:</p>
-<p><img src="./../data/W10/cadpa_w10_4bar.png" width="800" /></p>
-<p>將所得到的點座標 .csv 以 Excel 畫圖, 得到:</p>
-<p><img src="./../data/W10/cadpa_w10_4bar_excel.png" width="800" /></p>
-<p>Python3 平面四連桿機構模擬:</p>
-<p>接下來利用三角函數推導四連桿機構的運動模擬, 即已知長度 18 公分的連桿以逆時針方向旋轉, 希望求三角形頂點的運動座標.</p>
-<p>首先利用 Brython, 讀取 data 目錄中的 cadpa_w10_4bar.csv 座標檔案, 然後以 splitlines() 及 split() 取出各點的 x 座標與 y 座標後, 將點連成路徑曲線如下:</p>
-<!-- 導入 Brython 標準程式庫 -->
+<p>3.使用Solvespace將零件一與零件二組立起來</p>
+<iframe src="./../data/W12/ass.html" width="800" height="600"></iframe>
 
-<script type="text/javascript" 
-    src="https://cdn.rawgit.com/brython-dev/brython/master/www/src/brython_dist.js">
-</script>
+<p>4.在將檔案放置遠端之前要將slvs檔裡的檔案路徑更改以及html檔裡的http後面要加上s。</p>
+<p>心得:這禮拜練習Solvespace的繪製，了解到了Solvespace無法計算出過於複雜的相交的面，也了解到Solvespace在機構模擬上應用大於零件繪製上的應用。</p>
+<p>影片</p>
+<iframe src="https://player.vimeo.com/video/195619462" width="640" height="427" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
 
-<!-- 啟動 Brython -->
-
-<script>
-window.onload=function(){
-brython(1);
-}
-</script>
-
-<!-- 以下實際利用  Brython 畫兩條直線 -->
-
-<canvas id="fourbar" width="600" height="400"></canvas>
-
-<div id="container1"></div>
-
-<script type="text/python3">
-from browser import document as doc
-from browser import html
-import math
-# 準備繪圖畫布
-canvas = doc["fourbar"]
-container1 = doc['container1']
-ctx = canvas.getContext("2d")
-
-fourbar_data = open("./../data/cadpa_w10_4bar.csv").read()
-fourbar_list = fourbar_data.splitlines()
-#container1 <= fourbar_list[0]
-# 以下可以利用 ctx 物件進行畫圖
-# 先畫一條直線
-ctx.beginPath()
-# 設定線的寬度為 1 個單位
-ctx.lineWidth = 1
-# 利用 transform 將 y 座標反轉, 且 offset canvas.height
-# (X scale, X skew, Y skew, Y scale, X offset, Y offset)
-# 配合圖形位置進行座標轉換
-ctx.transform(1, 0, 0, -1, canvas.width/2+250, canvas.height/2+100)
-# 畫出 x 與 y 座標線
-# 各座標值放大 8 倍
-ratio = 8
-'''
-ctx.moveTo(0, 0)
-ctx.lineTo(0, 100)
-ctx.moveTo(0, 0)
-ctx.lineTo(100, 0)
-'''
-ctx.moveTo(0, 0)
-ctx.lineTo(-30*ratio, 0)
-start_point = fourbar_list[0].split(",")
-ctx.moveTo(float(start_point[0])*ratio, float(start_point[1])*ratio)
-count = 0
-for data in fourbar_list[1:]:
-    point = data.split(",")
-    #count = count + 1
-    #container1 <= str(count) + ":" + point[0] + "," + point[1]
-    #container1 <= html.BR()
-    ctx.lineTo(float(point[0])*ratio, float(point[1])*ratio)
-# 設定顏色為藍色, 也可以使用 "rgb(0, 0, 255)" 字串設定顏色值
-ctx.strokeStyle = "blue"
-# 實際執行畫線
-ctx.stroke()
-ctx.closePath()
-</script>
-
-<p>心得：這次的教學考驗了我們的表達能力，在繪出路徑之後要利用Excel以及Brython在網誌上表現出來，雖然曾經有在網誌上繪圖的經驗，但還是很陌生需要好好的練習。</p>
-<p>第十週影片 Solvespace 平面四連桿機構模擬</p>
-<iframe src="https://player.vimeo.com/video/192769520" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-<p><a href="https://vimeo.com/192769520">2016 Fallcadp W10</a> from <a href="https://vimeo.com/user47996237">40423245</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
+<p><a href="https://vimeo.com/195619462">2016 Fallcadp W12</a> from <a href="https://vimeo.com/user47996237">40423245</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
             </div>
             <!-- /.entry-content -->
         </article>
@@ -420,28 +353,28 @@ ctx.closePath()
             <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
                 <ul class="list-group" id="recentposts">
                     <li class="list-group-item">
-                        <a href="./20161209-w13.html">
-                            2016/12/09 W13
+                        <a href="./40423245-20161216-w14.html">
+                            40423245 2016/12/16 W14
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="./20161202-w12.html">
-                            2016/12/02 W12
+                        <a href="./40423245-20161209-w13.html">
+                            40423245 2016/12/09 W13
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="./20161125-w11.html">
-                            2016/11/25 W11
+                        <a href="./40423245-20161202-w12.html">
+                            40423245 2016/12/02 W12
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="./20161118-w10.html">
-                            2016/11/18 W10
+                        <a href="./40423245-20161125-w11.html">
+                            40423245 2016/11/25 W11
                         </a>
                     </li>
                     <li class="list-group-item">
-                        <a href="./20161111-w09.html">
-                            2016/11/11 W09
+                        <a href="./40423245-20161118-w10.html">
+                            40423245 2016/11/18 W10
                         </a>
                     </li>
                 </ul>
