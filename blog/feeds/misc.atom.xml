@@ -1,5 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>40423245</title><link href="./" rel="alternate"></link><link href="./feeds/misc.atom.xml" rel="self"></link><id>./</id><updated>2016-12-16T10:30:00+08:00</updated><entry><title>40423245 2016/12/16 W14</title><link href="./40423245-20161216-w14.html" rel="alternate"></link><published>2016-12-16T10:30:00+08:00</published><updated>2016-12-16T10:30:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-12-16:./40423245-20161216-w14.html</id><summary type="html">&lt;p&gt;第十四週上課進度&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>40423245</title><link href="./" rel="alternate"></link><link href="./feeds/misc.atom.xml" rel="self"></link><id>./</id><updated>2016-12-23T10:20:00+08:00</updated><entry><title>40423245 2016/12/23 W15</title><link href="./40423245-20161223-w15.html" rel="alternate"></link><published>2016-12-23T10:20:00+08:00</published><updated>2016-12-23T10:20:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-12-23:./40423245-20161223-w15.html</id><summary type="html">&lt;p&gt;第十五週上課進度&lt;/p&gt;
+&lt;p&gt;1.利用SolveSpace繪製Delta 3D 印表機&lt;/p&gt;
+&lt;p&gt;&lt;img src="./../data//W15/W15-solvespace.png" width="800" /&gt;&lt;/p&gt;
+&lt;iframe src="./../data/W15/W15-delta_printer.html" width="800" height="600"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;2.利用Onshape繪製Delta 3D 印表機&lt;/p&gt;
+&lt;p&gt;&lt;img src="./../data//W15/W15-Onshape.png" width="800" /&gt;&lt;/p&gt;
+&lt;p&gt;這禮拜較注重在於Onshape的Delta 3D 印表機組立，可至網路上抓取學長繪製的範例，並逐步學習將印表機組立起來。&lt;/p&gt;</summary><category term="使用導引"></category><category term="創造力"></category><category term="表達能力"></category><category term="協同設計"></category></entry><entry><title>40423245 2016/12/16 W14</title><link href="./40423245-20161216-w14.html" rel="alternate"></link><published>2016-12-16T10:30:00+08:00</published><updated>2016-12-16T10:30:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-12-16:./40423245-20161216-w14.html</id><summary type="html">&lt;p&gt;第十四週上課進度&lt;/p&gt;
 &lt;p&gt;1.學會利用SolveSpace進行機構組立及模擬&lt;/p&gt;
 &lt;p&gt;(1)SolveSpace的四連桿模擬&lt;/p&gt;
 &lt;iframe src="./../data/W14/W14-fourbar.png" width="800" height="600"&gt;&lt;/iframe&gt;
