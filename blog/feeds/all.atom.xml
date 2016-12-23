@@ -9,12 +9,10 @@
 &lt;p&gt;這禮拜較注重在於Onshape的Delta 3D 印表機組立，可至網路上抓取學長繪製的範例，並逐步學習將印表機組立起來。&lt;/p&gt;</summary><category term="使用導引"></category><category term="創造力"></category><category term="表達能力"></category><category term="協同設計"></category></entry><entry><title>40423245 2016/12/16 W14</title><link href="./40423245-20161216-w14.html" rel="alternate"></link><published>2016-12-16T10:30:00+08:00</published><updated>2016-12-16T10:30:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-12-16:./40423245-20161216-w14.html</id><summary type="html">&lt;p&gt;第十四週上課進度&lt;/p&gt;
 &lt;p&gt;1.學會利用SolveSpace進行機構組立及模擬&lt;/p&gt;
 &lt;p&gt;(1)SolveSpace的四連桿模擬&lt;/p&gt;
-&lt;iframe src="./../data/W14/W14-fourbar.png" width="800" height="600"&gt;&lt;/iframe&gt;
-
+&lt;p&gt;&lt;img src="./../data//W14/W14-fourbar.png" width="800" /&gt;&lt;/p&gt;
 &lt;p&gt;由圖片中可以看的出來SolveSpace只能進行線架構的模擬，即使點擊了桿件也無法讓桿件進行作動。&lt;/p&gt;
 &lt;p&gt;(2)多連桿的機構模擬&lt;/p&gt;
-&lt;iframe src="./../data/W14/W14-mechanisms.png" width="800" height="600"&gt;&lt;/iframe&gt;
-
+&lt;p&gt;&lt;img src="./../data//W14/W14-mechanisms.png" width="800" /&gt;&lt;/p&gt;
 &lt;p&gt;先繪製出多連桿的線架構，模擬成功後，再將桿子黏貼上去，最後檢視桿子間是不是會有干涉出現&lt;/p&gt;
 &lt;p&gt;(3)3D印表機機構模擬&lt;/p&gt;
 &lt;p&gt;可以從老師倉儲中抓取3D印表機範例，有分為V1跟V2兩個版本，版本間只有連結上的不同，模擬出來的結果應該相似，以下為V2版本的圖例。&lt;/p&gt;
