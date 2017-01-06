@@ -240,7 +240,7 @@
 <v t="leo.20161210215447.7"><vh>心得</vh></v>
 </v>
 </v>
-<v t="leo.20170106103650.1" a="E"><vh>3245 1216W14</vh>
+<v t="leo.20170106103650.1"><vh>3245 1216W14</vh>
 <v t="leo.20170106103650.2"><vh>上課進度</vh>
 <v t="leo.20170106103650.3"><vh>完成事項</vh></v>
 </v>
@@ -265,7 +265,7 @@
 <v t="leo.20170106105431.1"><vh>實作內容2</vh>
 <v t="leo.20170106105431.2"><vh>使用軟體</vh></v>
 </v>
-<v t="leo.20170106105508.1" a="E"><vh>實作內容2-1</vh>
+<v t="leo.20170106105508.1"><vh>實作內容2-1</vh>
 <v t="leo.20170106105508.2"><vh>使用軟體</vh></v>
 </v>
 <v t="leo.20170106110808.1"><vh>程式碼</vh>
@@ -276,6 +276,26 @@
 </v>
 <v t="leo.20170106103650.12"><vh>心得</vh>
 <v t="leo.20170106103650.13"><vh>心得</vh></v>
+</v>
+</v>
+<v t="leo.20170106112447.1"><vh>3245 1223W15</vh>
+<v t="leo.20170106112447.2"><vh>上課進度</vh>
+<v t="leo.20170106112447.3"><vh>完成事項</vh></v>
+</v>
+<v t="leo.20170106112447.4"><vh>實作內容</vh>
+<v t="leo.20170106112447.5"><vh>使用軟體</vh></v>
+</v>
+<v t="leo.20170106112447.8"><vh>圖片1</vh>
+<v t="leo.20170106112447.9"><vh>圖片</vh></v>
+</v>
+<v t="leo.20170106112447.6"><vh>實作內容-2</vh>
+<v t="leo.20170106112447.7"><vh>使用軟體</vh></v>
+</v>
+<v t="leo.20170106112933.1"><vh>圖片2</vh>
+<v t="leo.20170106112933.2"><vh>圖片</vh></v>
+</v>
+<v t="leo.20170106112447.12"><vh>心得</vh>
+<v t="leo.20170106112447.13"><vh>心得</vh></v>
 </v>
 </v>
 </v>
@@ -1646,7 +1666,8 @@ Created by [40423245](https://40423245.github.io/2016fallcadp_hw/blog/)
 
 						
 </t>
-<t tx="leo.20170106105508.2">##用來學習 Onshape 的教學檔案格式為 docx, 以下使用 Windows 環境下的 Python3 程式, 自動進入各教學檔案目錄, 將 docx 轉為 pdf
+<t tx="leo.20170106105508.2">##
+用來學習 Onshape 的教學檔案格式為 docx, 以下使用 Windows 環境下的 Python3 程式, 自動進入各教學檔案目錄, 將 docx 轉為 pdf
 </t>
 <t tx="leo.20170106110808.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
@@ -1717,6 +1738,83 @@ print("done")
          第五行可以得知格式代碼為17
          之後的程式碼分為兩個部分W，一個是如何存檔，另一個是如何讓程式找到檔案，此範例是找docx的檔案，也可換製成尋找零件，只要其換製成關鍵字即可
 
+</t>
+<t tx="leo.20170106112447.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+</t>
+<t tx="leo.20170106112447.12">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170106112447.13">## 心得：這禮拜較注重在於Onshape的Delta 3D 印表機組立，可至網路上抓取學長繪製的範例，並逐步學習將印表機組立起來。
+</t>
+<t tx="leo.20170106112447.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170106112447.3">
+
+#第十五週上課進度
+
+##1.利用SolveSpace繪製Delta 3D 印表機
+
+##2.利用Onshape繪製Delta 3D 印表機
+
+</t>
+<t tx="leo.20170106112447.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170106112447.5">##1.利用SolveSpace繪製Delta 3D 印表機</t>
+<t tx="leo.20170106112447.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170106112447.7">##2.利用Onshape繪製Delta 3D 印表機</t>
+<t tx="leo.20170106112447.8">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170106112447.9">
+&lt;img src="data//W15/W15-solvespace.png" width="800" /&gt;
+</t>
+<t tx="leo.20170106112933.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170106112933.2">
+&lt;img src="data//W15/W15-Onshape.png" width="800" /&gt;
 </t>
 <t tx="yen.20161022120729.1">@language python
 import os
