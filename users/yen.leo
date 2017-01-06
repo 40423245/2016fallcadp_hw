@@ -240,6 +240,44 @@
 <v t="leo.20161210215447.7"><vh>心得</vh></v>
 </v>
 </v>
+<v t="leo.20170106103650.1" a="E"><vh>3245 1216W14</vh>
+<v t="leo.20170106103650.2"><vh>上課進度</vh>
+<v t="leo.20170106103650.3"><vh>完成事項</vh></v>
+</v>
+<v t="leo.20170106103650.4"><vh>實作內容1</vh>
+<v t="leo.20170106103650.5"><vh>使用軟體</vh></v>
+</v>
+<v t="leo.20170106104949.1"><vh>實作內容1-1</vh>
+<v t="leo.20170106104949.2"><vh>使用軟體</vh></v>
+</v>
+<v t="leo.20170106103650.8"><vh>圖片</vh>
+<v t="leo.20170106103650.9"><vh>圖片</vh></v>
+</v>
+<v t="leo.20170106103650.6"><vh>實作內容1-2</vh>
+<v t="leo.20170106103650.7"><vh>使用軟體</vh></v>
+</v>
+<v t="leo.20170106104814.1"><vh>圖片2</vh>
+<v t="leo.20170106104814.2"><vh>圖片</vh></v>
+</v>
+<v t="leo.20170106104920.1"><vh>實作內容1-3</vh>
+<v t="leo.20170106104920.2"><vh>使用軟體</vh></v>
+</v>
+<v t="leo.20170106105431.1"><vh>實作內容2</vh>
+<v t="leo.20170106105431.2"><vh>使用軟體</vh></v>
+</v>
+<v t="leo.20170106105508.1" a="E"><vh>實作內容2-1</vh>
+<v t="leo.20170106105508.2"><vh>使用軟體</vh></v>
+</v>
+<v t="leo.20170106110808.1"><vh>程式碼</vh>
+<v t="leo.20170106110808.2"><vh>使用軟體</vh></v>
+</v>
+<v t="leo.20170106111535.1"><vh>註解</vh>
+<v t="leo.20170106111535.2"><vh>程式碼註解</vh></v>
+</v>
+<v t="leo.20170106103650.12"><vh>心得</vh>
+<v t="leo.20170106103650.13"><vh>心得</vh></v>
+</v>
+</v>
 </v>
 </v>
 </v>
@@ -1487,6 +1525,199 @@ Created by [40423245](https://40423245.github.io/2016fallcadp_hw/blog/)
 <t tx="leo.20161223101112.1"></t>
 <t tx="leo.20161223101337.1"></t>
 <t tx="leo.20161223101448.1"></t>
+<t tx="leo.20170106103650.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+</t>
+<t tx="leo.20170106103650.12">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170106103650.13">## 心得:能夠透過SolveSpace來進行機構上的模擬對於未來在機構的設計上非常有幫助，而且SolveSpace程式輕薄短小方便攜帶，能夠讓我們更方便的進行設計的流程。</t>
+<t tx="leo.20170106103650.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170106103650.3">
+
+#第十四週上課進度
+
+##1.學會利用SolveSpace進行機構組立及模擬
+
+##2.認識利用程式碼將docx轉換成pdf格式
+
+</t>
+<t tx="leo.20170106103650.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170106103650.5">##1.學會利用SolveSpace進行機構組立及模擬
+
+</t>
+<t tx="leo.20170106103650.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170106103650.7">##(2)多連桿的機構模擬先繪製出多連桿的線架構，模擬成功後，再將桿子黏貼上去，最後檢視桿子間是不是會有干涉出現</t>
+<t tx="leo.20170106103650.8">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170106103650.9">####四連桿模擬圖片
+&lt;img src="data//W14/W14-fourbar.png" width="800" /&gt;</t>
+<t tx="leo.20170106104814.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170106104814.2">####多連桿的機構模擬
+&lt;img src="data//W14/W14-mechanisms.png" width="800" /&gt;</t>
+<t tx="leo.20170106104920.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170106104920.2">##(3)3D印表機機構模擬
+
+可以從老師倉儲中抓取3D印表機範例，有分為V1跟V2兩個版本，版本間只有連結上的不同，模擬出來的結果應該相似，可以透過點擊SolveSpace中的截點，一步一步的往上了解3D印表機如何組件而成，並點擊其中一點，來進行3D機構上的模擬。</t>
+<t tx="leo.20170106104949.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170106104949.2">##(1)SolveSpace的四連桿模擬由圖片中可以看的出來SolveSpace只能進行線架構的模擬，即使點擊了桿件也無法讓桿件進行作動。
+
+</t>
+<t tx="leo.20170106105431.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170106105431.2">##2.認識利用程式碼將docx轉換成pdf格式
+
+</t>
+<t tx="leo.20170106105508.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170106105508.2">##用來學習 Onshape 的教學檔案格式為 docx, 以下使用 Windows 環境下的 Python3 程式, 自動進入各教學檔案目錄, 將 docx 轉為 pdf
+</t>
+<t tx="leo.20170106110808.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170106110808.2">## 以下為程式碼
+```
+@language python
+import sys
+import os
+import comtypes.client
+
+wdFormatPDF = 17
+
+#in_file = input("input docx")
+#out_file = input("output filename")
+
+def docx2pdf(in_file, out_file):
+    word = comtypes.client.CreateObject('Word.Application')
+    doc = word.Documents.Open(in_file)
+    doc.SaveAs(out_file, FileFormat=wdFormatPDF)
+    doc.Close()
+    word.Quit()
+
+count = 0
+# traverse root directory, and list directories as dirs and files as files
+for root, dirs, files in os.walk(os.getcwd()):
+    #print(root)
+    path = root.split('/')
+    #print(path)
+    #print((len(path) - 1) * '---', os.path.basename(root))
+    #print(files)
+    for file in files:
+        #print(len(path) * '---', file)
+        file_ext = file.split(".")[1]
+        file_name = file.split(".")[0]
+        #print(file_ext)
+        if file_ext == "docx":
+            count = count + 1
+            in_file = path[0] + "/" + file
+            #print(count,":", in_file)
+            out_file = path[0] + "/" + file_name + ".pdf"
+            #print(out_file)
+            docx2pdf(in_file, out_file)
+
+#print(count)
+#docx2pdf(in_file, out_file)
+print("done")
+&lt;/pre&gt;
+```
+
+</t>
+<t tx="leo.20170106111535.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170106111535.2">註解:第三行中的comtypes是針對windows
+         第五行可以得知格式代碼為17
+         之後的程式碼分為兩個部分W，一個是如何存檔，另一個是如何讓程式找到檔案，此範例是找docx的檔案，也可換製成尋找零件，只要其換製成關鍵字即可
+
+</t>
 <t tx="yen.20161022120729.1">@language python
 import os
 import subprocess
