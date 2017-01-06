@@ -2,7 +2,7 @@
 <html lang="en"
 >
 <head>
-    <title>創造力 - 40423245</title>
+    <title>了解如何使用Onshape - 40423245</title>
     <!-- Using the latest rendering mode for IE -->
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta charset="utf-8">
@@ -168,7 +168,7 @@ init_mathjax();
 
 
     <meta name="author" content="40423245" />
-    <meta name="keywords" content="創造力" />
+    <meta name="keywords" content="了解如何使用Onshape" />
 
     <!-- Open Graph tags -->
         <meta property="og:site_name" content="40423245" />
@@ -282,106 +282,9 @@ init_mathjax();
         <div class="col-sm-9">
 
             <article>
-                <h2><a href="../40423245-20161230-w16.html">40423245 2016/12/30 W16</a></h2>
-                <div class="summary"><p>第十六週上課進度</p>
-<p>根據 <a href="http://chiamingyen.github.io/kmolab_data/files/ProEMechanism.pdf">http://chiamingyen.github.io/kmolab_data/files/ProEMechanism.pdf</a> 說明完成零件繪製與組立後,  如何精確得知機構運動過程的約束位置?</p>
-<p>計算 Piston 不發生干涉的有效行程, 可採如下方法:</p>
-<p>1.實際利用 Onshape 中的組立, 移動 piston 零件, 靠目測概略決定 piston 的有效行程. (目測法, 只能得到大概的行程範圍)</p>
-<p>2.利用 Solvespace 繪製 2D 約束圖, 然後利用約束點在線或圓上的方式,以圖解法解出有效行程, 如下圖一, 圖二與圖三所示. (圖解法, 利用 Solvespace 既有的約束條件設定完成計算)</p>
-<p>3.利用 Jupyter 與 Python3 的 sympy 模組 ...</p>
-                    <a class="btn btn-default btn-xs" href="../40423245-20161230-w16.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h2><a href="../40423245-20161223-w15.html">40423245 2016/12/23 W15</a></h2>
-                <div class="summary"><p>第十五週上課進度</p>
-<p>1.利用SolveSpace繪製Delta 3D 印表機</p>
-<p><img src="./../data//W15/W15-solvespace.png" width="800" /></p>
-<iframe src="./../data/W15/W15-delta_printer.html" width="800" height="600"></iframe>
-
-<p>2.利用Onshape繪製Delta 3D 印表機</p>
-<p><img src="./../data//W15/W15-Onshape.png" width="800" /></p>
-<p>這禮拜較注重在於Onshape的Delta 3D 印表機組立，可至網路上抓取學長繪製的範例，並逐步學習將印表機組立起來。</p>
-                    <a class="btn btn-default btn-xs" href="../40423245-20161223-w15.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h2><a href="../40423245-20161216-w14.html">40423245 2016/12/16 W14</a></h2>
-                <div class="summary"><p>第十四週上課進度</p>
-<p>1.學會利用SolveSpace進行機構組立及模擬</p>
-<p>(1)SolveSpace的四連桿模擬</p>
-<p><img src="./../data//W14/W14-fourbar.png" width="800" /></p>
-<p>由圖片中可以看的出來SolveSpace只能進行線架構的模擬，即使點擊了桿件也無法讓桿件進行作動。</p>
-<p>(2)多連桿的機構模擬</p>
-<p><img src="./../data//W14/W14-mechanisms.png" width="800" /></p>
-<p>先繪製出多連桿的線架構，模擬成功後，再將桿子黏貼上去，最後檢視桿子間是不是會有干涉出現</p>
-<p>(3)3D印表機機構模擬</p>
-<p>可以從老師倉儲中抓取3D印表機範例，有分為V1跟V2兩個版本，版本間只有連結上的不同，模擬出來的結果應該相似，以下為V2版本的圖例。</p>
-<iframe src="./../data/W14/W14-delta_printer.html" width="800" height="600"></iframe>
-
-<p>可以透過點擊SolveSpace中的截點，一步一步的往上了解3D印表機如何組件而成，並點擊其中一點，來進行3D機構上的模擬。</p>
-<p>2.認識利用程式碼將docx轉換成pdf格式</p>
-<p>用來學習 Onshape 的教學檔案格式為 docx, 以下使用 Windows 環境下的 Python3 程式, 自動進入各教學檔案目錄, 將 docx 轉為 pdf</p>
-
-                    <a class="btn btn-default btn-xs" href="../40423245-20161216-w14.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h2><a href="../40423245-20161209-w13.html">40423245 2016/12/09 W13</a></h2>
-                <div class="summary"><p>第十三週上課進度</p>
-<p>1.將SolveSpace的檔案存成html檔,並且把html檔案放進網誌裡面</p>
-<p>利用SolveSpace的轉檔功能將檔案存成html檔,並且更改成http設定,以及路徑設定，利用嵌入網頁的指令,把html檔案放進網誌裡面</p>
-<iframe src="./../data/W12/ass.html" width="800" height="600"></iframe>
-
-<p>2.遠端網誌無法更新</p>
-<p>在上課期間將上禮拜繪製的組合件在網誌上顯示出來，但當版本上傳後 github pages 無法正確更新, 試著使用 git rm -f -r plugin/liquid_tags/test_data 後提交推送。</p>
-<p><img src="./../data/W13/40423245_W13.png" width= "800" /></p>
-<p>在上課期間不能將倉儲推上遠端真的讓我嚇了一跳，還好在後來有順利解決問題。</p>
-<p>第十三週影片
-<iframe src="https://player.vimeo.com/video/195145829" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-<p><a href="https://vimeo.com/195145829">2016 Fallcadp W13</a> from <a href="https://vimeo.com/user47996237">40423245</a> on <a href="https://vimeo.com">Vimeo</a>.</p></p>
-                    <a class="btn btn-default btn-xs" href="../40423245-20161209-w13.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h2><a href="../40423245-20161202-w12.html">40423245 2016/12/02 W12</a></h2>
-                <div class="summary"><p>第十二週上課進度</p>
-<p>利用Solvespace練習繪製College_Student_Primer_Creo_2.pdf裡的零件並學習如何組立。</p>
-<p>1.使用Solvespace繪製零件一</p>
-<iframe src="./../data/W12/black.html" width="800" height="600"></iframe>
-
-<p>2.使用Solvespace繪製零件二</p>
-<iframe src="./../data/W12/bar.html" width="800" height="600"></iframe>
-
-<p>3.使用Solvespace將零件一與零件二組立起來</p>
-<iframe src="./../data/W12/ass.html" width="800" height="600"></iframe>
-
-<p>4.在將檔案放置遠端之前要將slvs檔裡的檔案路徑更改以及html檔裡的http後面要加上s。</p>
-<p>心得:這禮拜練習Solvespace的繪製，了解到了Solvespace無法計算出過於複雜的相交的面，也了解到Solvespace在機構模擬上應用大於零件繪製上的應用。</p>
-<p>影片</p>
-<iframe src="https://player.vimeo.com/video/195619462" width="640" height="427" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-
-<p><a href="https://vimeo.com/195619462">2016 Fallcadp W12</a> from <a href="https://vimeo.com/user47996237">40423245</a> on <a href="https://vimeo.com">Vimeo</a>.</p>
-                    <a class="btn btn-default btn-xs" href="../40423245-20161202-w12.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h2><a href="../40423245-20161125-w11.html">40423245 2016/11/25 W11</a></h2>
-                <div class="summary"><p>本週為校慶週，停課一次。</p>
-                    <a class="btn btn-default btn-xs" href="../40423245-20161125-w11.html">more ...</a>
-                </div>
-            </article>
-            <hr/>
-            <article>
-                <h2><a href="../40423245-20161118-w10.html">40423245 2016/11/18 W10</a></h2>
-                <div class="summary"><p>有關 Solvespace 機構模擬功能介紹, 與 Python3 及 Brython 程式驗證</p>
-
-                    <a class="btn btn-default btn-xs" href="../40423245-20161118-w10.html">more ...</a>
+                <h2><a href="../40423245-onshapecollegecurriculu-week-3.html">40423245 OnshapecollegeCurriculu Week 3</a></h2>
+                <div class="summary"><p>comming soon</p>
+                    <a class="btn btn-default btn-xs" href="../40423245-onshapecollegecurriculu-week-3.html">more ...</a>
                 </div>
             </article>
             <hr/>
@@ -396,28 +299,8 @@ init_mathjax();
             <li class="list-group-item"><h4><i class="fa fa-home fa-lg"></i><span class="icon-label">Recent Posts</span></h4>
                 <ul class="list-group" id="recentposts">
                     <li class="list-group-item">
-                        <a href="../40423245-20161230-w16.html">
-                            40423245 2016/12/30 W16
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="../40423245-20161223-w15.html">
-                            40423245 2016/12/23 W15
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="../40423245-20161216-w14.html">
-                            40423245 2016/12/16 W14
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="../40423245-20161209-w13.html">
-                            40423245 2016/12/09 W13
-                        </a>
-                    </li>
-                    <li class="list-group-item">
-                        <a href="../40423245-20161202-w12.html">
-                            40423245 2016/12/02 W12
+                        <a href="../40423245-onshapecollegecurriculu-week-3.html">
+                            40423245 OnshapecollegeCurriculu Week 3
                         </a>
                     </li>
                 </ul>
@@ -476,7 +359,7 @@ init_mathjax();
    <div class="container">
       <hr>
       <div class="row">
-         <div class="col-xs-10">&copy; 2016 40423245
+         <div class="col-xs-10">&copy; 2017 40423245
             &middot; Powered by <a href="https://github.com/DandyDev/pelican-bootstrap3" target="_blank">pelican-bootstrap3</a>,
             <a href="http://docs.getpelican.com/" target="_blank">Pelican</a>,
             <a href="http://getbootstrap.com" target="_blank">Bootstrap</a>         </div>

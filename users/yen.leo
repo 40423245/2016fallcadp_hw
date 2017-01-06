@@ -298,7 +298,7 @@
 <v t="leo.20170106112447.13"><vh>心得</vh></v>
 </v>
 </v>
-<v t="leo.20170106114545.1" a="E"><vh>3245 1230W16</vh>
+<v t="leo.20170106114545.1"><vh>3245 1230W16</vh>
 <v t="leo.20170106114545.2"><vh>上課進度</vh>
 <v t="leo.20170106114545.3"><vh>完成事項</vh></v>
 </v>
@@ -317,7 +317,7 @@
 <v t="leo.20170106115102.1"><vh>實作內容5</vh>
 <v t="leo.20170106115102.2"><vh>使用軟體</vh></v>
 </v>
-<v t="leo.20170106114545.6" a="E"><vh>圖片1</vh>
+<v t="leo.20170106114545.6"><vh>圖片1</vh>
 <v t="leo.20170106114545.7"><vh>圖片</vh></v>
 </v>
 <v t="leo.20170106115223.1"><vh>影片</vh>
@@ -345,7 +345,7 @@
 <v t="amd.20151215170350.1"><vh>以下為 content 目錄中的 md 檔案</vh></v>
 <v t="amd.20151216001126.1"><vh>md 檔案範例</vh></v>
 <v t="amd.20151215170031.1" a="E"><vh>@path ./../content</vh>
-<v t="amd.20160106093454.1" a="E"><vh>yen 所寫的網誌文章</vh>
+<v t="amd.20160106093454.1" a="E"><vh>40423245 所寫的網誌文章</vh>
 <v t="amd.20160727114506.1"><vh>201609</vh>
 <v t="leo.20161209225358.1"><vh>@edit 3245 20160916W01.md</vh></v>
 <v t="leo.20161209230342.1"><vh>@edit 3245 20160923W02.md</vh></v>
@@ -363,12 +363,17 @@
 <v t="leo.20161210005730.1"><vh>@edit 3245 20161118W10.md</vh></v>
 <v t="leo.20161210011546.1"><vh>@edit 3245 20161125W11.md</vh></v>
 </v>
-<v t="leo.20161223101448.1" a="E"><vh>201612</vh>
+<v t="leo.20161223101448.1"><vh>201612</vh>
 <v t="leo.20161212175014.1"><vh>@edit 3245 20161202W12.md</vh></v>
 <v t="leo.20161212174658.1"><vh>@edit 3245 20161209W13.md</vh></v>
 <v t="leo.20161216101907.1"><vh>@edit 3245 20161216W14.md</vh></v>
 <v t="leo.20161223101959.1"><vh>@edit 3245 20161223W15.md</vh></v>
 <v t="leo.20170106095836.1"><vh>@edit 3245 20161230W16.md</vh></v>
+</v>
+</v>
+<v t="leo.20170107062000.1" a="E"><vh>40423245 所寫的Onshape網誌文章</vh>
+<v t="leo.20170107062041.1" a="E"><vh>201701</vh>
+<v t="leo.20170107062041.5"><vh>@edit 3245 20170107Week 3.md</vh></v>
 </v>
 </v>
 </v>
@@ -384,6 +389,12 @@
 <v t="leo.20161122210512.3"><vh>Recovered node "封面投影片內容" from @clean index.html</vh>
 <v t="leo.20161122210512.4"><vh>old:封面投影片內容</vh></v>
 <v t="leo.20161122210512.5"><vh>new:封面投影片內容</vh></v>
+</v>
+</v>
+<v t="leo.20170107061855.1" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20170107061855.2"><vh>Recovered node "心得" from @clean index.html</vh>
+<v t="leo.20170107061855.3"><vh>old:心得</vh></v>
+<v t="leo.20170107061855.4"><vh>new:心得</vh></v>
 </v>
 </v>
 </vnodes>
@@ -560,7 +571,8 @@ Created by [40423245](https://40423245.github.io/2016fallcadpb-test/blog/)
 
 						
 </t>
-<t tx="leo.20161122211201.100">#學員在上課時自評，最後評分期限為下禮拜二</t>
+<t tx="leo.20161122211201.100">#學員在上課時自評，最後評分期限為下禮拜二
+</t>
 <t tx="leo.20161122211201.101">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -570,7 +582,8 @@ Created by [40423245](https://40423245.github.io/2016fallcadpb-test/blog/)
 
 						
 </t>
-<t tx="leo.20161122211201.102">## 心得：到了期中感覺課堂上的理解比上學期多了很多，雖然回家有錄製了一些影片，但並沒有編輯個人網誌及網頁，因此給了自己60 分。</t>
+<t tx="leo.20161122211201.102">## 心得：到了期中感覺課堂上的理解比上學期多了很多，雖然回家有錄製了一些影片，但並沒有編輯個人網誌及網頁，因此給了自己60 分。
+</t>
 <t tx="leo.20161122211201.103"></t>
 <t tx="leo.20161122211201.104"># 設定網誌以 md 檔案建立的 file system date 為準, 無需自行設定
 
@@ -691,7 +704,8 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 
 ### 4.按下Shift+Prt Scrn即可選擇錄影框框
 
-### 5.再按下Shift+Prt Scrn即可停止錄影</t>
+### 5.再按下Shift+Prt Scrn即可停止錄影
+</t>
 <t tx="leo.20161122211201.24">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -704,7 +718,8 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 <t tx="leo.20161122211201.25">## 第二週影片
 
 &lt;iframe src="https://player.vimeo.com/video/187448382" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/187448382"&gt;2016 Fallcadpb  W2&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
+&lt;p&gt;&lt;a href="https://vimeo.com/187448382"&gt;2016 Fallcadpb  W2&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+</t>
 <t tx="leo.20161122211201.26">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -714,7 +729,8 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 
 						
 </t>
-<t tx="leo.20161122211201.27">## 心得：ShareX是個不錯的軟體，它可以選擇要錄影的部分，重要的是它有開放原始碼，能夠讓我們知道他是如何寫的。</t>
+<t tx="leo.20161122211201.27">## 心得：ShareX是個不錯的軟體，它可以選擇要錄影的部分，重要的是它有開放原始碼，能夠讓我們知道他是如何寫的。
+</t>
 <t tx="leo.20161122211201.28">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -757,7 +773,8 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 
 ###3.將課程倉儲的基礎架構複製到個人倉儲
 
-###4.將個人倉儲推送至遠端</t>
+###4.將個人倉儲推送至遠端
+</t>
 <t tx="leo.20161122211201.33">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -785,7 +802,8 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 <t tx="leo.20161122211201.36">## 第三週影片
 
 &lt;iframe src="https://player.vimeo.com/video/187448383" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/187448383"&gt;2016 Fallcadpb W3&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
+&lt;p&gt;&lt;a href="https://vimeo.com/187448383"&gt;2016 Fallcadpb W3&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+</t>
 <t tx="leo.20161122211201.37">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -795,7 +813,8 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 
 						
 </t>
-<t tx="leo.20161122211201.38">## 心得：這禮拜的作業跟上學期所教的內容差不多，因此在進度上還沒有落後太多。</t>
+<t tx="leo.20161122211201.38">## 心得：這禮拜的作業跟上學期所教的內容差不多，因此在進度上還沒有落後太多。
+</t>
 <t tx="leo.20161122211201.39">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -864,7 +883,8 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 ###2.複製倉儲的基本架構至倉儲中
 
 ###3.接著由組長將組員納為子模組
-子模組指令git submodule add -b gh-pages https://github.com/scrum-1/2016fallcp_ag100 g100 </t>
+子模組指令git submodule add -b gh-pages https://github.com/scrum-1/2016fallcp_ag100 g100 
+</t>
 <t tx="leo.20161122211201.44">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -877,7 +897,8 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 <t tx="leo.20161122211201.45">## 第四週影片
 
 &lt;iframe src="https://player.vimeo.com/video/187448384" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/187448384"&gt;2016 Fallcadpb W4&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
+&lt;p&gt;&lt;a href="https://vimeo.com/187448384"&gt;2016 Fallcadpb W4&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+</t>
 <t tx="leo.20161122211201.46">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -887,7 +908,8 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 
 						
 </t>
-<t tx="leo.20161122211201.47">## 心得：這禮拜學習的是新的指令，老師說從第六個禮拜開始將會有分組作業，組員間的工作分配很重要。</t>
+<t tx="leo.20161122211201.47">## 心得：這禮拜學習的是新的指令，老師說從第六個禮拜開始將會有分組作業，組員間的工作分配很重要。
+</t>
 <t tx="leo.20161122211201.48">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -945,7 +967,8 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 
 						
 </t>
-<t tx="leo.20161122211201.52">1.假如任何人希望 git clone 帶有子模組的倉儲, 則必須在 git clone 後執行 git submodule init, 啟始子模組, 然後利用 git submodule update 取下子模組的對應版本資料 (對應版本紀錄在 .git/modules/g100/refs/heads/master 檔案中.</t>
+<t tx="leo.20161122211201.52">1.假如任何人希望 git clone 帶有子模組的倉儲, 則必須在 git clone 後執行 git submodule init, 啟始子模組, 然後利用 git submodule update 取下子模組的對應版本資料 (對應版本紀錄在 .git/modules/g100/refs/heads/master 檔案中.
+</t>
 <t tx="leo.20161122211201.53">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -955,7 +978,8 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 
 						
 </t>
-<t tx="leo.20161122211201.54">2.假如帶有子模組的倉儲管理者, 希望更新某一子模組的對應版本, 則必須先確定倉儲分支, 然後 cd 到子模組目錄中, 利用 git pull 後, 然後回到上層倉儲進行版本的提交推送. 假如希望拉回所有子模組的對應版本內容, 則使用 git pull origin gh-pages --recurse-submodules, 當然若想拉回 master 分支, 則使用 git pull origin master --recurse-submodules</t>
+<t tx="leo.20161122211201.54">2.假如帶有子模組的倉儲管理者, 希望更新某一子模組的對應版本, 則必須先確定倉儲分支, 然後 cd 到子模組目錄中, 利用 git pull 後, 然後回到上層倉儲進行版本的提交推送. 假如希望拉回所有子模組的對應版本內容, 則使用 git pull origin gh-pages --recurse-submodules, 當然若想拉回 master 分支, 則使用 git pull origin master --recurse-submodules
+</t>
 <t tx="leo.20161122211201.55">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -965,7 +989,8 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 
 						
 </t>
-<t tx="leo.20161122211201.56">3.假如希望將所有子模組的對應版本更新到目前最新提交, 使用 git submodule foreach "(git checkout gh-pages; git pull)&amp;"</t>
+<t tx="leo.20161122211201.56">3.假如希望將所有子模組的對應版本更新到目前最新提交, 使用 git submodule foreach "(git checkout gh-pages; git pull)&amp;"
+</t>
 <t tx="leo.20161122211201.57">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -975,7 +1000,8 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 
 						
 </t>
-<t tx="leo.20161122211201.58">4.當利用上述指令完成更新子模組的對應版本之後, 必須進行提交推送, 將改版資料送到遠端, 之後則透過 git submodule update --init --recursive 將此對應版本的子模組取到近端, 其中因為子模組中還有子模組, 而此更新對這些新加入的子子模組並沒有 --init, 因此下子模組更新時, 要納入 --init</t>
+<t tx="leo.20161122211201.58">4.當利用上述指令完成更新子模組的對應版本之後, 必須進行提交推送, 將改版資料送到遠端, 之後則透過 git submodule update --init --recursive 將此對應版本的子模組取到近端, 其中因為子模組中還有子模組, 而此更新對這些新加入的子子模組並沒有 --init, 因此下子模組更新時, 要納入 --init
+</t>
 <t tx="leo.20161122211201.59">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -993,7 +1019,8 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 <t tx="leo.20161122211201.60">## 第五週影片
 
 &lt;iframe src="https://player.vimeo.com/video/187525420" width="640" height="443" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/187525420"&gt;2016 Fallcadpb W5&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
+&lt;p&gt;&lt;a href="https://vimeo.com/187525420"&gt;2016 Fallcadpb W5&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+</t>
 <t tx="leo.20161122211201.61">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -1003,7 +1030,8 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 
 						
 </t>
-<t tx="leo.20161122211201.62">## 心得：這禮拜要學習如何下載別人的子模組，以及管理自己的分組倉儲，以利之後要與別人協同。</t>
+<t tx="leo.20161122211201.62">## 心得：這禮拜要學習如何下載別人的子模組，以及管理自己的分組倉儲，以利之後要與別人協同。
+</t>
 <t tx="leo.20161122211201.63">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -1035,7 +1063,8 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 </t>
 <t tx="leo.20161122211201.67">###1.可利用學校帳戶創建一個免費的Onshape帳戶
 
-###2.可至課程倉儲的上課筆記下載Solvespace</t>
+###2.可至課程倉儲的上課筆記下載Solvespace
+</t>
 <t tx="leo.20161122211201.68">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -1048,7 +1077,8 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 <t tx="leo.20161122211201.69">## 第六週影片 Solvespace的使用
 
 &lt;iframe src="https://player.vimeo.com/video/188404630" width="640" height="455" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/188404630"&gt;2016 Fallcadpb W6-1&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
+&lt;p&gt;&lt;a href="https://vimeo.com/188404630"&gt;2016 Fallcadpb W6-1&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+</t>
 <t tx="leo.20161122211201.7">&lt;!-- Any section element inside of this container is displayed as a slide --&gt;
 &lt;div class="slides"&gt;
 @others
@@ -1067,7 +1097,8 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 <t tx="leo.20161122211201.71">## 第六週影片 onshape的應用
 
 &lt;iframe src="https://player.vimeo.com/video/188404631" width="640" height="455" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/188404631"&gt;2016 Fallcadpb W6-2&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
+&lt;p&gt;&lt;a href="https://vimeo.com/188404631"&gt;2016 Fallcadpb W6-2&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+</t>
 <t tx="leo.20161122211201.72">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -1077,7 +1108,8 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 
 						
 </t>
-<t tx="leo.20161122211201.73">## 心得：Onshape是可以直接在雲端使用的軟體，不需要下載任何的程式，這點讓我覺得棒；Solvespace雖然用起來很陽春，但是能夠進行機構上的模擬。</t>
+<t tx="leo.20161122211201.73">## 心得：Onshape是可以直接在雲端使用的軟體，不需要下載任何的程式，這點讓我覺得棒；Solvespace雖然用起來很陽春，但是能夠進行機構上的模擬。
+</t>
 <t tx="leo.20161122211201.74">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -1109,7 +1141,8 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 </t>
 <t tx="leo.20161122211201.78">###利用三角函數推導四連桿機構的運動模擬, 即已知長度 18 公分的連桿以逆時針方向旋轉, 希望求三角形頂點的運動座標.
 
-###直接利用 Solvespace Analyze-Trace Point-Stop Trace 得到下列繞行路徑:</t>
+###直接利用 Solvespace Analyze-Trace Point-Stop Trace 得到下列繞行路徑:
+</t>
 <t tx="leo.20161122211201.79">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -1128,7 +1161,8 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 
 						
 </t>
-<t tx="leo.20161122211201.80">&lt;img src="data/W10/cadpa_w10_4bar.png" width= "800" /&gt;</t>
+<t tx="leo.20161122211201.80">&lt;img src="data/W10/cadpa_w10_4bar.png" width= "800" /&gt;
+</t>
 <t tx="leo.20161122211201.81">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -1172,7 +1206,8 @@ PLUGINS = ['liquid_tags.notebook', 'summary']
 
 						
 </t>
-<t tx="leo.20161122211201.89">&lt;h2&gt;&lt;a href="http://pygroup-ag100.rhcloud.com"&gt;期中課程評量系統&lt;/a&gt;&lt;/h2&gt;</t>
+<t tx="leo.20161122211201.89">&lt;h2&gt;&lt;a href="http://pygroup-ag100.rhcloud.com"&gt;期中課程評量系統&lt;/a&gt;&lt;/h2&gt;
+</t>
 <t tx="leo.20161122211201.9">## 2016Fall 電腦輔助設計實習課程
 
 ### 虎科大機械設計工程系
@@ -1196,7 +1231,8 @@ Created by [40423245](https://40423245.github.io/2016fallcadp_hw/blog/)
 
 						
 </t>
-<t tx="leo.20161122211201.95">## 心得：下禮拜就是期中考週了，網誌都還沒更新，有些擔心。</t>
+<t tx="leo.20161122211201.95">## 心得：下禮拜就是期中考週了，網誌都還沒更新，有些擔心。
+</t>
 <t tx="leo.20161122211201.96">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -1239,7 +1275,8 @@ Created by [40423245](https://40423245.github.io/2016fallcadp_hw/blog/)
 
 						
 </t>
-<t tx="leo.20161201191913.11">## 心得：這次的教學考驗了我們的表達能力，在繪出路徑之後要利用Excel以及Brython在網誌上表現出來，雖然曾經有在網誌上繪圖的經驗，但還是很陌生需要好好的練習。</t>
+<t tx="leo.20161201191913.11">## 心得：這次的教學考驗了我們的表達能力，在繪出路徑之後要利用Excel以及Brython在網誌上表現出來，雖然曾經有在網誌上繪圖的經驗，但還是很陌生需要好好的練習。
+</t>
 <t tx="leo.20161201191913.2">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -1265,7 +1302,8 @@ Created by [40423245](https://40423245.github.io/2016fallcadp_hw/blog/)
 
 						
 </t>
-<t tx="leo.20161201191913.5">### 直接利用 Solvespace Analyze-Trace Point-Stop Trace 得到下列繞行路徑</t>
+<t tx="leo.20161201191913.5">### 直接利用 Solvespace Analyze-Trace Point-Stop Trace 得到下列繞行路徑
+</t>
 <t tx="leo.20161201191913.6">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -1279,7 +1317,8 @@ Created by [40423245](https://40423245.github.io/2016fallcadp_hw/blog/)
 
 
 &lt;iframe src="https://player.vimeo.com/video/192769520" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/192769520"&gt;2016 Fallcadp W10&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
+&lt;p&gt;&lt;a href="https://vimeo.com/192769520"&gt;2016 Fallcadp W10&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+</t>
 <t tx="leo.20161201202023.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -1291,7 +1330,8 @@ Created by [40423245](https://40423245.github.io/2016fallcadp_hw/blog/)
 </t>
 <t tx="leo.20161201202023.2">### Solvespace 四連桿模擬
 
-&lt;img src="data/W10/cadpa_w10_4bar.png" width= "800" /&gt;</t>
+&lt;img src="data/W10/cadpa_w10_4bar.png" width= "800" /&gt;
+</t>
 <t tx="leo.20161201203847.1">
 
 #第二週上課進度
@@ -1308,7 +1348,8 @@ Created by [40423245](https://40423245.github.io/2016fallcadp_hw/blog/)
 
 						
 </t>
-<t tx="leo.20161201204025.2">### 將所得到的點座標 .csv 以 Excel 畫圖</t>
+<t tx="leo.20161201204025.2">### 將所得到的點座標 .csv 以 Excel 畫圖
+</t>
 <t tx="leo.20161201204034.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -1320,7 +1361,8 @@ Created by [40423245](https://40423245.github.io/2016fallcadp_hw/blog/)
 </t>
 <t tx="leo.20161201204034.2">### Solvespace 四連桿模擬
 
-&lt;img src="data/W10/cadpa_w10_4bar_excel.png" width= "800" /&gt;</t>
+&lt;img src="data/W10/cadpa_w10_4bar_excel.png" width= "800" /&gt;
+</t>
 <t tx="leo.20161201204303.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -1330,7 +1372,8 @@ Created by [40423245](https://40423245.github.io/2016fallcadp_hw/blog/)
 
 						
 </t>
-<t tx="leo.20161201204303.2">### 利用 Brython, 讀取 data 目錄中的 cadpa_w10_4bar.csv 座標檔案, 然後以 splitlines() 及 split() 取出各點的 x 座標與 y 座標後, 將點連成路徑曲線</t>
+<t tx="leo.20161201204303.2">### 利用 Brython, 讀取 data 目錄中的 cadpa_w10_4bar.csv 座標檔案, 然後以 splitlines() 及 split() 取出各點的 x 座標與 y 座標後, 將點連成路徑曲線
+</t>
 <t tx="leo.20161201204311.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -1342,7 +1385,8 @@ Created by [40423245](https://40423245.github.io/2016fallcadp_hw/blog/)
 </t>
 <t tx="leo.20161201204311.2">### Solvespace 四連桿模擬
 
-&lt;img src="data/W10/cadpa_w10_4bar_Brython.png" width= "700" /&gt;</t>
+&lt;img src="data/W10/cadpa_w10_4bar_Brython.png" width= "700" /&gt;
+</t>
 <t tx="leo.20161201205733.1">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -1394,7 +1438,8 @@ Created by [40423245](https://40423245.github.io/2016fallcadp_hw/blog/)
 
 						
 </t>
-<t tx="leo.20161210215447.5">##利用SolveSpace的轉檔功能將檔案存成html檔,並且更改成http設定,以及路徑設定，利用嵌入網頁的指令,把html檔案放進網誌裡面</t>
+<t tx="leo.20161210215447.5">##利用SolveSpace的轉檔功能將檔案存成html檔,並且更改成http設定,以及路徑設定，利用嵌入網頁的指令,把html檔案放進網誌裡面
+</t>
 <t tx="leo.20161210215447.6">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -1404,7 +1449,8 @@ Created by [40423245](https://40423245.github.io/2016fallcadp_hw/blog/)
 
 						
 </t>
-<t tx="leo.20161210215447.7">## 在上課期間不能將倉儲推上遠端真的讓我嚇了一跳，還好在後來有順利解決問題。</t>
+<t tx="leo.20161210215447.7">## 在上課期間不能將倉儲推上遠端真的讓我嚇了一跳，還好在後來有順利解決問題。
+</t>
 <t tx="leo.20161210215939.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -1414,7 +1460,8 @@ Created by [40423245](https://40423245.github.io/2016fallcadp_hw/blog/)
 
 						
 </t>
-<t tx="leo.20161210215939.2">##在上課期間將上禮拜繪製的組合件在網誌上顯示出來，但當版本上傳後 github pages 無法正確更新, 試著使用 git rm -f -r plugin/liquid_tags/test_data 後提交推送。</t>
+<t tx="leo.20161210215939.2">##在上課期間將上禮拜繪製的組合件在網誌上顯示出來，但當版本上傳後 github pages 無法正確更新, 試著使用 git rm -f -r plugin/liquid_tags/test_data 後提交推送。
+</t>
 <t tx="leo.20161210220425.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -1425,7 +1472,8 @@ Created by [40423245](https://40423245.github.io/2016fallcadp_hw/blog/)
 						
 </t>
 <t tx="leo.20161210220425.2">##推送失敗圖片
-&lt;img src="data/W13/40423245_W13.png" width= "800" /&gt;</t>
+&lt;img src="data/W13/40423245_W13.png" width= "800" /&gt;
+</t>
 <t tx="leo.20161212175128.1">&lt;section&gt;
 @others
 &lt;/section&gt;
@@ -1460,7 +1508,8 @@ Created by [40423245](https://40423245.github.io/2016fallcadp_hw/blog/)
 <t tx="leo.20161212175155.2">##第十三週影片
 
 &lt;iframe src="https://player.vimeo.com/video/195145829" width="640" height="480" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-&lt;p&gt;&lt;a href="https://vimeo.com/195145829"&gt;2016 Fallcadp W13&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</t>
+&lt;p&gt;&lt;a href="https://vimeo.com/195145829"&gt;2016 Fallcadp W13&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+</t>
 <t tx="leo.20161213173834.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -1587,7 +1636,8 @@ Created by [40423245](https://40423245.github.io/2016fallcadp_hw/blog/)
 
 						
 </t>
-<t tx="leo.20170106103650.13">## 心得:能夠透過SolveSpace來進行機構上的模擬對於未來在機構的設計上非常有幫助，而且SolveSpace程式輕薄短小方便攜帶，能夠讓我們更方便的進行設計的流程。</t>
+<t tx="leo.20170106103650.13">## 心得:能夠透過SolveSpace來進行機構上的模擬對於未來在機構的設計上非常有幫助，而且SolveSpace程式輕薄短小方便攜帶，能夠讓我們更方便的進行設計的流程。
+</t>
 <t tx="leo.20170106103650.2">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -1627,7 +1677,8 @@ Created by [40423245](https://40423245.github.io/2016fallcadp_hw/blog/)
 
 						
 </t>
-<t tx="leo.20170106103650.7">##(2)多連桿的機構模擬先繪製出多連桿的線架構，模擬成功後，再將桿子黏貼上去，最後檢視桿子間是不是會有干涉出現</t>
+<t tx="leo.20170106103650.7">##(2)多連桿的機構模擬先繪製出多連桿的線架構，模擬成功後，再將桿子黏貼上去，最後檢視桿子間是不是會有干涉出現
+</t>
 <t tx="leo.20170106103650.8">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -1638,7 +1689,8 @@ Created by [40423245](https://40423245.github.io/2016fallcadp_hw/blog/)
 						
 </t>
 <t tx="leo.20170106103650.9">####四連桿模擬圖片
-&lt;img src="data//W14/W14-fourbar.png" width="800" /&gt;</t>
+&lt;img src="data//W14/W14-fourbar.png" width="800" /&gt;
+</t>
 <t tx="leo.20170106104814.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -1649,7 +1701,8 @@ Created by [40423245](https://40423245.github.io/2016fallcadp_hw/blog/)
 						
 </t>
 <t tx="leo.20170106104814.2">####多連桿的機構模擬
-&lt;img src="data//W14/W14-mechanisms.png" width="800" /&gt;</t>
+&lt;img src="data//W14/W14-mechanisms.png" width="800" /&gt;
+</t>
 <t tx="leo.20170106104920.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -1661,7 +1714,8 @@ Created by [40423245](https://40423245.github.io/2016fallcadp_hw/blog/)
 </t>
 <t tx="leo.20170106104920.2">##(3)3D印表機機構模擬
 
-可以從老師倉儲中抓取3D印表機範例，有分為V1跟V2兩個版本，版本間只有連結上的不同，模擬出來的結果應該相似，可以透過點擊SolveSpace中的截點，一步一步的往上了解3D印表機如何組件而成，並點擊其中一點，來進行3D機構上的模擬。</t>
+可以從老師倉儲中抓取3D印表機範例，有分為V1跟V2兩個版本，版本間只有連結上的不同，模擬出來的結果應該相似，可以透過點擊SolveSpace中的截點，一步一步的往上了解3D印表機如何組件而成，並點擊其中一點，來進行3D機構上的模擬。
+</t>
 <t tx="leo.20170106104949.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -1810,7 +1864,8 @@ print("done")
 
 						
 </t>
-<t tx="leo.20170106112447.5">##1.利用SolveSpace繪製Delta 3D 印表機</t>
+<t tx="leo.20170106112447.5">##1.利用SolveSpace繪製Delta 3D 印表機
+</t>
 <t tx="leo.20170106112447.6">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -1820,7 +1875,8 @@ print("done")
 
 						
 </t>
-<t tx="leo.20170106112447.7">##2.利用Onshape繪製Delta 3D 印表機</t>
+<t tx="leo.20170106112447.7">##2.利用Onshape繪製Delta 3D 印表機
+</t>
 <t tx="leo.20170106112447.8">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -1858,7 +1914,8 @@ print("done")
 
 						
 </t>
-<t tx="leo.20170106114545.13">## 心得：我們這一組在繪製Onshape的零件時，有分配一些零件給不同的組員繪製，也學習到該怎麼在Onshape上協同的一些基礎。</t>
+<t tx="leo.20170106114545.13">## 心得：我們這一組在繪製Onshape的零件時，有分配一些零件給不同的組員繪製，也學習到該怎麼在Onshape上協同的一些基礎。
+</t>
 <t tx="leo.20170106114545.2">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -1907,7 +1964,8 @@ print("done")
 
 						
 </t>
-<t tx="leo.20170106114919.2">##2.利用 Solvespace 繪製 2D 約束圖, 然後利用約束點在線或圓上的方式,以圖解法解出有效行程, 如下圖一, 圖二與圖三所示. (圖解法, 利用 Solvespace 既有的約束條件設定完成計算)</t>
+<t tx="leo.20170106114919.2">##2.利用 Solvespace 繪製 2D 約束圖, 然後利用約束點在線或圓上的方式,以圖解法解出有效行程, 如下圖一, 圖二與圖三所示. (圖解法, 利用 Solvespace 既有的約束條件設定完成計算)
+</t>
 <t tx="leo.20170106114922.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -1917,7 +1975,8 @@ print("done")
 
 						
 </t>
-<t tx="leo.20170106114922.2">###3.利用 Jupyter 與 Python3 的 sympy 模組, 先進行符號式推導, 然後再利用數值分析解出 piston 的有效行程, 機構各點標示如下圖四所示, 計算出的 theta 轉角為 105.7, 如下圖五所示. (以自行編寫的 sympy 程式解題, 透過 Jupyterhub 可以有效進行協同設計運算)</t>
+<t tx="leo.20170106114922.2">###3.利用 Jupyter 與 Python3 的 sympy 模組, 先進行符號式推導, 然後再利用數值分析解出 piston 的有效行程, 機構各點標示如下圖四所示, 計算出的 theta 轉角為 105.7, 如下圖五所示. (以自行編寫的 sympy 程式解題, 透過 Jupyterhub 可以有效進行協同設計運算)
+</t>
 <t tx="leo.20170106114923.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -1927,7 +1986,8 @@ print("done")
 
 						
 </t>
-<t tx="leo.20170106114923.2">##4.除了上述的目測, 圖解與符號式結合數值分析法之外, 也可以採用基因演算法解題, 計算出的 theta 轉角為 105.7, 如下圖六所示. (利用演化法解題, 可以在單機運算, 也可以在 Jupyterhub 平台上進行運算)</t>
+<t tx="leo.20170106114923.2">##4.除了上述的目測, 圖解與符號式結合數值分析法之外, 也可以採用基因演算法解題, 計算出的 theta 轉角為 105.7, 如下圖六所示. (利用演化法解題, 可以在單機運算, 也可以在 Jupyterhub 平台上進行運算)
+</t>
 <t tx="leo.20170106115102.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -1937,7 +1997,8 @@ print("done")
 
 						
 </t>
-<t tx="leo.20170106115102.2">##第一種方法跟第四種方法我們較不採用，第一種方法太過於不準確，第四種方法較過於艱深，因此我們這禮拜要學習的是第二種跟第三種方法</t>
+<t tx="leo.20170106115102.2">##第一種方法跟第四種方法我們較不採用，第一種方法太過於不準確，第四種方法較過於艱深，因此我們這禮拜要學習的是第二種跟第三種方法
+</t>
 <t tx="leo.20170106115223.1">&lt;section data-markdown&gt;
     &lt;script type="text/template"&gt;
 @others
@@ -1957,6 +2018,20 @@ print("done")
 
 
 </t>
+<t tx="leo.20170107061855.1"></t>
+<t tx="leo.20170107061855.2">(uncached) leo.20170106112447.13
+Diff...
+- ## 心得：這禮拜較注重在於Onshape的Delta 3D 印表機組立，可至網路上抓取學長繪製的範例，並逐步學習將印表機組立起來。
+?      ^
++ ## 心得 ：這禮拜較注重在於Onshape的Delta 3D 印表機組立，可至網路上抓取學長繪製的範例，並逐步學習將印表機組立起來。
+?      ^
+</t>
+<t tx="leo.20170107061855.3">## 心得 ：這禮拜較注重在於Onshape的Delta 3D 印表機組立，可至網路上抓取學長繪製的範例，並逐步學習將印表機組立起來。
+</t>
+<t tx="leo.20170107061855.4">## 心得：這禮拜較注重在於Onshape的Delta 3D 印表機組立，可至網路上抓取學長繪製的範例，並逐步學習將印表機組立起來。
+</t>
+<t tx="leo.20170107062000.1"></t>
+<t tx="leo.20170107062041.1"></t>
 <t tx="yen.20161022120729.1">@language python
 import os
 import subprocess
