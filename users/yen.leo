@@ -298,6 +298,35 @@
 <v t="leo.20170106112447.13"><vh>心得</vh></v>
 </v>
 </v>
+<v t="leo.20170106114545.1" a="E"><vh>3245 1230W16</vh>
+<v t="leo.20170106114545.2"><vh>上課進度</vh>
+<v t="leo.20170106114545.3"><vh>完成事項</vh></v>
+</v>
+<v t="leo.20170106114545.4"><vh>實作內容1</vh>
+<v t="leo.20170106114545.5"><vh>使用軟體</vh></v>
+</v>
+<v t="leo.20170106114919.1"><vh>實作內容2</vh>
+<v t="leo.20170106114919.2"><vh>使用軟體</vh></v>
+</v>
+<v t="leo.20170106114922.1"><vh>實作內容3</vh>
+<v t="leo.20170106114922.2"><vh>使用軟體</vh></v>
+</v>
+<v t="leo.20170106114923.1"><vh>實作內容4</vh>
+<v t="leo.20170106114923.2"><vh>使用軟體</vh></v>
+</v>
+<v t="leo.20170106115102.1"><vh>實作內容5</vh>
+<v t="leo.20170106115102.2"><vh>使用軟體</vh></v>
+</v>
+<v t="leo.20170106114545.6" a="E"><vh>圖片1</vh>
+<v t="leo.20170106114545.7"><vh>圖片</vh></v>
+</v>
+<v t="leo.20170106115223.1"><vh>影片</vh>
+<v t="leo.20170106115223.2"><vh>影片</vh></v>
+</v>
+<v t="leo.20170106114545.12"><vh>心得</vh>
+<v t="leo.20170106114545.13"><vh>心得</vh></v>
+</v>
+</v>
 </v>
 </v>
 </v>
@@ -1815,6 +1844,118 @@ print("done")
 </t>
 <t tx="leo.20170106112933.2">
 &lt;img src="data//W15/W15-Onshape.png" width="800" /&gt;
+</t>
+<t tx="leo.20170106114545.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+</t>
+<t tx="leo.20170106114545.12">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170106114545.13">## 心得：我們這一組在繪製Onshape的零件時，有分配一些零件給不同的組員繪製，也學習到該怎麼在Onshape上協同的一些基礎。</t>
+<t tx="leo.20170106114545.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170106114545.3">
+
+#第十六週上課進度
+
+##計算 Piston 不發生干涉的有效行程, 可採如下方法:
+
+</t>
+<t tx="leo.20170106114545.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170106114545.5">##1.實際利用 Onshape 中的組立, 移動 piston 零件, 靠目測概略決定 piston 的有效行程. (目測法, 只能得到大概的行程範圍)
+</t>
+<t tx="leo.20170106114545.6">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170106114545.7">
+&lt;img src="data//W16/W16_Onshape_ass.png" width="800" /&gt;
+</t>
+<t tx="leo.20170106114919.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170106114919.2">##2.利用 Solvespace 繪製 2D 約束圖, 然後利用約束點在線或圓上的方式,以圖解法解出有效行程, 如下圖一, 圖二與圖三所示. (圖解法, 利用 Solvespace 既有的約束條件設定完成計算)</t>
+<t tx="leo.20170106114922.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170106114922.2">###3.利用 Jupyter 與 Python3 的 sympy 模組, 先進行符號式推導, 然後再利用數值分析解出 piston 的有效行程, 機構各點標示如下圖四所示, 計算出的 theta 轉角為 105.7, 如下圖五所示. (以自行編寫的 sympy 程式解題, 透過 Jupyterhub 可以有效進行協同設計運算)</t>
+<t tx="leo.20170106114923.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170106114923.2">##4.除了上述的目測, 圖解與符號式結合數值分析法之外, 也可以採用基因演算法解題, 計算出的 theta 轉角為 105.7, 如下圖六所示. (利用演化法解題, 可以在單機運算, 也可以在 Jupyterhub 平台上進行運算)</t>
+<t tx="leo.20170106115102.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170106115102.2">##第一種方法跟第四種方法我們較不採用，第一種方法太過於不準確，第四種方法較過於艱深，因此我們這禮拜要學習的是第二種跟第三種方法</t>
+<t tx="leo.20170106115223.1">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170106115223.2">
+
+第十六周影片
+
+&lt;iframe src="https://player.vimeo.com/video/198180953" width="640" height="425" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/198180953"&gt;2016 Fallcadp W16&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;
+
+
+
 </t>
 <t tx="yen.20161022120729.1">@language python
 import os
