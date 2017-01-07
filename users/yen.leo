@@ -370,6 +370,9 @@
 <v t="leo.20161223101959.1"><vh>@edit 3245 20161223W15.md</vh></v>
 <v t="leo.20170106095836.1"><vh>@edit 3245 20161230W16.md</vh></v>
 </v>
+<v t="leo.20170107113813.1"><vh>201701</vh>
+<v t="leo.20170107113813.2"><vh>@edit 3245 20170107 Week3.md</vh></v>
+</v>
 </v>
 </v>
 <v t="amd.20160106094754.1"><vh>@path ./../content/pages</vh>
@@ -2043,6 +2046,7 @@ Diff...
 </t>
 <t tx="leo.20170107065234.5">## 心得：這禮拜較注重在於Onshape的Delta 3D 印表機組立，可至網路上抓取學長繪製的範例，並逐步學習將印表機組立起來。
 </t>
+<t tx="leo.20170107113813.1"></t>
 <t tx="yen.20161022120729.1">@language python
 import os
 import subprocess
