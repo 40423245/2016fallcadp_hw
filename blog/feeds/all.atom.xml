@@ -10,7 +10,22 @@
 &lt;p&gt;2.Onshape中的Mate Connector有什麼獨特之處？&lt;/p&gt;
 &lt;p&gt;3.以下零件有多少自由度？&lt;/p&gt;
 &lt;p&gt;4.在定義Mate時，利用Onshape是否要定義整個模型，還是只限制Mate？&lt;/p&gt;
-&lt;p&gt;5.什麼是Relation？提供2個示例。&lt;/p&gt;</summary><category term="OnshapeCollegeCurriculu範例練習"></category></entry><entry><title>40423245 2017/01/07 Onshape Week 3</title><link href="./40423245-20170107-onshape-week-3.html" rel="alternate"></link><published>2017-01-07T11:51:00+08:00</published><updated>2017-01-07T11:51:00+08:00</updated><author><name>40423245</name></author><id>tag:,2017-01-07:./40423245-20170107-onshape-week-3.html</id><summary type="html">&lt;p&gt;coming soon&lt;/p&gt;</summary><category term="OnshapeCollegeCurriculu範例練習"></category></entry><entry><title>40423245 2016/12/30 W16</title><link href="./40423245-20161230-w16.html" rel="alternate"></link><published>2016-12-30T10:20:00+08:00</published><updated>2016-12-30T10:20:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-12-30:./40423245-20161230-w16.html</id><summary type="html">&lt;p&gt;第十六週上課進度&lt;/p&gt;
+&lt;p&gt;5.什麼是Relation？提供2個示例。&lt;/p&gt;</summary><category term="OnshapeCollegeCurriculu範例練習"></category></entry><entry><title>40423245 2017/01/07 Onshape Week 3</title><link href="./40423245-20170107-onshape-week-3.html" rel="alternate"></link><published>2017-01-07T11:51:00+08:00</published><updated>2017-01-07T11:51:00+08:00</updated><author><name>40423245</name></author><id>tag:,2017-01-07:./40423245-20170107-onshape-week-3.html</id><summary type="html">&lt;p&gt;第三週要學習到的是在零件工作去創建多個零件，上週我們學習到在2D的草圖創建3D零件，這週我們將利用布爾運算值，在已經存在的3D零件上創立更多的零件。&lt;/p&gt;
+&lt;p&gt;布爾運算值在Onshape上有四種類型，第一種是New用於創建新零件,第二種是Union是用於合併零件,第三種是Subtract是用於移除零件,第四種是Intersect是用於與已經存在的零件相交
+以下有三種範例可以練習，大家可以跟著課本練習。&lt;/p&gt;
+&lt;p&gt;1.Tray用來練習矩形陣列&lt;/p&gt;
+&lt;p&gt;2.Nozzle用來練習環形陣列&lt;/p&gt;
+&lt;p&gt;3.BU35的懸臂夾&lt;/p&gt;
+&lt;p&gt;回家作業&lt;/p&gt;
+&lt;p&gt;1.利用範例1的案例，將其陣列圖形重新用草圖繪製&lt;/p&gt;
+&lt;p&gt;2.完成a,b,c,d的作業練習&lt;/p&gt;
+&lt;p&gt;問題討論&lt;/p&gt;
+&lt;p&gt;1.什麼是3種類型的布爾運算和它們如何使用？它們能用在隨意繪製
+圖片上。&lt;/p&gt;
+&lt;p&gt;2.矩形陣列和環形陣列之間的主要區別是什麼？&lt;/p&gt;
+&lt;p&gt;3.用你自己的話來描述什麼是“Top-Down Design”。&lt;/p&gt;
+&lt;p&gt;4.為什麼要在零件特徵都完成後，再進行倒角及倒圓角？&lt;/p&gt;
+&lt;p&gt;5.在我們的夾具設計的創建中如何使用鏡像指令？&lt;/p&gt;</summary><category term="OnshapeCollegeCurriculu範例練習"></category></entry><entry><title>40423245 2016/12/30 W16</title><link href="./40423245-20161230-w16.html" rel="alternate"></link><published>2016-12-30T10:20:00+08:00</published><updated>2016-12-30T10:20:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-12-30:./40423245-20161230-w16.html</id><summary type="html">&lt;p&gt;第十六週上課進度&lt;/p&gt;
 &lt;p&gt;根據 &lt;a href="http://chiamingyen.github.io/kmolab_data/files/ProEMechanism.pdf"&gt;http://chiamingyen.github.io/kmolab_data/files/ProEMechanism.pdf&lt;/a&gt; 說明完成零件繪製與組立後,  如何精確得知機構運動過程的約束位置?&lt;/p&gt;
 &lt;p&gt;計算 Piston 不發生干涉的有效行程, 可採如下方法:&lt;/p&gt;
 &lt;p&gt;1.實際利用 Onshape 中的組立, 移動 piston 零件, 靠目測概略決定 piston 的有效行程. (目測法, 只能得到大概的行程範圍)&lt;/p&gt;
