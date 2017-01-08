@@ -327,6 +327,19 @@
 <v t="leo.20170106114545.13"><vh>心得</vh></v>
 </v>
 </v>
+<v t="leo.20170108164509.1"><vh>3245 0106W17</vh>
+<v t="leo.20170108164509.2"><vh>上課進度</vh>
+<v t="leo.20170108164509.3"><vh>完成事項</vh></v>
+</v>
+<v t="leo.20170108164509.4"><vh>實作內容1</vh>
+<v t="leo.20170108164509.5"><vh>使用軟體</vh></v>
+</v>
+</v>
+<v t="leo.20170108164727.1"><vh>3245 0113W18</vh>
+<v t="leo.20170108164727.2"><vh>上課進度</vh>
+<v t="leo.20170108164727.3"><vh>完成事項</vh></v>
+</v>
+</v>
 </v>
 </v>
 </v>
@@ -2091,6 +2104,54 @@ Diff...
 <t tx="leo.20170108161412.4">## 心得：這禮拜較注重在於Onshape的Delta 3D 印表機組立，可至網路上抓取學長繪製的範例，並逐步學習將印表機組立起來。
 </t>
 <t tx="leo.20170108162458.1"></t>
+<t tx="leo.20170108164509.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+</t>
+<t tx="leo.20170108164509.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170108164509.3">
+
+#第十七週上課進度
+
+##這禮拜老師一樣給我們補以前的進度
+</t>
+<t tx="leo.20170108164509.4">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170108164509.5">##這禮拜老師一樣給我們補以前的進度，還有稍微介紹了Vrep這個軟體，以及Vrep在不久前被別間公司買走了，最後老師檢視全班的作業進度，並點進倉儲裡觀看。</t>
+<t tx="leo.20170108164727.1">&lt;section&gt;
+@others
+&lt;/section&gt;
+</t>
+<t tx="leo.20170108164727.2">&lt;section data-markdown&gt;
+    &lt;script type="text/template"&gt;
+@others
+    &lt;/script&gt;
+&lt;/section&gt;
+
+
+						
+</t>
+<t tx="leo.20170108164727.3">
+
+#第十八週上課進度
+
+##期末考週
+</t>
 <t tx="yen.20161022120729.1">@language python
 import os
 import subprocess
