@@ -370,11 +370,14 @@
 <v t="leo.20161223101959.1"><vh>@edit 3245 20161223W15.md</vh></v>
 <v t="leo.20170106095836.1"><vh>@edit 3245 20161230W16.md</vh></v>
 </v>
-<v t="leo.20170107113813.1" a="E"><vh>201701-Onshape</vh>
+<v t="leo.20170107113813.1"><vh>201701-Onshape</vh>
 <v t="leo.20170107113813.2"><vh>@edit 3245 20170107 Week3.md</vh></v>
 <v t="leo.20170107122628.1"><vh>@edit 3245 20170107 Week4.md</vh></v>
 <v t="leo.20170107122902.1"><vh>@edit 3245 20170107 Week5.md</vh></v>
 <v t="leo.20170107123033.1"><vh>@edit 3245 20170107 Week6.md</vh></v>
+</v>
+<v t="leo.20170108162458.1" a="E"><vh>201701</vh>
+<v t="leo.20170108162458.2"><vh>@edit 3245 20170106W17.md</vh></v>
 </v>
 </v>
 </v>
@@ -392,25 +395,25 @@
 <v t="leo.20161122210512.5"><vh>new:封面投影片內容</vh></v>
 </v>
 </v>
-<v t="leo.20170107061855.1" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20170107061855.1"><vh>Recovered Nodes</vh>
 <v t="leo.20170107061855.2"><vh>Recovered node "心得" from @clean index.html</vh>
 <v t="leo.20170107061855.3"><vh>old:心得</vh></v>
 <v t="leo.20170107061855.4"><vh>new:心得</vh></v>
 </v>
 </v>
-<v t="leo.20170107065234.2" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20170107065234.2"><vh>Recovered Nodes</vh>
 <v t="leo.20170107065234.3"><vh>Recovered node "心得" from @clean index.html</vh>
 <v t="leo.20170107065234.4"><vh>old:心得</vh></v>
 <v t="leo.20170107065234.5"><vh>new:心得</vh></v>
 </v>
 </v>
-<v t="leo.20170107152331.1" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20170107152331.1"><vh>Recovered Nodes</vh>
 <v t="leo.20170107152331.2"><vh>Recovered node "心得" from @clean index.html</vh>
 <v t="leo.20170107152331.3"><vh>old:心得</vh></v>
 <v t="leo.20170107152331.4"><vh>new:心得</vh></v>
 </v>
 </v>
-<v t="leo.20170108161412.1" a="E"><vh>Recovered Nodes</vh>
+<v t="leo.20170108161412.1"><vh>Recovered Nodes</vh>
 <v t="leo.20170108161412.2"><vh>Recovered node "心得" from @clean index.html</vh>
 <v t="leo.20170108161412.3"><vh>old:心得</vh></v>
 <v t="leo.20170108161412.4"><vh>new:心得</vh></v>
@@ -2086,6 +2089,7 @@ Diff...
 </t>
 <t tx="leo.20170108161412.4">## 心得：這禮拜較注重在於Onshape的Delta 3D 印表機組立，可至網路上抓取學長繪製的範例，並逐步學習將印表機組立起來。
 </t>
+<t tx="leo.20170108162458.1"></t>
 <t tx="yen.20161022120729.1">@language python
 import os
 import subprocess

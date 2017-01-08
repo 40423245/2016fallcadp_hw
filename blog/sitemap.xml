@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2017-01-08T16:18:00-00:00</lastmod>
+<lastmod>2017-01-08T16:35:40-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2017-01-08T16:18:00-00:00</lastmod>
+<lastmod>2017-01-08T16:35:40-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2017-01-08T16:18:00-00:00</lastmod>
+<lastmod>2017-01-08T16:35:40-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2017-01-08T16:18:00-00:00</lastmod>
+<lastmod>2017-01-08T16:35:40-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -62,6 +62,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>./40423245-20170107-onshape-week-3.html</loc>
 <lastmod>2017-01-07T11:51:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./40423245-20170106-w17.html</loc>
+<lastmod>2017-01-06T20:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -186,22 +193,22 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./tag/chuang-zao-li.html</loc>
-<lastmod>2016-12-30T10:20:00+08:06</lastmod>
+<loc>./tag/shi-yong-dao-yin.html</loc>
+<lastmod>2017-01-06T20:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tag/biao-da-neng-li.html</loc>
-<lastmod>2016-12-30T10:20:00+08:06</lastmod>
+<lastmod>2017-01-06T20:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tag/xie-tong-she-ji.html</loc>
-<lastmod>2016-12-30T10:20:00+08:06</lastmod>
+<lastmod>2017-01-06T20:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -214,8 +221,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./tag/shi-yong-dao-yin.html</loc>
-<lastmod>2016-12-30T10:20:00+08:06</lastmod>
+<loc>./tag/chuang-zao-li.html</loc>
+<lastmod>2017-01-06T20:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
