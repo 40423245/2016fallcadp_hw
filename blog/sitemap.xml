@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2017-01-08T16:35:40-00:00</lastmod>
+<lastmod>2017-01-08T16:43:20-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2017-01-08T16:35:40-00:00</lastmod>
+<lastmod>2017-01-08T16:43:20-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2017-01-08T16:35:40-00:00</lastmod>
+<lastmod>2017-01-08T16:43:20-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2017-01-08T16:35:40-00:00</lastmod>
+<lastmod>2017-01-08T16:43:20-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -34,6 +34,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>./pages/about/</loc>
 <lastmod>2017-01-07T06:52:07+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./40423245-20170113-w18.html</loc>
+<lastmod>2017-01-13T20:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -187,28 +194,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./category/misc.html</loc>
-<lastmod>2017-01-07T14:51:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>./tag/shi-yong-dao-yin.html</loc>
-<lastmod>2017-01-06T20:00:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>./tag/biao-da-neng-li.html</loc>
-<lastmod>2017-01-06T20:00:00+08:06</lastmod>
+<lastmod>2017-01-13T20:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tag/xie-tong-she-ji.html</loc>
-<lastmod>2017-01-06T20:00:00+08:06</lastmod>
+<lastmod>2017-01-13T20:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/chuang-zao-li.html</loc>
+<lastmod>2017-01-13T20:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/biao-da-neng-li.html</loc>
+<lastmod>2017-01-13T20:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -221,15 +228,15 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./tag/chuang-zao-li.html</loc>
-<lastmod>2017-01-06T20:00:00+08:06</lastmod>
+<loc>./tag/shi-yong-dao-yin.html</loc>
+<lastmod>2017-01-13T20:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./author/40423245.html</loc>
-<lastmod>2017-01-07T14:51:00+08:06</lastmod>
+<lastmod>2017-01-13T20:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
