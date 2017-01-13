@@ -77,26 +77,7 @@ Onshape團隊嗎？&lt;/p&gt;
 
 &lt;p&gt;2.利用Onshape繪製Delta 3D 印表機&lt;/p&gt;
 &lt;p&gt;&lt;img src="./../data//W15/W15-Onshape.png" width="800" /&gt;&lt;/p&gt;
-&lt;p&gt;這禮拜較注重在於Onshape的Delta 3D 印表機組立，可至網路上抓取學長繪製的範例，並逐步學習將印表機組立起來。&lt;/p&gt;</summary><category term="使用導引"></category><category term="創造力"></category><category term="表達能力"></category><category term="協同設計"></category></entry><entry><title>40423245 2016/12/16 bg10分組作業 OnshapeCollegeCurriculu Week 3</title><link href="./40423245-20161216-bg10fen-zu-zuo-ye-onshapecollegecurriculu-week-3.html" rel="alternate"></link><published>2016-12-16T11:51:00+08:00</published><updated>2016-12-16T11:51:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-12-16:./40423245-20161216-bg10fen-zu-zuo-ye-onshapecollegecurriculu-week-3.html</id><summary type="html">&lt;p&gt;第三週要學習到的是在零件工作去創建多個零件，上週我們學習到在2D的草圖創建3D零件，這週我們將利用布爾運算值，在已經存在的3D零件上創立更多的零件。&lt;/p&gt;
-&lt;p&gt;布爾運算值在Onshape上有四種類型，第一種是New用於創建新零件,第二種是Union是用於合併零件,第三種是Subtract是用於移除零件,第四種是Intersect是用於與已經存在的零件相交
-以下有三種範例可以練習，大家可以跟著課本練習。&lt;/p&gt;
-&lt;p&gt;1.Tray用來練習矩形陣列&lt;/p&gt;
-&lt;p&gt;2.Nozzle用來練習環形陣列&lt;/p&gt;
-&lt;p&gt;3.BU35的懸臂夾&lt;/p&gt;
-&lt;p&gt;回家作業&lt;/p&gt;
-&lt;p&gt;1.利用範例1的案例，將其陣列圖形重新用草圖繪製&lt;/p&gt;
-&lt;p&gt;2.完成a,b,c,d的作業練習&lt;/p&gt;
-&lt;p&gt;問題討論&lt;/p&gt;
-&lt;p&gt;1.什麼是3種類型的布爾運算和它們如何使用？它們能用在隨意繪製
-圖片上。&lt;/p&gt;
-&lt;p&gt;2.矩形陣列和環形陣列之間的主要區別是什麼？&lt;/p&gt;
-&lt;p&gt;3.用你自己的話來描述什麼是“Top-Down Design”。&lt;/p&gt;
-&lt;p&gt;4.為什麼要在零件特徵都完成後，再進行倒角及倒圓角？&lt;/p&gt;
-&lt;p&gt;5.在我們的夾具設計的創建中如何使用鏡像指令？&lt;/p&gt;
-&lt;p&gt;問題討論影片&lt;/p&gt;
-&lt;iframe src="https://player.vimeo.com/video/198456379" width="640" height="425" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen&gt;&lt;/iframe&gt;
-
-&lt;p&gt;&lt;a href="https://vimeo.com/198456379"&gt;2016 Fallcadp Onshape_hw_Week 3&lt;/a&gt; from &lt;a href="https://vimeo.com/user47996237"&gt;40423245&lt;/a&gt; on &lt;a href="https://vimeo.com"&gt;Vimeo&lt;/a&gt;.&lt;/p&gt;</summary><category term="OnshapeCollegeCurriculu範例練習"></category></entry><entry><title>40423245 2016/12/16 W14</title><link href="./40423245-20161216-w14.html" rel="alternate"></link><published>2016-12-16T10:30:00+08:00</published><updated>2016-12-16T10:30:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-12-16:./40423245-20161216-w14.html</id><summary type="html">&lt;p&gt;第十四週上課進度&lt;/p&gt;
+&lt;p&gt;這禮拜較注重在於Onshape的Delta 3D 印表機組立，可至網路上抓取學長繪製的範例，並逐步學習將印表機組立起來。&lt;/p&gt;</summary><category term="使用導引"></category><category term="創造力"></category><category term="表達能力"></category><category term="協同設計"></category></entry><entry><title>40423245 2016/12/16 W14</title><link href="./40423245-20161216-w14.html" rel="alternate"></link><published>2016-12-16T10:30:00+08:00</published><updated>2016-12-16T10:30:00+08:00</updated><author><name>40423245</name></author><id>tag:,2016-12-16:./40423245-20161216-w14.html</id><summary type="html">&lt;p&gt;第十四週上課進度&lt;/p&gt;
 &lt;p&gt;1.學會利用SolveSpace進行機構組立及模擬&lt;/p&gt;
 &lt;p&gt;(1)SolveSpace的四連桿模擬&lt;/p&gt;
 &lt;p&gt;&lt;img src="./../data//W14/W14-fourbar.png" width="800" /&gt;&lt;/p&gt;

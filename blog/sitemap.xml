@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2017-01-13T19:55:11-00:00</lastmod>
+<lastmod>2017-01-13T20:10:36-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2017-01-13T19:55:11-00:00</lastmod>
+<lastmod>2017-01-13T20:10:36-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2017-01-13T19:55:11-00:00</lastmod>
+<lastmod>2017-01-13T20:10:36-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2017-01-13T19:55:11-00:00</lastmod>
+<lastmod>2017-01-13T20:10:36-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -83,13 +83,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>./40423245-20161223-w15.html</loc>
 <lastmod>2016-12-23T10:20:00+08:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>./40423245-20161216-bg10fen-zu-zuo-ye-onshapecollegecurriculu-week-3.html</loc>
-<lastmod>2016-12-16T11:51:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -221,20 +214,6 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./tag/onshapecollegecurriculufan-li-lian-xi.html</loc>
-<lastmod>2016-12-30T14:51:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>./tag/shi-yong-dao-yin.html</loc>
-<lastmod>2017-01-13T20:00:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>./tag/chuang-zao-li.html</loc>
 <lastmod>2017-01-13T20:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
@@ -243,6 +222,20 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./tag/xie-tong-she-ji.html</loc>
+<lastmod>2017-01-13T20:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/onshapecollegecurriculufan-li-lian-xi.html</loc>
+<lastmod>2016-12-30T14:51:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/shi-yong-dao-yin.html</loc>
 <lastmod>2017-01-13T20:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
