@@ -1,5 +1,24 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom"><title>40423245</title><link href="./" rel="alternate"></link><link href="./feeds/misc.atom.xml" rel="self"></link><id>./</id><updated>2017-01-13T20:00:00+08:00</updated><entry><title>40423245 2017/01/13 W18</title><link href="./40423245-20170113-w18.html" rel="alternate"></link><published>2017-01-13T20:00:00+08:00</published><updated>2017-01-13T20:00:00+08:00</updated><author><name>40423245</name></author><id>tag:,2017-01-13:./40423245-20170113-w18.html</id><summary type="html">&lt;p&gt;第十八週上課進度&lt;/p&gt;
+<feed xmlns="http://www.w3.org/2005/Atom"><title>40423245</title><link href="./" rel="alternate"></link><link href="./feeds/misc.atom.xml" rel="self"></link><id>./</id><updated>2017-01-13T20:00:00+08:00</updated><entry><title>2016Fall 電腦輔助設計實習課程總結</title><link href="./2016fall-dian-nao-fu-zhu-she-ji-shi-xi-ke-cheng-zong-jie.html" rel="alternate"></link><published>2017-01-13T20:00:00+08:00</published><updated>2017-01-13T20:00:00+08:00</updated><author><name>40423245</name></author><id>tag:,2017-01-13:./2016fall-dian-nao-fu-zhu-she-ji-shi-xi-ke-cheng-zong-jie.html</id><summary type="html">&lt;p&gt;2016Fall 電腦輔助設計實習課程可學習到以下能力&lt;/p&gt;
+&lt;p&gt;1.創造力三元素&lt;/p&gt;
+&lt;p&gt;自學能力、程式能力、想像能力&lt;/p&gt;
+&lt;p&gt;2.自我表達方式&lt;/p&gt;
+&lt;p&gt;口語、文字及2D、3D的圖像表達能力，還有理論分析表達，最後還有實體表達。&lt;/p&gt;
+&lt;p&gt;3.可攜式 Python3程式環境&lt;/p&gt;
+&lt;p&gt;在任一台電腦上，利用leo editor管理及編輯md檔和reveal投影片，再利用git指令將資料推送到github。&lt;/p&gt;
+&lt;p&gt;4.Solvespace 參數 3D 繪圖系統&lt;/p&gt;
+&lt;iframe src="./../data/W12/ass.html" width="800" height="600"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;5.Onshape 雲端參數 3D 繪圖系統&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://cad.onshape.com/documents/4629734fb33e96541168c4d6/w/89a875dd08a2ea2dfe24f2ae/e/7391537f365d9efb513f9bec"&gt;ProEMechanism範例練習&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;6.零組件繪圖練習&lt;/p&gt;
+&lt;iframe src="./../data/W15/W15-delta_printer.html" width="800" height="600"&gt;&lt;/iframe&gt;
+
+&lt;p&gt;7.ShareX 取畫面圖像與操作影片錄製&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://vimeo.com/user47996237"&gt;Vimeo影片網址&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;8.Github submodule 網際協同&lt;/p&gt;
+&lt;p&gt;這學期沒有練習，將在下學期進行。&lt;/p&gt;
+&lt;p&gt;心得：這學期學習到了如何拍影片，從以前不敢在麥克風前開口，到現在已經可以講解了，並學會了如何在影片上加上字幕，還有更了解如何管理自己的倉儲以及網誌，並學習了兩套繪圖軟體Solvespace及Onshape，也稍微利用Onshape跟組員們&lt;/p&gt;</summary><category term="使用導引"></category><category term="創造力"></category><category term="表達能力"></category><category term="協同設計"></category></entry><entry><title>40423245 2017/01/13 W18</title><link href="./40423245-20170113-w18.html" rel="alternate"></link><published>2017-01-13T20:00:00+08:00</published><updated>2017-01-13T20:00:00+08:00</updated><author><name>40423245</name></author><id>tag:,2017-01-13:./40423245-20170113-w18.html</id><summary type="html">&lt;p&gt;第十八週上課進度&lt;/p&gt;
 &lt;p&gt;期末考週&lt;/p&gt;</summary><category term="使用導引"></category><category term="創造力"></category><category term="表達能力"></category><category term="協同設計"></category></entry><entry><title>40423245 2017/01/07 Onshape Week 6</title><link href="./40423245-20170107-onshape-week-6.html" rel="alternate"></link><published>2017-01-07T14:51:00+08:00</published><updated>2017-01-07T14:51:00+08:00</updated><author><name>40423245</name></author><id>tag:,2017-01-07:./40423245-20170107-onshape-week-6.html</id><summary type="html">&lt;p&gt;第六週要學習的是在Onshape上創建屬於自己
 的團隊，必學著與別人協同，這次練習的範
 例是揚聲器，有分為個人版，A同學跟B同學
