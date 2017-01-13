@@ -5,28 +5,28 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2017-01-13T10:28:39-00:00</lastmod>
+<lastmod>2017-01-13T11:16:01-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2017-01-13T10:28:39-00:00</lastmod>
+<lastmod>2017-01-13T11:16:01-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2017-01-13T10:28:39-00:00</lastmod>
+<lastmod>2017-01-13T11:16:01-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2017-01-13T10:28:39-00:00</lastmod>
+<lastmod>2017-01-13T11:16:01-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
@@ -53,29 +53,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./40423245-20170107-onshape-week-6.html</loc>
+<loc>./40423245-20170107-onshapecollegecurriculu-week-6.html</loc>
 <lastmod>2017-01-07T14:51:00+08:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>./40423245-20170107-onshape-week-5.html</loc>
-<lastmod>2017-01-07T13:51:00+08:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>./40423245-20170107-onshpae-week-4.html</loc>
-<lastmod>2017-01-07T12:51:00+08:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>./40423245-20170107-onshape-week-3.html</loc>
-<lastmod>2017-01-07T11:51:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -88,6 +67,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>./40423245-20161230-onshapecollegecurriculu-week-5.html</loc>
+<lastmod>2016-12-30T13:51:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>./40423245-20161230-w16.html</loc>
 <lastmod>2016-12-30T10:20:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
@@ -95,8 +81,22 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>./40423245-20161223-onshapecollegecurriculu-week-4.html</loc>
+<lastmod>2016-12-23T12:51:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>./40423245-20161223-w15.html</loc>
 <lastmod>2016-12-23T10:20:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./40423245-20161216-onshapecollegecurriculu-week-3.html</loc>
+<lastmod>2016-12-16T11:51:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -207,7 +207,14 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./tag/biao-da-neng-li.html</loc>
+<loc>./tag/shi-yong-dao-yin.html</loc>
+<lastmod>2017-01-13T20:00:00+08:06</lastmod>
+<changefreq>daily</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./tag/chuang-zao-li.html</loc>
 <lastmod>2017-01-13T20:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -221,14 +228,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./tag/shi-yong-dao-yin.html</loc>
-<lastmod>2017-01-13T20:00:00+08:06</lastmod>
-<changefreq>daily</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
-<loc>./tag/chuang-zao-li.html</loc>
+<loc>./tag/biao-da-neng-li.html</loc>
 <lastmod>2017-01-13T20:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
