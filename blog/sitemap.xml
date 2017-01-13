@@ -5,35 +5,35 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./</loc>
-<lastmod>2017-01-13T11:22:28-00:00</lastmod>
+<lastmod>2017-01-13T19:55:11-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./archives.html</loc>
-<lastmod>2017-01-13T11:22:28-00:00</lastmod>
+<lastmod>2017-01-13T19:55:11-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tags.html</loc>
-<lastmod>2017-01-13T11:22:28-00:00</lastmod>
+<lastmod>2017-01-13T19:55:11-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./categories.html</loc>
-<lastmod>2017-01-13T11:22:28-00:00</lastmod>
+<lastmod>2017-01-13T19:55:11-00:00</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./pages/about/</loc>
-<lastmod>2017-01-13T09:18:27+08:00</lastmod>
+<lastmod>2017-01-07T06:52:07+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -53,22 +53,15 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./40423245-20170107-onshapecollegecurriculu-week-6.html</loc>
-<lastmod>2017-01-07T14:51:00+08:00</lastmod>
-<changefreq>monthly</changefreq>
-<priority>0.5</priority>
-</url>
-
-<url>
 <loc>./40423245-20170106-w17.html</loc>
-<lastmod>2017-01-06T20:00:00+08:00</lastmod>
+<lastmod>2017-01-06T10:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./40423245-20161230-onshapecollegecurriculu-week-5.html</loc>
-<lastmod>2016-12-30T13:51:00+08:00</lastmod>
+<loc>./40423245-20161230-bg10fen-zu-zuo-ye-onshapecollegecurriculu-week-6.html</loc>
+<lastmod>2016-12-30T14:51:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -81,8 +74,8 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./40423245-20161223-onshapecollegecurriculu-week-4.html</loc>
-<lastmod>2016-12-23T12:51:00+08:00</lastmod>
+<loc>./40423245-20161223-bg10fen-zu-zuo-ye-onshapecollegecurriculu-week-5.html</loc>
+<lastmod>2016-12-23T13:51:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -95,7 +88,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./40423245-20161216-onshapecollegecurriculu-week-3.html</loc>
+<loc>./40423245-20161216-bg10fen-zu-zuo-ye-onshapecollegecurriculu-week-3.html</loc>
 <lastmod>2016-12-16T11:51:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
@@ -151,6 +144,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
+<loc>./40423245-20161104-bg10fen-zu-zuo-ye-onshapecollegecurriculu-week-4.html</loc>
+<lastmod>2016-11-04T12:51:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
 <loc>./40423245-20161028-w07.html</loc>
 <lastmod>2016-10-28T20:00:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
@@ -160,6 +160,13 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
 <loc>./40423245-20161021-w06.html</loc>
 <lastmod>2016-10-21T20:00:00+08:00</lastmod>
+<changefreq>monthly</changefreq>
+<priority>0.5</priority>
+</url>
+
+<url>
+<loc>./40423245-20161021-bg10fen-zu-zuo-ye-onshapecollegecurriculu-week-3.html</loc>
+<lastmod>2016-10-21T11:51:00+08:00</lastmod>
 <changefreq>monthly</changefreq>
 <priority>0.5</priority>
 </url>
@@ -208,20 +215,20 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
 <url>
 <loc>./category/onshape.html</loc>
-<lastmod>2017-01-07T14:51:00+08:06</lastmod>
+<lastmod>2016-12-30T14:51:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
 <loc>./tag/onshapecollegecurriculufan-li-lian-xi.html</loc>
-<lastmod>2017-01-07T14:51:00+08:06</lastmod>
+<lastmod>2016-12-30T14:51:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
 </url>
 
 <url>
-<loc>./tag/xie-tong-she-ji.html</loc>
+<loc>./tag/shi-yong-dao-yin.html</loc>
 <lastmod>2017-01-13T20:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
@@ -235,7 +242,7 @@ xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 </url>
 
 <url>
-<loc>./tag/shi-yong-dao-yin.html</loc>
+<loc>./tag/xie-tong-she-ji.html</loc>
 <lastmod>2017-01-13T20:00:00+08:06</lastmod>
 <changefreq>daily</changefreq>
 <priority>0.5</priority>
